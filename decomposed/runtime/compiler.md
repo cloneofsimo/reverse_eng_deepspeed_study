@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `is_compile_supported`: Checks if the current PyTorch version supports `torch.compile`. Importance: **[Medium]**
 * `disable`: Disables `torch.compile` if supported, otherwise returns the input function. Importance: **[Low]**
@@ -15,7 +15,7 @@ This file is part of the DeepSpeed library and focuses on providing experimental
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module and Function Import**: The code imports necessary modules and functions, including `typing`, `importlib`, `torch`, `validator`, and `DeepSpeedConfigModel`, which are used for type hints, dynamic module loading, and configuration management.
 2. **`is_compile_supported` and `disable` functions**: These functions check if the current version of PyTorch supports `torch.compiler`, and if it does, they provide a way to disable it or wrap a function with the disabling functionality.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `PipelineEngine`: The main class for managing hybrid pipeline, data, and model parallel training. Importance: **[High]**
 * `train_batch`: Function to train a batch of data, handling pipeline, data, and model parallelism. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Pipeline Parallelism**: The code is designed for training deep learning models using pipeline parallelism, which involves dividing the model into stages and processing data sequentially across multiple GPUs. The `PipelineEngine` class extends the `DeepSpeedEngine` and manages the data flow between stages.
 2. **Communication and Synchronization**: The code makes use of the `p2p` module for peer-to-peer communication between GPUs, and `dist` (distributed communication) for all-reduce operations. It also includes methods for sending and receiving tensors between stages, as well as handling data parallelism and model parallelism.

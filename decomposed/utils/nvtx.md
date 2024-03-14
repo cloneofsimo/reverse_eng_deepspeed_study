@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `instrument_w_nvtx`: This is a decorator function that instruments a given function with NVIDIA Visual Profiler Toolkit (NVTX) range markers. It records an NVTX range at the start and end of the function call, which helps in profiling and analyzing the performance of the function within a larger computational context. Importance : **[High]**
 * `get_accelerator`: This function is not defined in this file, but it is referenced. It is likely an external function that returns an accelerator object, which is used for managing hardware accelerators like GPUs in a DeepSpeed context. Importance : **[Indirect, as it's an external dependency]**
@@ -14,7 +14,7 @@ This file, `utils/nvtx.py`, is about providing a decorator function `instrument_
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Module**: The code is part of a Python file named `nvtx.py`, which is likely part of a larger library or project called "DeepSpeed."
 2. **Copyright and License**: The code carries a copyright notice for Microsoft Corporation and is licensed under the Apache License 2.0, indicating the terms under which the code can be used, modified, and distributed.

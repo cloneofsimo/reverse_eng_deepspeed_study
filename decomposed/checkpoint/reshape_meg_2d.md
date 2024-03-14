@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `meg_2d_parallel_map`: A class for managing data distribution in a 2D parallel mapping. It allows adding, getting, and reshaping data based on pipeline parallel (pp_degree) and tensor parallel (tp_degree) dimensions. Importance: **[High]**
 * `partition_data`: A utility function for partitioning data into chunks. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **meg_2d_parallel_map class**: This class represents a 2D parallel map for data distribution across processors. It has methods for initialization, adding and retrieving data, and reshaping the data distribution.
 2. **_reshape_tp_dimension() and _reshape_pp_dimension()**: These functions are helper methods for reshaping the tensor parallel (TP) and pipeline parallel (PP) dimensions, respectively. They take an existing 2D map and a new degree for the respective dimension, then redistribute the data accordingly.

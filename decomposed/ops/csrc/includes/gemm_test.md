@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `check`: A function that checks if a CUDA runtime result is an error and prints a diagnostic message if it is. Importance: **[Medium]**
 * `check_cuda_error`: A macro that calls `check` for CUDA runtime errors with the given value. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header and Copyright Information**: The code starts with a copyright notice and a license identifier (Apache-2.0), indicating the ownership and usage terms for the code.
 2. **Preprocessor Directives and Includes**: The code uses preprocessor directives like `#pragma once` to ensure the header is included only once and `#ifdef` to conditionally include CUDA or HIP platform-specific libraries. It includes necessary headers for CUDA, HIP, and other standard libraries like `<array>`, `<cstdio>`, and `<cstdlib>`.

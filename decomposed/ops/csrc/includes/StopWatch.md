@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `Stopwatch`: A class for measuring elapsed time. Importance: **[High]**
 * `Start()`: Begins the stopwatch. Importance: **[Medium]**
@@ -17,7 +17,7 @@ This file, `StopWatch.h`, defines a `Stopwatch` class that can be used to measur
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header File**: This is a header file (`StopWatch.h`) for a C++ class, which is typically included in other source files to use its functionality.
 2. **Conditional Compilation**: The code uses preprocessor directives (`#ifdef _WIN32`) to conditionally compile different implementations of the `Stopwatch` class based on the operating system. If the code is compiled on Windows, it uses the `windows.h` header and `LARGE_INTEGER` for high-resolution timing. For other platforms, it uses `<time.h>` and `struct timespec` for timing.

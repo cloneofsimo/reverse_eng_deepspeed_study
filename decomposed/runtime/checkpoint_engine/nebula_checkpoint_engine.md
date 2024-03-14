@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `NebulaCheckpointEngine`: This is the main class that extends the `CheckpointEngine` class from DeepSpeed. It provides functionality for saving and loading checkpoints using the Nebula storage system. Importance: **[High]**
 * `create`: Initializes a new checkpoint with a given tag. Importance: **[Medium]**
@@ -14,7 +14,7 @@ This file, `nebula_checkpoint_engine.py`, is part of the DeepSpeed library and i
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Inheritance**: The `NebulaCheckpointEngine` class extends the `CheckpointEngine` class, indicating that it is a specialized checkpoint engine for the DeepSpeed library.
 2. **Nebula Integration**: This code integrates with the `torch_nebula` library, which is likely a custom or third-party storage solution for model checkpoints. It initializes the library with specific configuration parameters and uses its functions for saving and loading checkpoints.

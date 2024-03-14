@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `SparseSelfAttention`: The main class that implements an efficient sparse self-attention layer for Transformers, inspired by the "Generative Modeling with Sparse Transformers" paper. Importance: **[High]**
 * `SparsityConfig`: A class for configuring the sparsity pattern. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module Definition**: The code defines a custom PyTorch `nn.Module` called `SparseSelfAttention`. This module implements an efficient sparse self-attention mechanism for Transformers, inspired by the "Generative Modeling with Sparse Transformers" paper.
 2. **Sparsity Configuration**: The module uses a `SparsityConfig` object to define the sparsity pattern. This allows for flexible configuration of the sparsity parameters, such as the number of heads.

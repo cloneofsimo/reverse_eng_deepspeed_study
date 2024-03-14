@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `__init__.py`: This is the initialization file for the `data_pipeline` module within the `runtime` package. It is responsible for setting up the package structure and potentially importing necessary components for the package to function. Importance : **[Low]** (It's a standard Python package structure file)
 * `DeepSpeedTeam`: This is a comment indicating the original developers of the code, the DeepSpeed Team. Importance : **[N/A]** (Not a functional part of the code)
@@ -14,7 +14,7 @@ The file itself seems to be a lightweight entry point or organizational structur
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File Structure**: The code is part of a Python package named `runtime/data_pipeline`, as indicated by the file path `runtime/data_pipeline/__init__.py`. This file is the package's initialization file, which is typically empty or used to import and expose relevant functionality from within the package.
 2. **Copyright Notice**: There are two copyright statements, one for Microsoft Corporation and another for the DeepSpeed Team. This indicates that the code is likely part of a project developed or maintained by Microsoft, specifically the DeepSpeed Team. The SPDX-License-Identifier mentions the Apache License version 2.0, which governs the usage and distribution of the code.

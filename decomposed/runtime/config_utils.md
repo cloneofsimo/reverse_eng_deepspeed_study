@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `DeepSpeedConfigModel`: A base class for DeepSpeed configurations, extending `pydantic.BaseModel`. It allows for handling deprecated fields and provides utilities for deprecation warnings and migration to new parameters. Importance: **[High]**
 * `get_config_default`: Retrieves the default value of a specified field in a configuration object. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **DeepSpeedConfigModel**: This is a custom configuration class that extends `pydantic.BaseModel`. It allows for handling deprecated configuration fields with additional metadata and provides a mechanism to migrate values from deprecated fields to new fields.
 2. **_process_deprecated_field** and **_deprecated_fields_check**: These are helper methods that manage the deprecation process. `_process_deprecated_field` updates the configuration by moving values from deprecated fields to their new counterparts, while `_deprecated_fields_check` iterates through all fields to identify and process deprecated ones.

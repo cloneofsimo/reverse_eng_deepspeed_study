@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `__init__.py`: This is the initialization file for the `comm` module within the `runtime` directory. It is responsible for setting up the package and potentially importing necessary components for the DeepSpeed communication module. Importance : **[Low]** (It's a standard Python package structure file)
 * `DeepSpeedEngine`: This class is not explicitly defined in the provided code, but it is likely a core class in the `comm` module, responsible for managing the communication aspects of the DeepSpeed distributed training engine. Importance : **[High]** (Assuming its existence based on DeepSpeed's typical architecture)
@@ -14,7 +14,7 @@ This codebase is part of the DeepSpeed library, focusing on communication utilit
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File Location and Name**: The code is from a Python file named `__init__.py` located in the `runtime/comm/` directory. This file is typically used to initialize a Python package, making the `comm` module importable.
 2. **Copyright and License Information**: The code has copyright information indicating that it is owned by Microsoft Corporation and is licensed under the Apache License 2.0. This is important for understanding the usage and distribution rights associated with the code.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `DeepSpeedCPUAdagrad`: A custom implementation of the Adagrad optimizer for DeepSpeed on CPU. It extends `torch.optim.Optimizer` and uses a C++ builder for efficient updates. Importance : **[High]**
 * `CPUAdagradBuilder`: A class responsible for building the C++ Adagrad operator. Not directly defined in this file, but referenced. Importance : **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Inheritance and Class Definition**: The code defines a custom optimizer class `DeepSpeedCPUAdagrad` which inherits from `torch.optim.Optimizer`. This class implements the Adagrad algorithm specifically for CPU usage in the DeepSpeed library.
 2. **Dependency**: The class uses `CPUAdagradBuilder` from `deepspeed.ops.op_builder` to build the CPU-specific Adagrad operation, and `should_log_le` from `deepspeed.utils.logging` for logging control.

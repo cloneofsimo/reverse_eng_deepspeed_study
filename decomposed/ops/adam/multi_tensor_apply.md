@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `MultiTensorApply`: This is the primary class in the file. It is designed to apply an operation to multiple tensors in chunks, based on a specified `chunk_size`. Importance: **[High]**
 * `__init__`: The constructor of the `MultiTensorApply` class, initializes the object with a `chunk_size` attribute. Importance: **[Medium]**
@@ -15,7 +15,7 @@ This file is about a Python class, `MultiTensorApply`, which provides a mechanis
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Namespace**: The code is part of a Python file named `ops/adam/multi_tensor_apply.py`, which suggests it's related to operations on tensors, possibly within an Adam optimizer context. The file might be part of a larger project like DeepSpeed, as indicated by the copyright notice.
 2. **License**: The code is licensed under the Apache License 2.0, as specified by the `SPDX-License-Identifier` line.

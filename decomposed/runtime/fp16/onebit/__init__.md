@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `OnebitAdam`: Implements the one-bit version of the Adam optimizer, which is a quantized version for efficient memory usage and computation. Importance: **[High]**
 * `OnebitLamb`: A one-bit variant of the Lamb optimizer, designed for large-scale models and memory efficiency. Importance: **[High]**
@@ -17,7 +17,7 @@ This codebase is part of the DeepSpeed library and focuses on providing quantize
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File Structure**: The code is the `__init__.py` file within the `runtime/fp16/onebit` directory. This file is typically used to initialize a Python package, making its sub-modules and classes accessible when the package is imported.
 2. **Copyright and License**: The code includes a copyright notice and a reference to the SPDX-License-Identifier, which is Apache-2.0. This indicates the terms under which the code can be used, distributed, and modified.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `OnDevice`: This is the main class that allows creating modules and tensors with specific devices and data types. It provides a context manager for temporarily changing the default tensor creation behavior. Importance: **[High]**
 * `fp_tensor_constructor`: A helper function that wraps tensor creation functions (like `torch.empty`, `torch.zeros`, etc.) to ensure the correct floating-point data type and device are used. Importance: **[Medium]**
@@ -14,7 +14,7 @@ The `utils/init_on_device.py` file is part of the DeepSpeed library. It provides
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Class `OnDevice`:** The code defines a class `OnDevice` that helps create modules and tensors on specific devices with a specified data type. It's designed to work with PyTorch tensors and modules.
 2. **Context Manager:** `OnDevice` is a context manager, as indicated by the `__enter__` and `__exit__` methods. This allows users to control the tensor creation behavior using the `with` statement.

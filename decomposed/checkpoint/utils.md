@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `get_model_ckpt_name_for_rank`: Generates the checkpoint file name for a model based on the provided base folder and multi-process rank. Importance: **[Medium]**
 * `get_zero_ckpt_name_for_rank`: Constructs the checkpoint file name for a specific data parallel rank and model parallel rank in the context of ZeRO optimization. Importance: **[Medium]**
@@ -14,7 +14,7 @@ This file, `checkpoint/utils.py`, is part of the DeepSpeed library. It contains 
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Module Structure**: This is a Python module named `checkpoint/utils.py`, which likely contains utility functions related to checkpointing in a deep learning framework, specifically DeepSpeed.
 2. **Imports**: The code imports necessary libraries, such as `os`, `torch`, and a local module `constants`. The `constants` module likely contains predefined strings used in file naming conventions.

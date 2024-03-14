@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `__init__.py`: This is the initialization file for the `activation_checkpointing` module in the `runtime` directory. It is responsible for setting up the package structure and potentially importing necessary components for the package. Importance : **[Low]** (It's a standard Python package structure file)
 * `DeepSpeedOptimizerCallable`: A class that represents a callable object for DeepSpeed optimizer. It's likely used for wrapping an optimizer to work with DeepSpeed's infrastructure. Importance : **[Medium]**
@@ -16,7 +16,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File Structure**: The code is part of a Python package, specifically the `__init__.py` file within the `runtime/activation_checkpointing` directory. This file is typically empty or contains minimal code to initialize the package, allowing it to be treated as a module in Python.
 2. **Copyright Notice**: There are two copyright statements, one at the beginning and another further down. They indicate that the code is owned by Microsoft Corporation and are licensed under the Apache License Version 2.0 (SPDX-License-Identifier: Apache-2.0).

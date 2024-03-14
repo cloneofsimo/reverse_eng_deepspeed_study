@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `nhwc_bias_add`: This is the main function that performs the operation of adding biases to NHWC (NCHW) formatted tensors. It uses a spatial CUDA module for optimized inference. Importance: **[High]**
 * `SpatialInferenceBuilder`: A class that is responsible for building and loading the spatial CUDA module for optimized operations. Importance: **[Medium]** (Although not directly defined in this file, it's crucial for the main function's operation.)
@@ -14,7 +14,7 @@ This file is part of a DeepSpeed library, specifically focusing on an inference 
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Module Structure**: The code is part of a file named `bias_add.py` within a specific directory structure (`ops/transformer/inference`). This suggests it's a utility for performing a specific operation, in this case, bias addition, in a deep learning context.
 2. **Copyright and Licensing**: The code has a copyright notice and a license identifier (Apache-2.0), indicating the terms under which the code can be used and distributed.

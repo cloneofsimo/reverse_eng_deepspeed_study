@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `ContiguousMemoryAllocator`: A class for managing contiguous memory allocation for tensors. It initializes with a size, data type, and device. Importance: **[High]**
 * `test1`: A test function that demonstrates the usage of `ContiguousMemoryAllocator`. It allocates, releases, and prints memory allocation status for tensors of different sizes. Importance: **[Medium]**
@@ -14,7 +14,7 @@ This file, `test.py`, is a part of the DeepSpeed library and serves as a unit te
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Library Import**: The code imports the `torch` library and a specific class `ContiguousMemoryAllocator` from the `deepspeed.runtime.zero.contiguous_memory_allocator` module. This indicates that the code is related to managing memory efficiently for deep learning operations, specifically using the DeepSpeed library.
 2. **Memory Allocator**: The `ContiguousMemoryAllocator` class is used to manage contiguous blocks of memory for tensors. It's initialized with the size, data type, and device (in this case, CPU). The class is used to allocate, release, and track memory usage.

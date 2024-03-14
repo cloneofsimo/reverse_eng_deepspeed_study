@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `Adam_Optimizer`: A class that implements the Adam optimization algorithm. It supports CPU and GPU (CUDA or CANN) execution. Importance: **[High]**
 * `STEP`: Macro that defines a function for performing the Adam optimization step for different spans (1, 4, and 8). These functions are specialized for specific SIMD instruction set widths. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header File**: This is a C++ header file (`cpu_adam.h`) that likely defines the CPU implementation of the Adam optimizer for a deep learning library, possibly related to Microsoft's DeepSpeed project.
 2. **Conditional Compilation**: The code uses preprocessor directives (`#if defined(__ENABLE_CUDA__)`, `#elif defined(__ENABLE_CANN__)`, and `else`) to conditionally include CUDA or CANN (Alibaba Cloud Compute Library for Neural Networks) headers and implement platform-specific memory allocation and synchronization functions. This indicates that the optimizer is designed to work on both NVIDIA GPUs and Alibaba Cloud NPUs.

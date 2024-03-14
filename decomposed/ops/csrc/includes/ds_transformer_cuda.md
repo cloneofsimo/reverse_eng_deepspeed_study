@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `BertGemmAlgos`: A struct containing integer variables for different gemm algorithm IDs. Importance: **[Low]**
 * `BertTransformerLayer<T>`: A template class for implementing a Bert Transformer layer. Importance: **[High]**
@@ -21,7 +21,7 @@ This file `ds_transformer_cuda.h` defines a CUDA implementation of a Bert Transf
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header File**: This is a C++ header file (`ds_transformer_cuda.h`) that likely defines the interface for a CUDA implementation of a BertTransformerLayer for deep learning, specifically for the DeepSpeed library.
 2. **Includes**: The code includes various CUDA and NVIDIA libraries (e.g., `cuda_runtime_api.h`, `cublas_v2.h`, `curand.h`) for GPU computations, as well as custom data structures and functions related to deep learning operations.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `CCLCommBuilder`: A class for building a communication operation specific to Collective Communications Library (CCL) on CPU. Importance: **[High]**
 * `__init__`: Constructor for the `CCLCommBuilder` class, initializes the class with a default or specified name. Importance: **[Medium]**
@@ -18,7 +18,7 @@ This file is part of the DeepSpeed library, specifically focusing on building a 
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module and Class Definition**: This code defines a Python class `CCLCommBuilder` which inherits from `CPUOpBuilder`. The class is part of the `op_builder/cpu/comm.py` module and is related to communication operations for DeepSpeed, a deep learning acceleration library.
 2. **Constants**: The class has two class-level constants, `BUILD_VAR` and `NAME`, which are used to identify the build variable and the name of the communication operation, respectively.

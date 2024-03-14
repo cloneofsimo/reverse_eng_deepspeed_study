@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `OptimizerSwapOp`: Represents an operation for swapping optimizer tensors to and from storage. Importance: **[High]**
 * `PipelinedOptimizerSwapper`: A class that extends `OptimizerSwapper` for pipelined swapping of optimizer tensors. Importance: **[High]**
@@ -22,7 +22,7 @@ This file is part of the DeepSpeed library and provides functionality for swappi
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Imports**: The code imports various modules from the DeepSpeed library, which is a high-performance training library for deep learning. These imports are crucial for the functionality of the optimizer tensor swapping.
 2. **Classes**: The code defines two main classes: `OptimizerSwapOp` and `PipelinedOptimizerSwapper`. These classes handle the swapping of optimizer tensors to and from storage devices, with `PipelinedOptimizerSwapper` being a subclass of `OptimizerSwapper` that adds pipelining capabilities.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `OnebitLamb`: Implements the 1-bit Lamb (Limited Precision) optimization algorithm, which is a variant of the popular LAMB optimizer for deep learning. It is GPU-only and is designed for efficient communication in distributed training. Importance : **[High]**
 * `__init__`: Constructor for the `OnebitLamb` class, initializes the optimizer with various parameters like learning rate, warmup steps, and compression settings. Importance : **[High]**
@@ -14,7 +14,7 @@ This file is a Python implementation of the 1-bit Lamb optimizer, which is part 
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Class Definition**: The code defines a custom optimizer class `OnebitLamb` that extends `torch.optim.Optimizer`. This class implements the 1-bit Lamb algorithm, which is a variant of the popular LAMB (Large Batch Optimization for Deep Learning) optimizer, specifically designed for GPU usage and gradient compression.
 2. **Arguments and Parameters**: The `OnebitLamb` class has a comprehensive list of arguments and parameters for customization, such as learning rate, warmup steps, betas for momentum, weight decay, and various coefficients related to the 1-bit compression and adaptive learning rate.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `ProcessTopology`: Represents a class for managing the mapping of n-dimensional Cartesian coordinates to linear indices, used for process ranking in parallel computing. Importance: **[High]**
 * `get_rank`: Retrieves the global rank of a process based on its coordinates. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **ProcessTopology Class**: This class manages the mapping of n-dimensional Cartesian coordinates to linear indices for process ranking in parallel computing. It supports various forms of parallelism and has methods like `get_rank`, `get_axis_names`, `get_dim`, `get_coord`, and `filter_match` to interact with the topology.
 2. **Utility Functions**: The code includes `_prime_factors`, a utility function to find the prime factorization of a positive integer, which is used in initializing certain topologies.

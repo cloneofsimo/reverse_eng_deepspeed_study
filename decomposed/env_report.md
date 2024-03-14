@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `op_report`: Generates a report on the status of DeepSpeed C++/CUDA extension operators, including installation and compatibility. Importance: **[High]**
 * `ninja_installed`: Checks if the Ninja build system is installed, which is required for just-in-time (JIT) compilation of ops. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Imports**: The code imports various libraries such as `os`, `torch`, `deepspeed`, `subprocess`, `argparse`, and others, which are essential for the functionality of the script. It also imports from local modules like `ops.op_builder.all_ops` and `git_version_info`.
 2. **Colors and Formatting**: The script defines color codes for terminal output (e.g., `GREEN`, `RED`, `YELLOW`, `END`) and custom status messages like `SUCCESS`, `OKAY`, `WARNING`, `FAIL`, and `INFO`. These are used to provide visually appealing and informative output.

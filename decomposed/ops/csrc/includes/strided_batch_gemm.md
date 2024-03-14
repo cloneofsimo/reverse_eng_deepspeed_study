@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `StridedBatchGemm`: A template class for performing strided batched General Matrix-Matrix Multiplication (GEMM) operations using CUDA. Importance: **[High]**
 * `StridedBatchGemm::Config`: A nested struct for storing configuration parameters of the GEMM operation, including matrix dimensions, operation types, and algorithm IDs. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header File and Copyright**: This is a C++ header file (`strided_batch_gemm.h`) with a copyright notice from Microsoft and an Apache-2.0 license identifier.
 2. **Includes**: The code includes necessary headers for CUDA, half-precision arithmetic, and a custom `context.h` header. This indicates the code is designed for GPU computing using CUDA or HIP (HIP is a platform for AMD GPUs).

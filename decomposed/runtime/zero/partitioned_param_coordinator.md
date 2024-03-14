@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `get_all_parameters`: Retrieves all parameters from a module, including named and external parameters. Importance: **[Medium]**
 * `iter_params`: Returns an iterable of parameters from a module. Importance: **[Low]**
@@ -27,7 +27,7 @@ This file is part of the ZeRo (Zero Redundancy Optimizer) library, which is desi
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Imports and Dependencies**: The code starts with importing various modules and classes from the `deepspeed` library and other standard libraries like `dataclasses`, `collections`, `typing`, and `logging`. This sets the foundation for the functionality of the `PartitionedParameterCoordinator` class.
 2. **Enums and Classes**: The code defines several enums and classes, such as `ZeRoTraceMode`, `InflightParamRegistry`, and the main class `PartitionedParameterCoordinator`. These classes are used to manage the state and operations related to parameter partitioning, tracing, and coordination in a distributed deep learning setting.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `basic_folder_validation`: Validates if a given directory exists and is a folder. Importance: **[Low]**
 * `get_files_with_prefix`: Returns a sorted list of files in a directory that have a specified prefix. Importance: **[Low]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Module Structure**: This code is part of a Python file named `reshape_utils.py`. It contains utility functions for working with files, directories, and data manipulation, particularly in the context of deep learning (as indicated by the mention of "DeepSpeed Team").
 2. **Import Statements**: The code imports necessary modules like `os`, `torch`, and `collections`, and also imports constants from a local `constants` module.

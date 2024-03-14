@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `parse_arguments`: Parses command-line arguments for the script. Importance: **[High]**
 * `extract_zero_shards`: Extracts ZeRO shards from a DeepSpeed checkpoint. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Library Imports**: The code imports several libraries, including `argparse`, `multiprocessing`, `torch`, and `deepspeed.checkpoint`, which are essential for command-line argument parsing, parallel processing, PyTorch operations, and DeepSpeed checkpoint handling, respectively.
 2. **Command-Line Argument Parsing**: The `parse_arguments()` function defines the command-line arguments required for the script, such as input and output folder paths, number of workers for extraction and merging, and options for debugging and strictness.

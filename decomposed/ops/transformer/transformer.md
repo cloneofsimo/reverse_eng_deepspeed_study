@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `TransformerConfig`: A class that defines the configuration for a transformer layer, including parameters like batch size, hidden size, dropout ratios, and more. Importance: **[High]**
 * `DeepSpeedTransformerConfig`: Extends `TransformerConfig` and adds additional parameters specific to DeepSpeed, such as fp16 support, layer normalization options, and stochastic mode. Importance: **[High]**
@@ -15,7 +15,7 @@ This file is part of the DeepSpeed library and provides classes and functions fo
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Import statements**: The code starts with importing necessary libraries such as `json`, `math`, `torch`, and `nn` from PyTorch, as well as `Function` from `torch.autograd`, and modules from `deepspeed` for accelerator and operator building.
 2. **Classes**: The code defines three main classes:

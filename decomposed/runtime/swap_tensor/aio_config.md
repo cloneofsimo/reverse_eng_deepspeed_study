@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `get_aio_config`: This function extracts and processes the Asynchronous I/O (AIO) configuration parameters from a given dictionary. It checks if the AIO key exists in the dictionary, and if so, it retrieves the corresponding scalar parameters, using `get_scalar_param`, or defaults to predefined values. Importance: **[High]**
 * `get_scalar_param`: A utility function that is not defined in this file but is used to retrieve a scalar parameter from a dictionary, with a default value if the parameter is not found or is None. Importance: **[Medium]**
@@ -17,7 +17,7 @@ This file, `aio_config.py`, is part of the DeepSpeed library, which is a high-pe
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Imports**: The code imports necessary functions and constants from `deepspeed.runtime.config_utils` and `deepspeed.runtime.swap_tensor.constants`. This indicates that the code is part of a larger project called DeepSpeed, which is a deep learning optimization library.
 2. **AIO_DEFAULT_DICT**: This is a dictionary containing default values for asynchronous I/O (AIO) configuration parameters, such as block size, queue depth, thread count, single submit, and overlap events. These values are likely used for managing data transfers efficiently.

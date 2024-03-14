@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `is_torch_ver_eq_2_0`: Checks if the installed PyTorch version is 2.0. Importance: **[Low]**
 * `is_torch_ver_ge_2_1`: Checks if the PyTorch version is 2.1 or greater. Importance: **[Low]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module and Function Import**: The code starts by importing necessary modules and functions from `deepspeed`, `torch`, and `os`. This sets the foundation for the rest of the code to interact with these libraries.
 2. **Version Check Functions**: There are several functions like `is_torch_ver_eq_2_0()`, `is_torch_ver_ge_2_1()`, and `torch_ver_ge_1_13()` that check the version of PyTorch. These functions are used to determine if certain features are available based on the installed version of PyTorch.

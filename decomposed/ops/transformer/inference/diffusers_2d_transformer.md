@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `Diffusers2DTransformerConfig`: This is a class that defines the configuration for a 2D Transformer model using the Diffusers library. It has a single attribute, `int8_quantization`, which indicates whether to use 8-bit integer quantization for the model. Importance: **[High]**
 * `__init__`: The constructor for the `Diffusers2DTransformerConfig` class, initializes the `int8_quantization` flag with a default value of `False`. Importance: **[Medium]**
@@ -16,7 +16,7 @@ This codebase appears to be a part of a Python module for performing inference w
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Module Structure**: The code is part of a Python file named `diffusers_2d_transformer.py`, which likely deals with 2D transformer operations for diffusers in a larger context, possibly related to deep learning or image processing. The file is potentially within a directory structure involving "ops", "transformer", and "inference".
 2. **Copyright and License Information**: The code is copyrighted by Microsoft Corporation and is licensed under the Apache License 2.0, which is a permissive open-source license.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `residual_add_bias_kernel`: This is a JIT-compiled (using Triton) kernel function for performing a residual addition operation with bias. It computes the output tensor by combining hidden state, residual, attention output, and bias tensors, considering different conditions based on the input flags. Importance: **[High]**
 * `residual_add_bias`: This is the main function that calls the JIT-compiled kernel. It takes in tensors (hidden state, residual, attention output, attention bias, and final bias), along with some flags (mp_size, mlp_after_attn, add_attn_bias, and pre_attn_norm), and returns the computed output tensor. It checks for tensor consistency (device, dtype, and shape) before performing the operation. Importance: **[High]**
@@ -14,7 +14,7 @@ This file is part of a DeepSpeed library, specifically for the Transformer model
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Triton JIT (Just-In-Time) Compilation**: The code uses Triton, a high-performance computing library, for JIT compilation of the `residual_add_bias_kernel` function. This allows for optimized execution on GPU hardware.
 2. **Kernel Definition**: The `residual_add_bias_kernel` is a custom CUDA kernel written using Triton's language. It performs element-wise operations on tensors, including addition, masking, and broadcasting, to compute the residual addition with bias.

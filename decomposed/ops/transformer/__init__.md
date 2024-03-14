@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `DeepSpeedTransformerLayer`: Represents a single layer of the Transformer model, specifically designed for DeepSpeed. Importance : **[High]**
 * `DeepSpeedTransformerConfig`: A configuration class for DeepSpeed's Transformer model, used to set up and manage model parameters. Importance : **[High]**
@@ -15,7 +15,7 @@ This codebase is part of the DeepSpeed library, which is a high-performance trai
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Module Structure**: The code is part of the `ops/transformer` module in a Python project, as indicated by the file name `__init__.py`. This file is typically used to initialize the module and potentially expose certain elements to other parts of the project.
 2. **Copyright and License Information**: The code carries a copyright notice for Microsoft Corporation and mentions the SPDX-License-Identifier as Apache-2.0. This indicates the licensing terms under which the code is distributed.

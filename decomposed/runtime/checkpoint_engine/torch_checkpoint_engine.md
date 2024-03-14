@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `TorchCheckpointEngine`: This is the main class that extends the `CheckpointEngine` class from `deepspeed.runtime.checkpoint_engine.checkpoint_engine`. It provides a specific implementation for saving and loading checkpoints using PyTorch. Importance: **[High]**
 * `__init__`: The constructor for `TorchCheckpointEngine`, which initializes the class with `config_params`. Importance: **[Medium]**
@@ -15,7 +15,7 @@ This file, `torch_checkpoint_engine.py`, is part of the DeepSpeed library. It im
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Inheritance**: The `TorchCheckpointEngine` class inherits from the `CheckpointEngine` class, indicating that it is a specialized implementation of a checkpoint engine tailored for PyTorch.
 2. **Import statements**: The code imports necessary modules, such as `torch`, `logger`, and `log_dist` from `deepspeed.utils`, which are used for logging and managing the checkpointing process.

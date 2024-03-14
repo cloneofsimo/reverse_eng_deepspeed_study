@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `FusedAdam`: A GPU-only implementation of the Adam optimization algorithm, which fuses elementwise operations and uses a multi-tensor apply launch for efficiency. It is a subclass of `torch.optim.Optimizer`. Importance: **[High]**
 * `multi_tensor_applier`: A utility function that applies a given function to multiple tensors in parallel, optimized for batched operations. Importance: **[Medium]**
@@ -15,7 +15,7 @@ This file implements a fused version of the Adam optimizer for PyTorch, specific
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **FusedAdam Optimizer**: This code defines a custom `FusedAdam` optimizer class, which is a GPU-only implementation of the Adam algorithm. It is designed to be a drop-in replacement for `torch.optim.Adam` and `torch.optim.AdamW`, with added optimizations for performance.
 2. **Multi-Tensor Apply**: The optimizer uses `MultiTensorApply` to batch elementwise updates for all model parameters, improving efficiency by launching fewer kernel calls.

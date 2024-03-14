@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `Adam_Optimizer`: A class that implements the Adam optimization algorithm. It has methods for performing optimization steps and managing optimizer state. Importance: **[High]**
 * `create_adam_optimizer`: A function to create an Adam_Optimizer instance and store it in a global map with a given identifier. Importance: **[Medium]**
@@ -14,7 +14,7 @@ This file `cpu_adam_impl.cpp` is part of a DeepSpeed library implementation for 
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header and Includes**: The code is a C++ implementation of the Adam (Adaptive Moment Estimation) optimizer for deep learning, specifically designed for CPU operations. It includes necessary headers like `torch/extension.h` for PyTorch integration, and `cuda_runtime_api.h` for CUDA support when defined.
 2. **Data Structures and Maps**: The code uses a `std::unordered_map` named `s_optimizers` to store optimizer instances by their IDs. This allows for multiple optimizers to be active simultaneously.

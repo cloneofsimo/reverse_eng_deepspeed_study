@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `fragment_address`: A dataclass representing the address of a fragment within a tensor, with attributes `numel` (number of elements) and `start` (starting index).
 * `tensor_fragment`: A dataclass representing a tensor fragment, containing low-precision (`lp_fragment`), high-precision (`hp_fragment`), and their respective addresses. Also includes gradient dictionaries, offloading flags, and optimizer-related attributes.
@@ -27,7 +27,7 @@ This file is part of the DeepSpeed library and focuses on managing tensor fragme
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Dataclasses**: The code defines two dataclasses, `fragment_address` and `tensor_fragment`, which represent addresses and fragments of tensors in memory. These classes are used to manage low-precision (lp) and high-precision (hp) tensor fragments.
 2. **Functions for managing tensor fragments**: The `tensor_fragment` class has methods like `update_hp`, `update_lp`, `get_optim_state_fragment`, `set_optim_state_fragment`, and others, which allow for copying data between low-precision and high-precision fragments, as well as managing optimizer state fragments.

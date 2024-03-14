@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `SIMD_STORE(a, d)`: Stores a SIMD vector to memory. Importance: **[High]**
 * `SIMD_LOAD(x)`: Loads a SIMD vector from memory. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Conditional Compilation**: The code uses preprocessor directives (`#if`, `#elif`, `#endif`) to conditionally include and define functions based on the target architecture. It checks for `__x86_64__` or `__i386__` for x86 processors and then further distinguishes between AVX512 and AVX256 instruction sets.
 2. **SIMD Intrinsics**: The code extensively uses Intel's Single Instruction Multiple Data (SIMD) intrinsics, such as `_mm512_storeu_ps`, `_mm512_loadu_ps`, `_mm512_add_ps`, etc., which are specific to AVX512 and AVX256 instruction sets. These intrinsics enable vectorized operations for performance optimization.

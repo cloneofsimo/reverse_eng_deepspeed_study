@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `__init__.py`: This is the initialization file for the `fp16` module in the `runtime` directory of the DeepSpeed library. Importance : **[High]**
 * `DeepSpeedEngine`: The main class for managing the mixed-precision training with FP16 in DeepSpeed. It initializes, wraps, and handles the operations related to the model, optimizer, and loss scaling. Importance : **[High]**
@@ -14,7 +14,7 @@ This file is the entry point for the FP16 (Half-Precision) training functionalit
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File Information**: The file is named `runtime/fp16/__init__.py`, which indicates that it is an initialization file for the `fp16` module within the `runtime` package. `__init__.py` files are used in Python to mark directories as Python packages.
 2. **Copyright and License**: The code has a copyright notice indicating that it is owned by Microsoft Corporation and is licensed under the Apache License Version 2.0. This is important for understanding the legal usage and distribution rights of the code.

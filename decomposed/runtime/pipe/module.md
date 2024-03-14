@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `PipelineModule`: The main class for pipeline-parallel modules. It manages the structure, partitioning, and execution of the forward pass. Importance: **[High]**
 * `LayerSpec`: A class for specifying the layers in a pipeline, storing type information and parameters. Importance: **[Medium]**
@@ -16,7 +16,7 @@ This file is part of the DeepSpeed library and implements the `PipelineModule` c
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module and Class Definitions**: The code defines several classes, including `PipelineError`, `LayerSpec`, `TiedLayerSpec`, and the main class `PipelineModule`. These classes are used to create and manage pipeline-parallel modules in deep learning, with `PipelineModule` being the primary class for implementing pipeline parallelism.
 2. **Imported Libraries**: The code imports various libraries, such as `os`, `regex`, `torch`, `nn`, `dist`, `logger`, and `ds_utils`, which are essential for implementing the functionality of the pipeline parallelism.

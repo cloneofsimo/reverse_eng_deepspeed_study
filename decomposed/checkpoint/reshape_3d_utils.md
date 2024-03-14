@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `get_files, get_files_with_prefix, partition_data, get_zero_files`: Utility functions for handling file operations, such as getting files with specific prefixes and partitioning data. Importance: **[Low]**
 * `MODEL_FILE_PREFIX, LAYER_FILE_PREFIX, PP_DIM, TP_DIM, DP_DIM`: Constants used in the code for identifying model and layer files, and dimensions in the 3D reshape process. Importance: **[Low]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Imports**: The code imports several functions and constants from other modules, such as `reshape_utils`, `constants`, and `reshape_meg_2d`. These are essential for the functionality of the code.
 2. **Classes and Functions**: The main class is `model_3d_desc`, which represents a 3D model description with parallel processing dimensions (PP, TP, and DP). It has methods like `reshape`, `get_desc`, `world_size`, `is_valid`, and `can_reshape`. There are also three utility functions: `get_model_3d_descriptor`, `flatten_dp_dimension`, and `unflatten_dp_dimension`. These functions handle tasks like creating a 3D descriptor from a directory, flattening, and unflattening data based on DP dimension.

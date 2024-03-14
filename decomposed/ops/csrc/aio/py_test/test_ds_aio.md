@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `parse_arguments`: Parses command-line arguments for the script. Importance: **[High]**
 * `validate_args`: Validates the parsed arguments to ensure the read file exists. Importance: **[Medium]**
@@ -16,7 +16,7 @@ This file is a Python script for testing the functionality of asynchronous I/O o
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Module Structure**: The code is part of a Python file named `test_ds_aio.py` and is related to the DeepSpeed library. It contains functionality for asynchronous I/O operations, specifically for swapping optimizer tensors to and from storage devices.
 2. **Argument Parsing**: The script uses `argparse` to define and parse command-line arguments. These arguments include input and output file paths, block size, queue depth, thread parallelism, I/O options, validation, handle usage, operation repetitions, and GPU usage.

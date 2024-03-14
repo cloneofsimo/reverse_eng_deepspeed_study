@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `Softmax`: A template class for implementing the softmax operation. Importance: **[High]**
 * `Softmax::Config`: A nested struct for storing configuration parameters of the softmax operation. Importance: **[Medium]**
@@ -16,7 +16,7 @@ This file `softmax.h` is a header file for a C++ implementation of a softmax ope
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header and Copyright Information**: The code starts with a copyright notice and a reference to the Microsoft Corporation, indicating the ownership and licensing terms (Apache-2.0).
 2. **Includes and Namespaces**: The code includes several header files, such as `<cuda.h>`, `<cuda_fp16.h>`, `<stdio.h>`, and `"custom_cuda_layers.h"`, which are necessary for CUDA and C++ functionality. The `using namespace std` statement is used to avoid having to prefix standard library objects with `std::`.

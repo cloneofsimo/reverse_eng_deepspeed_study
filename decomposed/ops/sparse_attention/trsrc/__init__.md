@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `build_file_index(directory, suffix='.tr')`: This function builds an index of files with a specific suffix in a given directory. It returns a list of tuples containing the base name and the absolute path of each file. Importance: **[Medium]**
 * `sys.modules[_build_file_index.__module__]`: This line retrieves the module object for the current module, which is used to dynamically add file content as attributes.
@@ -15,7 +15,7 @@ This codebase is a Python module that focuses on reading and dynamically loading
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Module Structure**: The code is part of a Python package, specifically in the `ops/sparse_attention/trsrc` directory. The file is named `__init__.py`, which indicates that it is the initialization file for this package, making the package importable.
 2. **Copyright and Licensing**: The code starts with a copyright notice and a SPDX-License-Identifier, specifying that the code is licensed under the Apache License 2.0. This is important for understanding the usage and distribution rights of the code.

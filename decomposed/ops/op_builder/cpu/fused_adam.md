@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `FusedAdamBuilder`: This class is responsible for building the fused Adam operator for CPU operations in DeepSpeed. Importance: **[High]**
 * `__init__`: Initializes the `FusedAdamBuilder` with the name 'fused_adam'. Importance: **[Medium]**
@@ -16,7 +16,7 @@ This file, `cpu/fused_adam.py`, is part of the DeepSpeed library, which is a hig
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Module Structure**: The code is part of a Python file named `cpu/fused_adam.py`, which suggests it's related to a specific implementation of an operation (in this case, FusedAdam) for CPU operations within a larger library or framework, possibly called DeepSpeed.
 2. **Copyright and Licensing**: The code is copyrighted by Microsoft Corporation and is licensed under the Apache License 2.0, which is an open-source license.

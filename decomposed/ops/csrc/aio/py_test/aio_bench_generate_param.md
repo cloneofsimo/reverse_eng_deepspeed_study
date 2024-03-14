@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `parse_arguments`: Parses command-line arguments for the script. Importance: **[Medium]**
 * `validate_args`: Validates the provided arguments, ensuring the necessary log directories exist. Importance: **[Medium]**
@@ -14,7 +14,7 @@ This file, `aio_bench_generate_param.py`, is a Python script that focuses on ana
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File purpose**: The code is designed to measure and optimize the performance of asynchronous I/O operations, specifically swapping optimizer tensors to and from NVMe storage devices. It's part of the DeepSpeed project.
 2. **Import statements**: The script imports necessary modules like `os`, `argparse`, `json`, and helper functions from `parse_aio_stats` and `perf_sweep_utils`.

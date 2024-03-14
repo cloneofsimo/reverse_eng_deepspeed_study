@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `parse_args`: Parses command-line arguments for the DeepSpeed launcher helper. Importance: **[High]**
 * `env_mapping`: Maps environment variables to rank and local rank information for distributed training. Importance: **[Medium]**
@@ -14,7 +14,7 @@ This file, `launcher/launcher_helper.py`, is a part of the DeepSpeed library. It
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Import statements**: The code imports necessary libraries for its functionality, such as `os`, `sys`, `argparse`, `subprocess`, and `logger` from `deepspeed.utils`.
 2. **Argument parsing**: The `parse_args()` function uses `argparse` to define and handle command-line arguments for the launcher. It allows users to specify the launcher backend, interpret the script as a Python module, skip prepending 'python', provide the user script to launch, and options for core binding.

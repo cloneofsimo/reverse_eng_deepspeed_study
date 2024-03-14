@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `__init__`: Initializes the `DeepSpeedDataSampler` object, handling various configurations and initializing curriculum learning components if enabled. Importance: **[High]**
 * `__len__`: Returns the total number of samples in the sampler. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Class Definition**: The code defines a class `DeepSpeedDataSampler` which is responsible for data sampling during training. This class is designed to work with the DeepSpeed library, a distributed training accelerator for PyTorch.
 2. **Initialization**: The `__init__` method initializes the sampler with various parameters, including data efficiency configuration, number of samples per epoch, batch sizes, parallel ranks, and gradient accumulation steps. It also sets up curriculum learning if enabled, using `CurriculumScheduler` and `MMapIndexedDataset` for managing data clusters and difficulties.

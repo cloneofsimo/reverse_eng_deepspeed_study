@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `CPULionBuilder`: A class that extends `TorchCPUOpBuilder` for building a CPU-based operation called "CPU\_lion". Importance: **[High]**
 * `__init__`: The constructor for `CPULionBuilder`, initializes the class with the name "cpu\_lion". Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module and Class Definition**: The code defines a Python class `CPULionBuilder` which inherits from `TorchCPUOpBuilder`. This class is responsible for building a specific CPU operation called "cpu_lion" for the DeepSpeed library.
 2. **Constants**: The class has two class-level constants, `BUILD_VAR` and `NAME`, which are used to identify the build variable and the name of the operation, respectively.

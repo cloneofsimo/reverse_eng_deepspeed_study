@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `AdamFunctor`: A template struct that defines a CUDA kernel for the Adam optimization algorithm. It performs the update calculations for the parameters, gradients, first moment, and second moment tensors. Importance: **[High]**
 * `multi_tensor_adam_cuda`: The main function that orchestrates the execution of the Adam optimization across multiple tensors. It initializes variables, handles bias correction, and dispatches the `AdamFunctor` kernel. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header Inclusions**: The code includes necessary headers for CUDA and ATen (a part of PyTorch) to perform tensor operations and device management. This includes `ATen/ATen.h`, `ATen/cuda/CUDAContext.h`, and `multi_tensor_apply.cuh`.
 2. **Enums and Typedefs**: The `adamMode_t` enum defines two modes for the Adam optimizer (L2 regularization and AdamW mode). The `MATH_T` typedef is used to define the data type for computations, which is set to `float` in this case.

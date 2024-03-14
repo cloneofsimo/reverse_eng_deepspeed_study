@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `residual_add_bias`: Adds residual connection with bias. Importance: **[Medium]**
 * `layer_norm`: Implements layer normalization. Importance: **[High]**
@@ -16,7 +16,7 @@ This file, `__init__.py`, is part of a module in a codebase that focuses on infe
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File Structure**: The code is part of a Python package, specifically `ops/transformer/inference/triton/__init__.py`. This file is likely the entry point for the `triton` module within the `inference` subdirectory, which deals with operations related to transformers, possibly for deep learning inference.
 2. **Copyright and License**: The code is copyrighted by Microsoft Corporation and is licensed under the Apache License 2.0. This is an important legal aspect that governs how the code can be used, modified, and distributed.

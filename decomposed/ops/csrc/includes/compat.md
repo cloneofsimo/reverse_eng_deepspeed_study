@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `TORCH_CHECK`: Macro that maps to `AT_CHECK` for error checking in PyTorch. Importance : **[Low]** (It's a utility macro for error handling)
 * `DATA_PTR`: Macro that selects the appropriate data access method based on the PyTorch version. Importance : **[Low]** (It's a version-specific compatibility macro)
@@ -18,7 +18,7 @@ This code snippet is a header file (`compat.h`) for a C++ extension in a Python 
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File Header and Copyright**: The code starts with file information, including the file name (`ops/csrc/includes/compat.h`) and copyright notices from Microsoft and the DeepSpeed Team. This is important for understanding the origin and licensing of the code.
 2. **License Identifier**: The code is licensed under the Apache License 2.0, which is indicated by `SPDX-License-Identifier: Apache-2.0`. This is a crucial detail for anyone wanting to use or modify the code.

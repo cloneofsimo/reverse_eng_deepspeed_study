@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `DATA_EFFICIENCY`: A constant representing the data efficiency feature. Importance: **[High]**
 * `DATA_EFFICIENCY_ENABLED`: A flag to enable data efficiency. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Namespace and Constants**: The code defines a set of constants related to data efficiency and curriculum learning in a DeepSpeed library. Constants like `DATA_EFFICIENCY`, `DATA_SAMPLING`, and `CURRICULUM_LEARNING` are used to configure various aspects of the data pipeline.
 2. **Data Efficiency Options**: The code provides configuration options for data efficiency techniques, such as data sampling and data routing. These options include enabling or disabling the features, setting seeds, and specifying the number of epochs or workers.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `gelu_functor`: A JIT-compiled function using Triton that implements the GELU (Gaussian Error Linear Unit) activation function using an approximation. Importance: **[High]**
 * `gelu_kernel`: A Triton JIT-compiled kernel for applying `gelu_functor` to a tensor in parallel across a GPU grid. Importance: **[High]**
@@ -14,7 +14,7 @@ This file is about implementing an efficient GPU-accelerated version of the GELU
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Library Imports**: The code imports essential libraries for its functionality, such as `torch` for tensor operations, `triton` for GPU acceleration, and `tl` (triton.language) for defining GPU kernels.
 2. **Custom Functions**: The code defines two custom functions using `triton.jit` decorator:

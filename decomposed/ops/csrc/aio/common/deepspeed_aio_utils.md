@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `io_xfer_ctxt`: A struct representing the context for I/O transfer operations, containing file descriptor, base offset, memory buffer, and number of bytes to transfer. Importance: **[High]**
 * `io_prep_context`: A struct for preparing I/O control blocks (iocbs) for operations, with information about read/write, transfer context, block size, and a pointer to the iocb vector. Importance: **[High]**
@@ -14,7 +14,7 @@ This codebase provides functionality for asynchronous I/O operations, specifical
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header File**: This is a C++ header file (`deepspeed_aio_utils.h`) that likely provides utility functions for asynchronous I/O operations, specifically related to swapping optimizer tensors between memory and NVMe storage devices.
 2. **Copyright and License**: The code is copyrighted by Microsoft Corporation and is licensed under the Apache License 2.0.

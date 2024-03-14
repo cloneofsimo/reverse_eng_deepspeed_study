@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `link_hp_params`: Links the local parameters (lp\_param\_list) to their corresponding high-precision (HP) fragments based on the provided partition information. Importance: **[High]**
 * `lazy_init_hp_params_optimizer_state`: Initializes the HP parameters' optimizer state lazily, using the flat HP partition and optimizer state. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module and Function Definitions**: This code defines a Python module `mixed_precision_linkage.py` that contains several utility functions for managing parameters in a deep learning context, specifically related to mixed precision training. The main functions are `link_hp_params`, `lazy_init_hp_params_optimizer_state`, and `_init_lp_to_hp_mapping`.
 2. **External Dependencies**: The code imports modules and functions from `deepspeed.utils`, which suggests that it is part of a larger deep learning framework called DeepSpeed. It uses functions like `get_full_hp_param`, `get_full_hp_grad`, `get_hp_fragment_mapping`, and `set_full_hp_param` for handling high-performance parameters.

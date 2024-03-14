@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `MiCS_Init`: Initializes the model parameters with the MiCS (Memory-efficient Communication and Sharding) strategy. It partitions the model parameters and introduces hierarchical communication for inter-node data exchange. Importance: **[High]**
 * `MiCS_AllGatherCoalescedHandle`: A custom handle for all-gather operations that assumes no need to copy data from contiguous tensors. It updates the parameter status after the operation is complete. Importance: **[Medium]**
@@ -15,7 +15,7 @@ This file is part of the DeepSpeed library and focuses on implementing the MiCS 
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module and Class Definitions**: The code defines several classes, including `MiCS_AllGatherCoalescedHandle`, `MiCS_Init`, `MiCS_Offload`, and `MiCS_Optimizer`. These classes are related to the DeepSpeed library and are designed for efficient distributed training with the MiCS (Memory-efficient Communication and Sharding) strategy.
 2. **Hierarchical Communication**: The `MiCS_Init` class introduces a hierarchical communication method to reduce the cost of inter-node communications. It uses the `mics_hierarchical_params_gather` field in the DeepSpeed configuration to enable this feature.

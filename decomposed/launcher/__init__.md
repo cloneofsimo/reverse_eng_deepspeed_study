@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `cli_main`: This function is likely the entry point for the script when run from the command line. It wraps the `main` function to handle command-line arguments and interface. Importance: **[High]**
 * `default_inference_config`: This function provides a default configuration dictionary for DeepSpeed's inference mode. It's crucial for setting up the initial parameters for running inference with DeepSpeed. Importance: **[High]**
@@ -14,7 +14,7 @@ This codebase is part of the DeepSpeed library, which is a high-performance trai
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File Structure**: The code is part of a Python package named `launcher`, indicated by the file path `launcher/__init__.py`. This file serves as the entry point for the `launcher` package, initializing its namespace.
 2. **Copyright and License**: The code carries a copyright notice for Microsoft Corporation and mentions the SPDX-License-Identifier as Apache-2.0. This indicates the software is licensed under the Apache License Version 2.0, which is a permissive open-source license.

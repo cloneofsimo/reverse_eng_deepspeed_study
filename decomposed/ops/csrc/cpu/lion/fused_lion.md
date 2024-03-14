@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `multi_tensor_lion`: This is the main function that performs the optimization step for the Lion (Linearized Inexact Newton) optimizer. It takes chunk size, a no-op flag tensor, a list of tensor lists, learning rate, momentum parameters, step count, mode, and weight decay as inputs. It initializes the optimizer if not already done and then applies the optimization step to each tensor in the input. Importance: **[High]**
 * `ds_lion_step`: This is a C++ function (not directly defined in this file) that is called by `multi_tensor_lion`. It likely performs the core optimization calculations for Lion. Importance: **[Medium]** (Assuming it's defined and implemented elsewhere)
@@ -14,7 +14,7 @@ This file is a C++ extension for PyTorch that implements the Lion optimizer, a l
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Header**: The code is a C++ file named `fused_lion.cpp`, which is part of a project related to CPU operations for a library or framework (possibly DeepSpeed, as mentioned in the comment). It includes the header file `cpu_lion.h` for necessary declarations.
 2. **Copyright and License**: The code is copyrighted by Microsoft Corporation and is licensed under the Apache License 2.0.

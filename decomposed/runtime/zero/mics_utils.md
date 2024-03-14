@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `scale_tensors`: Scales a list of tensors by a given integer factor. Importance: **[Low]**
 * `MiCS_CommGroups`: A dataclass to store information about communication groups for MiCS (Micro-batch Communication Strategy). Importance: **[Medium]**
@@ -14,7 +14,7 @@ This file, `zero/mics_utils.py`, is part of the DeepSpeed library. It provides u
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Copyright and Licenses**: The code starts with copyright notices and license information, indicating that it is part of a project developed by Microsoft and Amazon, and licensed under the Apache 2.0 license.
 2. **Imports**: The script imports necessary libraries such as `os`, `dataclasses`, `typing`, `numpy`, `torch`, and `deepstream` modules, which are used for various functionalities like data handling, communication, and logging.

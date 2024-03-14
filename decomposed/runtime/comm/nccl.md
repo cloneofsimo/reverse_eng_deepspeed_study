@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `NcclBackend`: This is the primary class in the file, implementing an NCCL (NVIDIA Collective Communications Library) backend for communication in a distributed DeepSpeed setup. It handles operations like gathering and all-reducing tensors with compression. Importance : **[High]**
 * `my_igather`: A custom implementation of an "immediate gather" operation, which collects data from multiple ranks and sends it to a root rank. Importance : **[Medium]**
@@ -14,7 +14,7 @@ This file is part of the DeepSpeed library, specifically focusing on communicati
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Library Imports**: The code imports several libraries, including `torch`, `deepspeed`, `cupy`, and `numpy`, which are essential for tensor operations, distributed communication, and GPU acceleration.
 2. **NcclBackend Class**: The main focus of the code is the `NcclBackend` class, which is designed for communication and compression operations in a distributed environment. It initializes a communication group, handles gather and scatter operations, and implements a compressed allreduce method.

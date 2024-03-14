@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `split_tensor_along_last_dim`: Splits a tensor along its last dimension. Adapted from Megatron-LM. Importance: **[Medium]**
 * `TiledLinear`: A custom implementation of a linear layer that supports tiling for memory optimization in DeepSpeed's ZeRO-3. Importance: **[High]**
@@ -14,7 +14,7 @@ This file `tiling.py` is part of the DeepSpeed library and focuses on implementi
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Tiling Functionality**: The code introduces a custom `TiledLinear` class, which is a replacement for `torch.nn.Linear` that supports tiling to reduce memory requirements. It breaks the input and output dimensions of a linear layer into tiles that can be processed sequentially, making it suitable for large models with ZeRO-3 optimization.
 2. **Splitting and Combining Tensors**: The `split_tensor_along_last_dim` function is used to split tensors along the last dimension, and the `TiledLinear` class has methods to split, reduce, and combine tensor splits as needed for tiling operations.

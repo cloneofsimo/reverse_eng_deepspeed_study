@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `load_global`: A template function for loading data from global memory with different cache policies (CacheAll, CacheGlobal, CacheStreaming). Importance: **[High]**
 * `store_global`: A template function for storing data to global memory with different cache policies (Writeback, CacheGlobal, CacheStreaming). Importance: **[High]**
@@ -20,7 +20,7 @@ This file contains a set of template functions and a class for memory access uti
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Memory Access Enums**: The code defines two enums, `LoadPolicy` and `StorePolicy`, which represent caching policies for memory access in a GPU environment. These enums define how data should be cached when loading from or storing to memory, with options like `CacheAll`, `CacheGlobal`, and `CacheStreaming`.
 2. **Template Functions**: The code contains a large number of template functions for loading and storing data from/to global and shared memory with different access sizes (4, 8, 16 bytes) and caching policies. These functions are designed to be used on a GPU and utilize CUDA assembly (`asm volatile`) for efficient memory operations.

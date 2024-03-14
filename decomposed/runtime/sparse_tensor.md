@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `SparseTensor`: A class representing a compressed sparse tensor, similar to TensorFlow's IndexedSlices. Importance: **[High]**
 * `__init__`: The constructor for the `SparseTensor` class, initializes the object with a dense tensor or empty data. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Class Definition**: The code defines a `SparseTensor` class, which is a compressed representation of a dense tensor, similar to TensorFlow's `IndexedSlices`.
 2. **Initialization**: The `__init__` method initializes the `SparseTensor` object, handling both sparse and dense input tensors. It extracts indices and values, and stores the original dense tensor's shape and data type.

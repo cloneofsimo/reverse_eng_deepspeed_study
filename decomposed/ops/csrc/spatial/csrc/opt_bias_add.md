@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `opt_bias_add`: A CUDA kernel function that performs an optimized bias addition to half-precision (FP16) data. Importance: **[High]**
 * `opt_bias_add_add`: A CUDA kernel function that adds a bias and another half-precision (FP16) tensor to the input activation. Importance: **[High]**
@@ -14,7 +14,7 @@ This codebase is a CUDA implementation for optimized bias addition operations on
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Namespace and Constants**: The code defines a namespace `badd_opt` containing constants used for optimization, such as thread block size (`threads`), number of steps (`steps`), and data access granularity (`granularity`). These constants are used to define the size and stride of memory accesses.
 2. **CUDA Kernel Functions**: There are three `__global__` functions, `opt_bias_add`, `opt_bias_add_add`, and `opt_bias_add_bias_add`, which are CUDA kernel functions. These functions are executed in parallel on the GPU to perform fused bias addition operations on half-precision floating-point data (`__half` and `__half2`). The operations involve adding bias to an activation tensor, optionally adding another tensor, and another bias.

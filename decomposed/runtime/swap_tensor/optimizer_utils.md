@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `FlattenedTensorSwapInfo`: Represents information about a flattened tensor to be swapped to/from storage. Importance: **[Medium]**
 * `OptimizerStateSwapInfo`: Stores information about optimizer state tensors, including gradients and swap paths. Importance: **[High]**
@@ -36,7 +36,7 @@ This file is part of the DeepSpeed library and provides functionality for swappi
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Tensor Swapping**: The code is designed to manage the swapping of tensors to and from storage devices, specifically focusing on the optimization of deep learning models. It uses functions like `swap_in_tensors` and `swap_out_tensors` to handle this process.
 2. **Classes**: The code defines two main classes: `FlattenedTensorSwapInfo` and `OptimizerStateSwapInfo`. These classes store information about tensors and their swapping states, including paths, offsets, lengths, and gradients.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `cublas_gemm_ex`: This function wraps the cuBLAS `cublasGemmEx` function for performing a matrix multiplication with extended precision options. It supports both single-precision floating-point (float) and half-precision floating-point (__half) data types. Importance: **[High]**
 * `cublas_strided_batched_gemm`: This function wraps the cuBLAS `cublasGemmStridedBatchedEx` function for performing batched matrix multiplications with strided inputs. It also supports single-precision and half-precision data types. Importance: **[High]**
@@ -14,7 +14,7 @@ This file `cublas_wrappers.h` is a header file that provides platform-agnostic (
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header Inclusions**: The code includes several header files for working with CUDA and CUBLAS, such as `cublas_v2.h`, `cuda.h`, `cuda_fp16.h`, and `cuda_runtime.h`. Depending on the platform, it also includes either `mma.h` (for NVIDIA CUDA) or `rocblas/rocblas.h` (for AMD HIP) for matrix multiplication algorithms.
 2. **Conditional Compilation**: The code uses preprocessor directives (`#ifdef __HIP_PLATFORM_AMD__`) to conditionally include HIP-specific functions (rocblas) for AMD platforms and CUDA-specific functions (cublas) for NVIDIA platforms.

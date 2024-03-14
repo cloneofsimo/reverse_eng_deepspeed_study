@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `convert_to_random_ltd`: This function converts specific layers in a PyTorch model to instances of the `RandomLayerTokenDrop` class, which is likely a layer for dropout or regularization. It traverses the model's module hierarchy and replaces the specified layer type with the randomized version. Importance: **[High]**
 * `save_without_random_ltd`: This function is used to save a model's state_dict without the state related to `RandomLayerTokenDrop` layers. It removes keys containing ".random_ltd_layer" from the state_dict, ensuring that the saved state doesn't include the randomized dropout state. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Imports**: The code imports necessary modules, including `RandomLayerTokenDrop` from a local `basic_layer` module, `OrderedDict` from the `collections` library, and `recursive_getattr` and `recursive_setattr` from a `compression.helper` module within the `deepspeed` package.
 2. **Functions**: The script defines three functions:

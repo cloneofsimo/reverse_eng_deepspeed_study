@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `TorchCPUOpBuilder`: A base class for building CPU-based Torch operations. Importance: **[High]**
 * `CPUAdagradBuilder`: A subclass of `TorchCPUOpBuilder` specifically for building the CPU implementation of the Adagrad optimization algorithm. Importance: **[High]**
@@ -16,7 +16,7 @@ This file, `cpu_adagrad.py`, is part of the DeepSpeed library and is responsible
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Namespace and Dependencies**: The code is part of the "DeepSpeed" project, which is a library for efficient deep learning training. It imports necessary modules like `os` and `TorchCPUOpBuilder` from a relative path, indicating it's part of a larger codebase with custom components.
 2. **Class Definition**: The `CPUAdagradBuilder` class is defined, which inherits from `TorchCPUOpBuilder`. This class is specifically for building the CPU version of the Adagrad optimization algorithm.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `parse_args`: Parses command-line arguments for the DeepSpeed runner. Importance: **[High]**
 * `fetch_hostfile`: Retrieves and parses the hostfile for distributed training. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **DeepSpeed Runner**: This code is the main entry point for launching multi-worker training jobs using DeepSpeed, a distributed training library for deep learning. It supports various distributed training backends like PDSH, OpenMPI, MVAPICH, SLURM, MPICH, and IMPI.
 2. **Argument Parsing**: The script uses `argparse` to parse command-line arguments, allowing users to specify options like hostfile, number of nodes, GPUs, master address, and launcher backend. It also supports autotuning, elastic training, and resource filtering.

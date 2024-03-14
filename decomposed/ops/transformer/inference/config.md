@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `TransformerConfig`: A base class for transformer model configurations, defining the basic attributes like `hidden_size`, `intermediate_size`, `heads`, and `num_hidden_layers`. Importance: **[Medium]**
 * `DeepSpeedInferenceConfig`: An extension of `TransformerConfig` specifically for DeepSpeed inference, adding additional parameters like `layer_norm_eps`, `local_rank`, `mp_size`, and various options for transformer architecture, normalization, and performance optimizations. Importance: **[High]**
@@ -14,7 +14,7 @@ This file defines a configuration class, `DeepSpeedInferenceConfig`, for setting
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Inheritance**: The `DeepSpeedInferenceConfig` class inherits from the `TransformerConfig` class, indicating that it extends the base configuration with additional parameters specific to DeepSpeed inference.
 2. **Arguments and Configuration Parameters**: The `DeepSpeedInferenceConfig` class has a wide range of arguments in its `__init__` method, which allows for customization of various aspects of the transformer model during inference, such as layer norms, data types, stochastic modes, attention mechanisms, and more.

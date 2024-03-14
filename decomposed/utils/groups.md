@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `initialize`: Deprecated function for initializing parallel groups. Importance: **[Deprecated]**
 * `log_dist`: Function for logging messages across distributed processes. Importance: **[Medium]**
@@ -34,7 +34,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Parallelism Support**: The code is designed to support various forms of parallelism in DeepSpeed, such as model parallelism, data parallelism, and expert parallelism. It creates and manages process groups for these parallelization strategies.
 2. **Process Group Management**: The code defines several global variables to store process groups, like `_EXPERT_PARALLEL_GROUP`, `_EXPERT_DATA_PARALLEL_GROUP`, `_WORLD_GROUP`, and `_ZERO_PARAM_INTRA_PARALLEL_GROUP`. These groups are created and accessed through various functions.

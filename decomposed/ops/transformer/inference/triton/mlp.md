@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `TritonMLP`: This is the main class, implementing a multi-layer perceptron (MLP) module optimized for the Triton inference engine. It uses specialized operations for efficient computation, such as `MLPGemmOp`, `VectorMatMulOp`, `GELUGemmOp`, and `ResidualAddOp`. Importance : **[High]**
 * `__init__`: The constructor of the `TritonMLP` class, where it initializes the parameters and tensors for the MLP layers, including weights, biases, and quantization-related variables. Importance : **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module Definition**: The code defines a custom PyTorch `nn.Module` called `TritonMLP`. This is the primary class for implementing an MLP (Multi-Layer Perceptron) layer optimized for the Triton inference system.
 2. **Initialization**: The `__init__` method initializes the module with various parameters, including `config` (configuration object), `mp_group` (multi-process group), `q_scales` (quantization scales), `q_groups` (quantization groups), `merge_count`, and `mlp_extra_grouping`. It also initializes learnable parameters like weights and biases using `nn.Parameter`.

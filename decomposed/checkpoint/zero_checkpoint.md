@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `ZeROCheckpoint`: The main class that manages the loading and merging of ZeRO checkpoint files. Importance: **[High]**
 * `get_src_world_size`: Returns the source world size (number of processes) from the checkpoint. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Imports**: The code imports necessary modules, including `torch` and other utility functions from the same package, which are crucial for the functioning of the ZeROCheckpoint class.
 2. **Class ZeROCheckpoint**: This is the main class that encapsulates the functionality of managing and processing ZeRO checkpoint files. It has methods for initializing, reshaping, and retrieving state information from the files based on parallelism degrees (pp, tp, dp).

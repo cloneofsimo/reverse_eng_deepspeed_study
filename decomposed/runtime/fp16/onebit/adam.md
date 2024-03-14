@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `OnebitAdam`: This is the main class that implements the 1-bit Adam algorithm, a variant of the Adam optimizer for deep learning. It is GPU-only and is designed for compressed communication. Importance: **[High]**
 * `__init__`: Constructor for the `OnebitAdam` class, initializes the optimizer with parameters like learning rate, warmup steps, and communication backend. Importance: **[High]**
@@ -14,7 +14,7 @@ This file is a Python implementation of the 1-bit Adam optimizer, which is part 
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Class Definition**: The code defines a custom optimizer class `OnebitAdam` which is a subclass of `torch.optim.Optimizer`. This class implements the 1-bit version of the Adam algorithm, which is a stochastic gradient descent optimization method.
 2. **Arguments and Defaults**: The `OnebitAdam` class has a comprehensive set of arguments for initialization, including learning rate, warmup steps, betas, epsilon, weight decay, and options related to compression and communication backend. It also has a note about not supporting the AMSGrad variant.

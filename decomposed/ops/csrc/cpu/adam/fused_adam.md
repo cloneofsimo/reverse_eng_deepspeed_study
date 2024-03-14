@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `multi_tensor_adam`: This is the main function that implements the fused Adam optimization algorithm for multiple tensors. It takes chunk size, a no-op flag, a vector of tensor lists, learning rate, beta1, beta2, epsilon, step, mode, bias correction, and weight decay as inputs. It initializes the optimizer if needed and then applies the Adam update to each tensor in the input lists. Importance: **[High]**
 * `create_adam_optimizer`: This function is not directly defined in the provided code, but it's mentioned as a static function that initializes the Adam optimizer. It's likely a helper function for setting up the optimizer state. Importance: **[Medium]** (Assuming it's defined elsewhere)
@@ -14,7 +14,7 @@ The code in this file is a C++ implementation of the Adam optimizer specifically
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and purpose**: The code is a C++ file named `fused_adam.cpp` that implements the Adam (Adaptive Moment Estimation) optimizer for deep learning, specifically designed for CPU operations. It is part of a project likely related to the DeepSpeed library, as indicated by the comment.
 2. **Header inclusion**: The code includes the `cpu_adam.h` header, which likely contains declarations for functions and structures related to the Adam optimizer.

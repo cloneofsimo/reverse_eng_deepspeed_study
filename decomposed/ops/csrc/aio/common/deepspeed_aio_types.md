@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `deepspeed_aio_latency_t`: A struct for storing latency statistics, including minimum, maximum, and average latencies in microseconds. Importance: **[High]**
 * `dump`: A method of `deepspeed_aio_latency_t` to print latency statistics with a given tag. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header File**: This is a C++ header file (`deepspeed_aio_types.h`) that defines various structs and utility functions related to asynchronous I/O operations, specifically for tensor swapping with NVMe storage devices.
 2. **Copyright and License**: The code is copyrighted by Microsoft Corporation and is licensed under the Apache License 2.0.

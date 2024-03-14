@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `LinearFunctionForZeroStage3`: A custom autograd function for linear operations optimized for ZeRO Stage 3. Importance: **[High]**
 * `zero3_linear_wrap`: A utility function to call `LinearFunctionForZeroStage3` with optional bias. Importance: **[Medium]**
@@ -15,7 +15,7 @@ This file is part of the DeepSpeed library and provides a custom implementation 
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Purpose**: This code is part of the DeepSpeed library and implements a custom `Linear` module optimized for ZeRO Stage 3. It allows for parameter memory release after the forward pass, which is crucial for efficient memory management in distributed training.
 2. **Memory Optimization**: Instead of using `save_for_backward` to save variables, the code saves variable IDs, which enables garbage collection of the underlying tensors when needed by the ZeRO Stage 3 optimizer.

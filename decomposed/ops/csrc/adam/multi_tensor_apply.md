@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `multi_tensor_apply_kernel`: This is a CUDA kernel function that processes chunks of tensors using a user-supplied functor. It takes the chunk size, a flag, a tensor list, the functor, and additional arguments. Importance: **[High]**
 * `TensorListMetadata`: A template struct that holds metadata for a list of tensors, including addresses, sizes, and block mapping information. Importance: **[Medium]**
@@ -14,7 +14,7 @@ This file, `multi_tensor_apply.cuh`, is a CUDA header file that provides a frame
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header and Copyright Information**: The code starts with copyright information, indicating the original authors and the license used (Apache-2.0). It also mentions that the code is adapted from NVIDIA/apex.
 2. **Includes and Constants**: The code includes several ATen and CUDA headers for tensor manipulation and device management. There are two arrays of constants, `depth_to_max_tensors` and `depth_to_max_blocks`, which define the maximum number of tensors and blocks for different depths in the multi-tensor apply operation.

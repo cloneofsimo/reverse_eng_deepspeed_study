@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `z3_leaf_module`: Checks if a PyTorch module has been flagged as a 'leaf' module. Importance: **[High]**
 * `z3_leaf_parameter`: Determines if a PyTorch parameter belongs to a leaf module. Importance: **[High]**
@@ -14,7 +14,7 @@ This file, `utils/z3_leaf_module.py`, is part of the DeepSpeed library. It provi
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module and Function Definitions**: The code defines several functions related to managing "leaf" modules in a PyTorch model. The main functions are `z3_leaf_module`, `z3_leaf_parameter`, `get_z3_leaf_modules`, `_do_set_z3_leaf_modules`, `set_z3_leaf_modules`, and `unset_z3_leaf_modules`.
 2. **Purpose**: The code is designed to work with the DeepSpeed library, specifically with the ZeRO3 optimization. It allows users to flag certain modules in a model as "leaf" modules, which affects how ZeRO3 sets hooks and prefetches parameters. This is particularly useful for Mixture of Experts (MoE) models and models with fine-grained nested modules.

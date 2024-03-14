@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `PipeSchedule`: Abstract base class for pipeline scheduling. Importance: **[High]**
 * `InferenceSchedule`: A schedule for inference with pipeline parallelism. Importance: **[High]**
@@ -26,7 +26,7 @@ This file defines classes and methods for scheduling the execution of a pipeline
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Inheritance and Abstract Base Class (ABC)**: The code defines a base class `PipeSchedule` that inherits from `ABC` (Abstract Base Class) in the `abc` module. This class represents a schedule for directing the execution of a pipeline engine. It has an abstract method `steps()` that must be implemented by subclasses to define the sequence of actions.
 2. **Subclasses for Different Schedules**: There are three subclasses of `PipeSchedule`: `InferenceSchedule`, `TrainSchedule`, and `DataParallelSchedule`. Each subclass represents a specific scheduling strategy for either inference or training with different parallelism techniques.

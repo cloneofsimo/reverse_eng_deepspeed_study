@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `get_default_compute_capabilities`: Retrieves default compute capabilities for DeepSpeed operations. Importance: **[Medium]**
 * `OpBuilder`: A class for building custom operations in DeepSpeed. Importance: **[High]**
@@ -14,7 +14,7 @@ This file is the entry point for the `op_builder` module in a DeepSpeed library.
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Namespace and Package Management**: The code is part of the `op_builder` module in the `ops` package of a project, likely related to DeepSpeed. It sets up the package structure and imports necessary modules.
 2. **Conditional Import and Detection**: The code attempts to import `deepspeed.ops.op_builder` and uses it if available. If not, it defaults to using the local `op_builder` module. This is a way to handle both installation and runtime scenarios.

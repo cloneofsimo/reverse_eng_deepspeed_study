@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `deepspeed_aio_handle_t`: A struct representing an asynchronous I/O handle for managing tensor swaps with NVMe storage devices. Importance: **[High]**
 * `deepspeed_aio_handle_t`: Constructor and Destructor - Initialize and clean up resources for the I/O handle. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header File**: This is a C++ header file, `deepspeed_py_aio_handle.h`, which is part of the DeepSpeed library and deals with asynchronous I/O operations, specifically for swapping optimizer tensors to and from storage devices.
 2. **Struct `deepspeed_aio_handle_t`**: This is the main structure that encapsulates the context and resources needed for asynchronous I/O operations. It includes members like an `aio_context`, configuration flags, thread contexts, threads, and a pinned tensor manager.

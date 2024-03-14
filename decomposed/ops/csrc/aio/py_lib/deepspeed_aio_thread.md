@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `io_op_desc_t`: A structure that holds information about I/O operations, such as read or write, buffer, file descriptor, filename, number of bytes, and validation flag. Importance: **[High]**
 * `thread_sync_t`: A structure for synchronization between threads, containing a mutex and a condition variable. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header File**: This is a C++ header file, `deepspeed_aio_thread.h`, which is part of a Python library for DeepSpeed, a deep learning optimization library. It defines structures and classes for asynchronous I/O operations, particularly related to swapping optimizer tensors between memory and storage devices.
 2. **Copyright and License**: The code is copyrighted by Microsoft Corporation and is licensed under the Apache License 2.0.

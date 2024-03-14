@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `Job`: Represents a job to be executed, containing command line, output file, and working directory. Importance: **[Medium]**
 * `SweepConfig`: Stores the configuration for a performance sweep, including NVMe directory, I/O size, search space, and other options. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Module Structure**: The code is part of a Python project, specifically in the `ops/csrc/aio/py_test/aio_bench_perf_sweep.py` file. It is related to benchmarking the performance of swapping optimizer tensors to and from storage devices, particularly using NVMe (Non-Volatile Memory Express) devices.
 2. **Functionality**: The code provides functionality for running performance tests on NVMe storage devices. It includes classes for managing jobs, sweep configurations, and options for read and write operations. It also has utility functions for parsing command-line arguments, generating command lines for the tests, and handling input/output files.

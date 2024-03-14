@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `CupyBackend`: A class that provides an interface for converting tensors between PyTorch and CuPy, and for compressing tensors using chunking. Importance: **[High]**
 * `__init__`: The constructor for the `CupyBackend` class, which initializes an instance without any specific setup. Importance: **[Low]**
@@ -14,7 +14,7 @@ This file is part of a library that focuses on providing a backend for compressi
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Import statements**: The code imports `cupy` and two functions from `torch.utils.dlpack` - `to_dlpack` and `from_dlpack`. These libraries are essential for the functionality of the `CupyBackend` class, as they enable interoperability between PyTorch and CuPy tensors.
 2. **Class definition**: The `CupyBackend` class is defined, which serves as a bridge between PyTorch and CuPy for tensor conversion and compression. It has three methods:

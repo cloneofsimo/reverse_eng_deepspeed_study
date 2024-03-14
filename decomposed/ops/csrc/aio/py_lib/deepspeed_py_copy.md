@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `deepspeed_py_memcpy`: This function performs a memory copy between two PyTorch tensors. Importance: **[High]**
 * `SIMD_*`: These are macros for SIMD (Single Instruction Multiple Data) operations, used for optimized vectorized computations. They are defined based on the available instruction sets (AVX512 or AVX256). Importance: **[Medium]**
@@ -14,7 +14,7 @@ This codebase is a header file for a C++ extension in a Python project, specific
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header and Copyright Information**: The code starts with copyright notices from Microsoft and the DeepSpeed Team, indicating the ownership and licensing terms (Apache-2.0).
 2. **Conditional Compilation Directives**: The code uses `#if`, `#elif`, and `#endif` to conditionally include specific instructions based on the architecture. It checks for `__x86_64__` or `__i386__` and then for either `__AVX512__` or `__AVX256__` instruction sets, which are vector processing extensions for Intel/AMD CPUs.

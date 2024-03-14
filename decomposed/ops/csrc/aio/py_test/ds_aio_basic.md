@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `pre_basic`: Prepares the context for both reading and writing tasks, allocating a tensor and initializing necessary variables. Importance: **[Medium]**
 * `pre_basic_read`: A variant of `pre_basic` for reading tasks. Importance: **[Low]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Module Structure**: The code is part of a Python file `ds_aio_basic.py` within a specific directory structure, indicating it's part of a larger project related to DeepSpeed, a deep learning acceleration library.
 2. **Functionality**: The code focuses on swapping optimizer tensors to and from NVMe storage devices using asynchronous I/O operations. It has functions for preparing data, performing read and write operations, and handling post-processing.

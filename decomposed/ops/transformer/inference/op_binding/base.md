@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `BaseOp`: This is a base class for operations in DeepSpeed's inference module. It extends `torch.nn.Module`. Importance: **[High]**
 * `__init__`: The constructor of `BaseOp`, initializes the class with a `DeepSpeedInferenceConfig` object. Importance: **[Medium]**
@@ -14,7 +14,7 @@ This file is part of the DeepSpeed library, specifically focusing on the inferen
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Module Structure**: The code is part of a Python file named `base.py` within the `op_binding` subdirectory of the `transformer` folder, which suggests it's related to a specific operation binding for a transformer model in a deep learning framework, possibly DeepSpeed.
 2. **Copyright and Licensing**: The code is copyrighted by Microsoft Corporation and is licensed under the Apache License 2.0, which is an open-source license.

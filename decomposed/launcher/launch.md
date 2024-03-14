@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `parse_args`: Parses command-line arguments for the DeepSpeed launcher. Importance: **[High]**
 * `terminate_process_tree`: Terminates a process and its children. Importance: **[Medium]**
@@ -14,7 +14,7 @@ This file, `launch.py`, is a launcher utility for DeepSpeed, a distributed train
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module and Functionality**: This is a Python script designed as a launcher for DeepSpeed, a distributed training library for deep learning. It is similar to PyTorch's `torch.distributed.launch`, but with additional features like GPU exclusion.
 2. **Argument Parsing**: The script uses `argparse` to parse command-line arguments, which include options for node rank, master address, master port, GPU selection, elastic training, and more. These arguments are crucial for setting up distributed training across multiple processes and nodes.

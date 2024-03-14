@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `fwd_kernel`: A JIT-compiled kernel for the forward pass of the attention mechanism. Importance: **[High]**
 * `triton_flash_attn`: A PyTorch module implementing the attention mechanism using Triton. Importance: **[High]**
@@ -14,7 +14,7 @@ This file is a Python script that implements a fused attention mechanism for Tra
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Triton Library Usage**: The code uses the Triton library, which is a high-performance CUDA compiler and runtime for tensor computations. This is indicated by the import statement `import triton` and the use of `triton.jit` decorator for the `_fwd_kernel` function, which indicates that the function will be compiled for GPU execution.
 2. **Kernel Definition**: The `_fwd_kernel` function is a GPU kernel written using Triton's language extensions (`triton.language as tl`). It performs a fused attention operation, which is a core part of transformer models in deep learning. The function takes multiple input tensors and computes the output using block-based matrix operations, exploiting parallelism for performance.

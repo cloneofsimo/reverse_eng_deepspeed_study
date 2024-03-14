@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `_triton_ops_matmul_early_config_prune`: Prunes configurations for matmul operation based on shared memory requirements. Importance: **[Medium]**
 * `fp16_matmul_prune_config`: Prunes configurations for fp16 matmul operation, considering autotuning and shared memory constraints. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Library imports**: The code imports `triton`, `triton.language`, `gelu_functor`, and `torch`, which are essential for the matrix multiplication operations and autotuning.
 2. **Autotuning and configuration pruning**: The code uses `triton.autotune` to optimize the matrix multiplication kernel by defining different configurations and pruning strategies. `_triton_ops_matmul_early_config_prune` and `_fp16_matmul_prune_config` functions are used to filter configurations based on available shared memory. The `AUTOTUNE_TOP_K` and `SKIP_AUTOTUNE` constants control the autotuning process.

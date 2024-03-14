@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `quantizer`: The main class in this header file, which is likely responsible for quantization operations in a deep learning context. Importance: **[High]**
 * `__HIP_PLATFORM_AMD__`: A preprocessor macro used to conditionally include the appropriate header for cooperative groups, depending on whether the platform is AMD HIP or CUDA. Importance: **[Medium]**
@@ -16,7 +16,7 @@ This file `ops/csrc/includes/quantizer.h` is a header file for a quantizer class
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header File**: This is a header file (`quantizer.h`) which likely contains function declarations, class definitions, or other declarations related to quantization, a process in deep learning for reducing precision of numerical values.
 2. **Copyright and License**: The code is copyrighted by Microsoft Corporation and is licensed under the Apache License 2.0, which is a permissive open-source license.

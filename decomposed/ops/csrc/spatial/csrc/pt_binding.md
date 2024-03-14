@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `ChannelsLastProblem`: A struct that holds dimensions for tensors with a "channels last" layout. Importance: **[Low]**
 * `dimension_problem`: A function that determines the dimensions of a tensor, assuming it's in either a 4D "channels last" format or a standard 3D format. Importance: **[Medium]**
@@ -14,7 +14,7 @@ This file, `pt_binding.cpp`, is part of a CUDA extension for a Python library, l
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header Inclusions**: The code includes necessary headers for CUDA, PyTorch, and standard libraries, such as `<c10/cuda/CUDAStream.h>`, `<torch/extension.h>`, `<cstdio>`, `<vector>`, and `"spatial_cuda_layers.h"`. These headers enable CUDA operations, PyTorch tensor manipulation, and other essential functionalities.
 2. **Struct Definition**: The `ChannelsLastProblem` struct is defined to store dimensions of the input tensor, which is used to handle tensors with a "channels last" memory format.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `CudaEventTimer`: A class that measures elapsed time using CUDA events. Importance: **[High]**
 * `SynchronizedWallClockTimer`: A class for managing and synchronizing multiple timers, with the option to use either host timers or CUDA events. Importance: **[High]**
@@ -14,7 +14,7 @@ This file contains utilities for timing and measuring performance in a deep lear
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Timer Classes**: The code defines several timer classes for measuring performance in a distributed deep learning context:
 2. `CudaEventTimer`: This class uses CUDA events to measure elapsed time for GPU operations, providing high precision.

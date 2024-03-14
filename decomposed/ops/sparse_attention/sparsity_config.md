@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `SparsityConfig`: Abstract class for storing sparsity configurations of a self-attention layer. Importance: **[High]**
 * `DenseSparsityConfig`: Configuration class for dense (non-sparse) attention. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **SparsityConfig Class**: This is an abstract class that serves as a base for different sparsity configurations. It defines the structure for storing and managing sparsity patterns in self-attention layers.
 2. **Inheritance**: The code defines several classes that inherit from `SparsityConfig`, each representing a specific sparsity pattern:

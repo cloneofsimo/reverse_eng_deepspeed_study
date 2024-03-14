@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `TORCH_DISTRIBUTED_DEFAULT_PORT`: Default port for PyTorch distributed communication. Importance : **[Low]**
 * `default_pg_timeout`: Default process group timeout, set using environment variable `DEEPSPEED_TIMEOUT` or a default of 30 minutes. Importance : **[Low]**
@@ -17,7 +17,7 @@ This Python file, `constants.py`, contains a collection of constants and utility
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File purpose**: The file is named `constants.py`, suggesting that it contains a collection of constant variables for the DeepSpeed library.
 2. **Copyright and license**: The code includes a copyright notice and a SPDX-License-Identifier, indicating that it is part of the Microsoft Corporation's DeepSpeed project and is licensed under the Apache-2.0 license.

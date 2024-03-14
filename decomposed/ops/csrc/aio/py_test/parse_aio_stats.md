@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `parse_arguments`: Parses command-line arguments for the script. Importance: **[High]**
 * `extract_value`: Extracts a numeric value from a string, which represents a key in the log file. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Module Description**: The code is part of a Python module named `parse_aio_stats.py` that deals with parsing statistics related to swapping optimizer tensors between storage devices. It is part of the DeepSpeed project and is licensed under Apache-2.0.
 2. **Imported Libraries**: The script uses `os`, `argparse`, and some custom constants for handling file operations, parsing command-line arguments, and extracting performance metrics.

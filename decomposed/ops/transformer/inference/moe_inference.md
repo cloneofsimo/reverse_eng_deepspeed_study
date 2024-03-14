@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `DeepSpeedMoEInferenceConfig`: This class initializes the configuration for DeepSpeed's MoE (Mixture of Experts) inference, including various parameters for the transformer layer, MoE settings, and computation precision options. Importance: **[High]**
 * `DeepSpeedMLPFunction`: A PyTorch Function for the MLP (Multi-Layer Perceptron) part of the MoE layer, handling forward and backward passes. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module and Class Definitions**: The code defines several classes, including `DeepSpeedMoEInferenceConfig`, `DeepSpeedMLPFunction`, `DeepSpeedMoEMLP`, and `DeepSpeedMoEInference`. These classes are related to the implementation of a MoE (Mixture of Experts) Transformer layer for inference in a deep learning context.
 2. **Configuration Class**: `DeepSpeedMoEInferenceConfig` is a configuration class with numerous parameters that control the behavior of the MoE Transformer layer, such as hidden size, intermediate size, number of heads, layer norm epsilon, and various options for precision, normalization, and MoE-specific settings.

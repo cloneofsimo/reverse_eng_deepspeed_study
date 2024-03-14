@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `read_zero_config_deprecated`: This function reads a deprecated format of ZeRO optimization configuration and converts it to the current format. Importance: **[Low]**
 * `get_zero_config`: This function retrieves the ZeRO optimization configuration from a given parameter dictionary, handling both the new and deprecated formats. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **ZeRO Optimization Configuration**: The code is primarily concerned with configuring the ZeRO (Zero Redundancy Optimizer) optimization for deep learning models. It defines the structure and parameters for different stages of ZeRO, which helps in distributing model parameters, optimizer states, and gradients across multiple GPUs to reduce memory usage.
 2. **Data Types and Enums**: The `ZeroStageEnum` Enum class is defined to represent the different stages of ZeRO optimization (disabled, optimizer states, gradients, and weights). This is used to set the optimization stage in the configuration.

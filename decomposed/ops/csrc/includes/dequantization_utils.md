@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `to_global`: A template function that dequantizes quantized data from global memory and stores it back to global memory. It takes in the number of bits, quantization type, unrolling factor, and number of threads as template arguments. Importance: **[High]**
 * `chunk`: A template function that dequantizes a chunk of 16 bytes of __half type input data. It takes in the number of bits, quantization type, and a pointer to quantized data as arguments. There are two versions of this function, one for `__half2` and another for a generic type `T`. Importance: **[Medium]**
@@ -14,7 +14,7 @@ This file `dequantization_utils.h` is part of a C++ library for deep learning, s
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header Inclusions**: The code includes several header files, such as `conversion_utils.h`, `ds_kernel_utils.h`, `quantization.h`, and `quantization_utils.h`, which likely provide necessary utility functions and classes for the dequantization process.
 2. **Namespaces**: The code uses the `dequantize` namespace, indicating that the functions defined here are related to dequantization operations. It also references the `cooperative_groups` namespace (aliased as `cg`) for working with CUDA thread blocks and tiles.

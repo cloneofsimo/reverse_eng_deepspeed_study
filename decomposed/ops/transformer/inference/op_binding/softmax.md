@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `SoftmaxOp`: A class that extends `BaseOp` for implementing softmax operation in DeepSpeed's inference module. Importance: **[High]**
 * `__init__`: Constructor for the `SoftmaxOp` class, initializes the object with a configuration and sets the appropriate softmax function based on the data type. Importance: **[Medium]**
@@ -14,7 +14,7 @@ This file is part of the DeepSpeed library, specifically focusing on the inferen
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module and Class Definition**: The code defines a `SoftmaxOp` class, which is a subclass of `BaseOp`. This class is responsible for implementing softmax operations for a specific use case, likely in the context of deep learning inference, specifically with the DeepSpeed library.
 2. **Configuration Handling**: The class takes a `DeepSpeedInferenceConfig` object in its constructor, which is used to configure the operation, such as the number of attention heads per partition and the data type.

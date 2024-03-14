@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `build_ccl_op`: Builds the CCL (Collective Communication Library) operation by loading the CCLCppModule. Importance: **[High]**
 * `CCLHandler`: A class that handles the completion of CCL operations, providing a `wait` method. Importance: **[Medium]**
@@ -14,7 +14,7 @@ This file, `ccl.py`, is part of the DeepSpeed library and provides an implementa
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Imports and Dependencies**: The code imports necessary modules like `torch` and `deepseed.accelerator`, and it also imports custom modules like `ReduceOp` and `TorchBackend`. This indicates that the code is part of a larger project that utilizes the DeepSpeed library for distributed deep learning.
 2. **CCLOp Builder and CCLBackend Class**: The `build_ccl_op` function is responsible for creating a CCL communication operation, while the `CCLBackend` class extends the `TorchBackend` class. This class provides methods for various collective communication operations (e.g., all-reduce, broadcast, all-gather), using the CCL (Collective Communication Library) backend.

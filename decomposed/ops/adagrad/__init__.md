@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `DeepSpeedCPUAdagrad`: This class is an implementation of the Adagrad optimization algorithm specifically designed for CPU usage within the DeepSpeed library. It is an optimizer that adapts the learning rate for each parameter based on the historical gradient magnitudes. Importance : **[High]**
 * `__init__.py`: This is the initialization file for the `ops/adagrad` module in a Python package. It imports and exposes the `DeepSpeedCPUAdagrad` class for use in other parts of the DeepSpeed library or by users. Importance : **[Medium]**
@@ -15,7 +15,7 @@ This codebase, specifically the `__init__.py` file, is part of the DeepSpeed lib
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File Location and Purpose**: The code is part of a Python module `ops/adagrad/__init__.py`. This typically indicates that it is the initialization file for the `adagrad` subpackage within the `ops` package. The `__init__.py` file is used to make the `adagrad` directory a Python package.
 2. **Copyright and License Information**: The code includes a copyright notice and specifies the SPDX-License-Identifier as Apache-2.0. This is important for understanding the legal terms under which the code can be used, modified, and distributed.

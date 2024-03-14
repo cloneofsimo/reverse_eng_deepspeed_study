@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `pre_handle`: Prepares for I/O operations (read or write) by creating an AsyncIOBuilder handle, allocating a tensor, and setting up context. Importance: **[High]**
 * `pre_handle_read`: A specialized version of `pre_handle` for reading operations. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File operations with NVMe storage**: The code is designed to handle I/O operations (reading and writing) with NVMe storage devices. It uses the `AsyncIOBuilder` to create an asynchronous I/O handle for efficient data transfer.
 2. **Multi-threaded execution**: The code utilizes the `multiprocessing.Pool` to parallelize tasks across multiple threads. It uses barriers (`Barrier`) to synchronize tasks at specific points in the execution.

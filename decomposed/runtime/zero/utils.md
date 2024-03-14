@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `initialize_parameter_parallel_groups`: Initializes parameter parallel groups for distributed training. Importance: **[High]**
 * `ZeRORuntimeException`: Custom exception class for ZeRO-related errors. Importance: **[Low]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Imports**: The code imports various modules, including `os`, `torch`, `dist`, `logger`, and several optimizer classes from `deepspeed.ops`. It also uses `get_accelerator` from `deepspeed.accelerator`.
 2. **Functions**: The script defines several utility functions, such as:

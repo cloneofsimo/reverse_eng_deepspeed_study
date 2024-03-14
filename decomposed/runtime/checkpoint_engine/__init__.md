@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `__init__.py`: This is the initialization file for the `checkpoint_engine` module in the DeepSpeed library. Importance : **[Low]** (It's a standard Python package structure, not a function or class)
 * `default_inference_config`: This function likely provides a default configuration dictionary for DeepSpeed's inference mode. Importance : **[High]** (As it sets up the base for model inference)
@@ -15,7 +15,7 @@ This codebase is part of the DeepSpeed library, specifically focusing on the che
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File Structure**: The code is part of a Python package, specifically the `__init__.py` file within the `runtime/checkpoint_engine` directory. This file is typically used to initialize a package and potentially define any top-level exports.
 2. **Copyright and License Information**: The code includes copyright statements and a license identifier (`SPDX-License-Identifier: Apache-2.0`). This indicates that the code is governed by the Apache License 2.0, which is a permissive open-source license.

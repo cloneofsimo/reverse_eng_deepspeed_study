@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `Adagrad_Optimizer`: A class implementing the Adagrad optimization algorithm. Importance: **[High]**
 * `STEP(SPAN)`: Macro that defines a function for a specific tile size (1, 4, or 8) for the Adagrad optimization. Importance: **[Medium]**
@@ -17,7 +17,7 @@ This file `cpu_adagrad.h` is a header file for an optimized Adagrad optimizer im
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header File and Copyright**: The code is a header file `cpu_adagrad.h` for a C++ implementation of the Adagrad optimization algorithm, with a copyright notice and license (Apache-2.0) attributed to Microsoft.
 2. **Conditional Compilation**: The code uses preprocessor directives (`#if`, `#elif`, `#else`, `#endif`) to conditionally include headers and define types based on the presence of CUDA or CANN (Huawei Ascend NPUs) libraries. This allows the code to work on different hardware platforms.

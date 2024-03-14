@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `find_fit_int_dtype`: Given a minimum and maximum value, this function returns the most appropriate numpy integer data type that can accommodate the range. Importance: **[Medium]**
 * `split_index`: Splits an index range (start_idx to end_idx) into `num_partitions` equal or nearly equal parts. Importance: **[Medium]**
@@ -14,7 +14,7 @@ This file is part of a data pipeline for DeepSpeed, a deep learning acceleration
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Imports**: The code imports necessary libraries, including `math`, `numpy`, `logger` from `deepspeed.utils`, and `MMapIndexedDatasetBuilder` from a relative import `indexed_dataset`. These imports indicate the dependencies for the functions defined in the module.
 2. **Utility Functions**: The module provides several utility functions for data processing and management:

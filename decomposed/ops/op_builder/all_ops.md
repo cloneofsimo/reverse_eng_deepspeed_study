@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `get_accelerator`: Retrieves the accelerator object, which is responsible for managing hardware acceleration. Importance: **[High]**
 * `importlib.import_module`: A built-in Python function to import a module dynamically. Importance: **[Low]** (It's a standard library function, not specific to this codebase)
@@ -16,7 +16,7 @@ This file, `ops/op_builder/all_ops.py`, is part of the DeepSpeed library. It ser
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Importing and Dependency Management**: The code starts by importing necessary modules like `os`, `pkgutil`, `importlib`, and `get_accelerator` from either `accelerator` (if available) or `deepspeed.accelerator`. This sets up the environment for the script to function.
 2. **Listing Available Ops**: The script aims to list all available "op builders" (operation builders). It uses `pkgutil.iter_modules` to iterate through the sub-modules in the `op_builder_dir` directory, excluding `all_ops` and `builder` modules to avoid self-references.

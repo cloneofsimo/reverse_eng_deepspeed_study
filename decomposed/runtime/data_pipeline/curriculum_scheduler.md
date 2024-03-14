@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `__init__`: Initializes the `CurriculumScheduler` object, setting up the initial state with required configurations. Importance: **[High]**
 * `get_current_difficulty`: Retrieves the current difficulty level. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Class Definition**: The code defines a class `CurriculumScheduler` which is responsible for managing the curriculum learning process. It inherits from `object` and is part of a data pipeline.
 2. **Config Validation**: The `__init__` method thoroughly validates the input configuration, ensuring that required keys like `CURRICULUM_LEARNING_MIN_DIFFICULTY`, `CURRICULUM_LEARNING_MAX_DIFFICULTY`, and `CURRICULUM_LEARNING_SCHEDULE_TYPE` are present. It also checks and initializes the schedule configuration based on the chosen schedule type.

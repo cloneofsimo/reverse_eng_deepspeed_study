@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `get_local_rank_from_launcher`: Retrieves the local rank of the process, using environment variables set by DeepSpeed or OpenMPI. Importance: **[High]**
 * `get_world_rank_from_launcher`: Retrieves the world rank of the process, using environment variables set by DeepSpeed or OpenMPI. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module and Licensing Information**: The code starts with a comment block indicating the file name, copyright, and license information, which is the Apache License 2.0. It also mentions the DeepSpeed Team as the author.
 2. **Functionality**: The code contains several utility functions for working with distributed deep learning processes, specifically related to DeepSpeed. These functions include:

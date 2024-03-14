@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `DeepSpeedCPUAdam`: This is a class that implements the Adam optimizer for CPU devices specifically, as part of the DeepSpeed library. Importance: **[High]**
 * `FusedAdam`: This class represents a fused version of the Adam optimizer, which is designed for improved performance on GPU devices within the DeepSpeed framework. Importance: **[High]**
@@ -14,7 +14,7 @@ Overall, this codebase is a part of the DeepSpeed library and specifically deals
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File Structure**: The code is part of a Python package named `ops/adam`, as indicated by the file path `ops/adam/__init__.py`. This file is the package's initialization file, which is typically used to import and expose functionality from other modules within the package.
 2. **Copyright and License**: The code includes a copyright notice and a reference to the SPDX-License-Identifier, which is Apache-2.0. This indicates the terms under which the code is licensed and can be used, modified, and distributed.

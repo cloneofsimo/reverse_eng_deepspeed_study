@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `RandomLayerTokenDrop`: This is the main class that implements a layer wrapper for Random Layer Token Dropout (LTD) as described in the paper "random-ltd: <https://arxiv.org/abs/2211.11586>". It is designed to work with deep learning models like GPT and BERT. Importance: **[High]**
 * `init_config`: Initializes the RandomLayerTokenDrop with configuration, scheduler, and layer ID. Importance: **[Medium]**
@@ -14,7 +14,7 @@ This file is part of the DeepSpeed library and implements a module for applying 
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Class Definition**: The code defines a class `RandomLayerTokenDrop` which is a subclass of `torch.nn.Module`. This class is designed to wrap a PyTorch layer and implement a specific functionality called "random LTD" (Layer Token Dropout), based on the paper "random-ltd: https://arxiv.org/abs/2211.11586".
 2. **Initialization**: The `__init__` method initializes the class with attributes like the wrapped layer (`layer`), reserved length, scheduler, and other configuration-related variables. It also sets up the `batch_first` flag based on the hidden state order.

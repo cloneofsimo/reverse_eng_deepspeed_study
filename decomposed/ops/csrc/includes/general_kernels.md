@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `launch_fused_add2`: A template function that performs a fused addition operation on two input tensors, storing the result in an output tensor. It takes four pointers (for input and output) and dimensions (batch size, sequence length, hidden size) along with a CUDA stream for asynchronous execution. Importance: **[High]**
 * `launch_fused_add4`: Similar to `launch_fused_add2`, but for a fused addition of four input tensors. It has the same parameters with an additional input tensor. Importance: **[High]**
@@ -14,7 +14,7 @@ This file, `general_kernels.h`, is a header file for CUDA C++ that contains temp
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Header Inclusions**: This code is a header file `general_kernels.h` for a C++/CUDA project, dealing with GPU-accelerated operations. It includes necessary headers for CUDA, HIP (for AMD GPU compatibility), and custom headers like `context.h` and `cublas_wrappers.h`.
 2. **Macros**: There are several macros defined, such as `THREADS` and `TILE_DIM`, which are commonly used for defining thread block and tile dimensions in CUDA kernels. `minus_infinity` is a floating-point negative infinity, and `FINAL_MASK` is a 32-bit unsigned integer mask.

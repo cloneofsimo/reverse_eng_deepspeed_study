@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `DeepSpeedCPUAdam`: A custom implementation of the Adam optimizer for CPU, providing a faster version of the algorithm with support for Adam and AdamW. Importance: **[High]**
 * `__init__`: Constructor for the `DeepSpeedCPUAdam` class, initializes the optimizer with specified parameters and sets up the CPU-optimized Adam builder. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Inheritance and Optimization**: The code defines a custom optimizer, `DeepSpeedCPUAdam`, which inherits from `torch.optim.Optimizer`. It is designed to provide a fast vectorized implementation of the Adam and AdamW optimization algorithms on the CPU, offering significant speedup over the standard `torch.optim.Adam`.
 2. **Integration with DeepSpeed**: The class is part of the DeepSpeed library and is designed to work with the ZeRO-Offload technology, which efficiently offloads optimizer states to the CPU for training on heterogeneous systems (e.g., CPU and GPU).

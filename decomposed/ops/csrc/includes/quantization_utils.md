@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `Params`: A template class for holding quantization parameters. It has different implementations for symmetric and asymmetric quantization. Importance: **[High]**
 * `quantize::quantize`: Quantizes a half-precision floating-point value based on the quantization type and number of bits. Importance: **[High]**
@@ -20,7 +20,7 @@ This file is part of a CUDA C++ library for performing quantization operations o
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header Inclusions and Namespace**: The code starts with the necessary header inclusions, such as `<cassert>` and other utility headers defined within the project. It also defines a `DS_D_INLINE` macro and uses the `quantize` namespace.
 2. **Quantization Parameters Class**: The `Params` class template is defined to handle quantization operations for different bit widths and types (Symmetric and Asymmetric). It contains methods for quantization, dequantization, and storing/retrieving parameters from memory.

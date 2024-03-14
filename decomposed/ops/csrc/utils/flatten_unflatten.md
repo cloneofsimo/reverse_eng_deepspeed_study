@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `flatten`: This function takes a vector of PyTorch tensors and flattens them into a single tensor. Importance: **[High]**
 * `unflatten`: This function takes a flattened tensor and a vector of original tensors, and returns the original tensors, unflattened. Importance: **[High]**
@@ -14,7 +14,7 @@ This codebase is a C++ extension for PyTorch that provides functions for flatten
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and purpose**: The code is part of a C++ file named `flatten_unflatten.cpp`, which is related to operations on tensors, specifically flattening and unflattening them. It is likely a part of a Python extension for a deep learning project, given the use of PyTorch's C++ API.
 2. **Copyright and licensing**: The code has dual copyright, mentioning Microsoft Corporation and the DeepSpeed Team, and is licensed under the Apache-2.0 license. It also acknowledges that a portion of the code is adapted from NVIDIA/apex.

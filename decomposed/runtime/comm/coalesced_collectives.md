@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `all_to_all_quant_reduce`: A quantized all-to-all collective operation that reduces and scatters tensors in a batched manner. It uses quantization for overhead amortization and better bandwidth utilization. Importance: **[High]**
 * `reduce_scatter_coalesced`: A collective operation that simultaneously reduces and scatters a list of tensors more efficiently than individual reduce scatter calls. It handles padding and interleave operations to optimize the process. Importance: **[High]**
@@ -15,7 +15,7 @@ This file is part of the DeepSpeed library and provides optimized collective ope
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module and Function Definitions**: The code defines several functions, including `_torch_reduce_scatter_fn`, `all_to_all_quant_reduce`, and `reduce_scatter_coalesced`. These functions are responsible for performing collective communication operations, such as reduce-scatter, with optimizations for quantization and coalescing.
 2. **DeepSpeed Integration**: The code uses the DeepSpeed library, which is a popular framework for efficient distributed training in PyTorch. It imports various components from DeepSpeed, like `comm`, `ProcessGroup`, and `op_builder`, to leverage its communication and acceleration capabilities.

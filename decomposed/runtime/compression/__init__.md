@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `__init__.py`: This is the initialization file for the `compression` module in the `runtime` package. It is responsible for setting up the package structure and potentially importing necessary components for the module. Importance : **[Low]** (It's a standard Python package structure file)
 * `DeepSpeedCompressionModule`: This class is likely the main entry point for compression-related functionalities in the DeepSpeed library. It might provide methods for applying compression techniques during training or inference. Importance : **[High]**
@@ -14,7 +14,7 @@ This codebase is part of the DeepSpeed library, focusing on providing compressio
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File Location and Name**: The code is part of a Python file named `runtime/compression/__init__.py`. This indicates that it is the initialization file for the `compression` module within the `runtime` package. The double underscore `__init__.py` is used to denote a package in Python.
 2. **Copyright and License Information**: The code has copyright information (`Copyright (c) Microsoft Corporation.`) and a license identifier (`SPDX-License-Identifier: Apache-2.0`). This is important as it specifies the legal rights and restrictions for using the code, which in this case is licensed under the Apache License 2.0.

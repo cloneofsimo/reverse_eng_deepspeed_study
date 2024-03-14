@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `NCCL_BACKEND, CCL_BACKEND, MPI_BACKEND, GLOO_BACKEND, SCCL_BACKEND, HCCL_BACKEND`: Enum-like constants representing different communication backends for distributed training. Importance: **[High]**
 * `DEFAULT_AML_MASTER_PORT, DEFAULT_AML_NCCL_SOCKET_IFNAME`: Default configuration values for Azure Machine Learning and NCCL communication. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Communication Backends**: The code defines several constants for communication backends used in distributed computing, such as `NCCL_BACKEND`, `CCL_BACKEND`, `MPI_BACKEND`, `GLOO_BACKEND`, `SCCL_BACKEND`, and `HCCL_BACKEND`. These constants likely represent different libraries or methods for inter-process communication in a distributed deep learning setup.
 2. **AML Constants**: The code includes constants related to Azure Machine Learning (AML), like `DEFAULT_AML_MASTER_PORT` and `DEFAULT_AML_NCCL_SOCKET_IFNAME`, which are configuration settings for AML-specific network communication.

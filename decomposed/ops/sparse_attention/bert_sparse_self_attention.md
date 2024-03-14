@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `BertSparseSelfAttention`: This class implements a sparse self-attention layer for the Bert model, using the `SparseSelfAttention` class from `deepspeed.ops.sparse_attention`. Importance: **[High]**
 * `SparseSelfAttention`: A class imported from `deepspeed.ops.sparse_attention`, which is responsible for applying sparse attention operations. Importance: **[Medium]** (as it's used within the main class)
@@ -15,7 +15,7 @@ This file is a Python module that defines a custom `BertSparseSelfAttention` lay
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module and Library Import**: The code imports necessary modules from `torch` and `deepspeed.ops.sparse_attention`, specifically `nn.Module` for defining the neural network layer and `SparseSelfAttention` and `FixedSparsityConfig` for sparse attention operations.
 2. **Custom Class**: The `BertSparseSelfAttention` class is defined, which extends `nn.Module`. This class implements a sparse self-attention layer for the BERT model, using the `SparseSelfAttention` operator from the DeepSpeed library.

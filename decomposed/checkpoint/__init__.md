@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `reshape_meg_2d_parallel`: A function for parallel reshaping of MEG (Mixed-precision Elastic Gradient) in 2D. Importance: **[Medium]**
 * `DeepSpeedCheckpoint`: A class for handling DeepSpeed model checkpoints. Importance: **[High]**
@@ -17,7 +17,7 @@ This file, `checkpoint/__init__.py`, is the entry point for the DeepSpeed checkp
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Imports**: The code imports various functions and classes from other modules within the same package. Notably, it imports `reshape_meg_2d_parallel` from `.reshape_meg_2d`, `DeepSpeedCheckpoint` from `.deepspeed_checkpoint`, utility functions from `.utils`, reshape utilities from `.reshape_utils`, 3D reshape utilities from `.reshape_3d_utils`, `ZeROCheckpoint` from `.zero_checkpoint`, `enable_universal_checkpoint` from `.universal_checkpoint`, and constants from `.constants`.
 2. **Copyright and Licensing**: The file starts with a copyright notice and a SPDX-License-Identifier, indicating that the code is licensed under the Apache License 2.0. This is important for understanding the legal usage and distribution rights of the code.

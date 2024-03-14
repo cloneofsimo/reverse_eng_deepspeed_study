@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `vector_matmul_func`: A function that performs a matrix multiplication for vectors, using the `matmul_ext` module, specifically designed for inference in a DeepSpeed Transformer model. Importance: **[High]**
 * `fused_gemm_gelu`: A function that fuses a matrix multiplication with a GELU activation, potentially including layer normalization and bias addition. It's optimized for inference in a Transformer model. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Library imports**: The code imports necessary modules, including `deepspeed`, `InferenceBuilder`, and custom modules for matrix multiplication and layer normalization, indicating that this code is part of an inference pipeline for a deep learning model, possibly using the DeepSpeed library.
 2. **Functions**: The code defines several functions, such as `vector_matmul_func`, `fused_gemm_gelu`, `linear_func`, `mlp_gemm_func`, and `qkv_gemm_func`, which are likely building blocks for transformer-based models. These functions perform matrix multiplications, layer normalization, and residual connections, which are essential operations in transformer architectures.

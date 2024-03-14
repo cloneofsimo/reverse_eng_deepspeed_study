@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `load_transformer_module`: Loads the transformer CUDA module on demand. Importance: **[Medium]**
 * `load_spatial_module`: Loads the spatial CUDA module on demand. Importance: **[Medium]**
@@ -15,7 +15,7 @@ This file is part of the DeepSpeed library and implements a custom transformer b
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module Imports**: The code imports necessary modules from the `torch`, `torch.nn`, `deepspeed`, and other custom modules like `diffusers_attention`, `bias_add`, and `diffusers_2d_transformer`. These imports are crucial for the functionality of the Transformer block.
 2. **Dynamic Module Loading**: The code uses `load_transformer_module` and `load_spatial_module` functions to load CUDA modules on demand. This is an optimization technique to load modules only when needed, improving efficiency.

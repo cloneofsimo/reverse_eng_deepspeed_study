@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `ActivationFuncType`: Defines an enumeration (IntEnum) for different activation functions used in deep learning models. Importance : **[High]**
 * `GATED_ACTIVATION_TYPES`: A list containing the enumeration values for gated activation functions. Importance : **[Medium]**
@@ -15,7 +15,7 @@ This file, `utils/types.py`, is part of a deep learning library, likely DeepSpee
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Module**: The code is part of a Python module named `utils/types.py`, which suggests it contains utility types and definitions for a larger project, possibly related to DeepSpeed, as indicated by the copyright and team information.
 2. **Import**: The `enum` module is imported, specifically the `IntEnum` class, which is used to create enumerated types with integer values.

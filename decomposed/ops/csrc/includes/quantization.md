@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `requires_offset`: A utility function that checks if a quantization type requires an offset. Importance: **[Low]**
 * `PackedInt4`: A struct for packing 4 bits into an 8-bit integer, used for efficient storage. Importance: **[Low]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header File**: This is a C++ header file (`quantization.h`) that likely defines functions and structures related to quantization, a process used in deep learning for reducing precision and memory usage.
 2. **Namespaces**: The code uses a namespace `quantize`, which encapsulates quantization-related types and functions.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `CUDA_CHECK`: Macro for checking CUDA runtime API calls for errors. Importance: **[High]** (Ensures error-free CUDA operations)
 * `CUDA_1D_KERNEL_LOOP`: Macro for defining a 1D CUDA kernel loop. Importance: **[High]** (Efficient parallel execution on the GPU)
@@ -27,7 +27,7 @@ This file, `context.h`, defines a header for a `TrainingContext` class that mana
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header Inclusions**: The code includes various header files for CUDA, C++ standard libraries, and custom headers, which are essential for working with GPU computations and NVIDIA's CUDA framework.
 2. **Macros**: The code defines several macros, such as `CUDA_CHECK` for error handling, `CUDA_1D_KERNEL_LOOP` and `CUDA_2D_KERNEL_LOOP` for CUDA kernel loops, and `DS_CUDA_NUM_THREADS` and `DS_MAXIMUM_NUM_BLOCKS` for defining the number of threads and blocks in a grid.

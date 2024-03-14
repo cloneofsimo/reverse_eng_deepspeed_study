@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `add_tuning_arguments`: Adds command-line arguments for convergence tuning, including learning rate schedules. Importance: **[High]**
 * `parse_arguments`: Parses the command-line arguments for the LR schedules and related configurations. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Learning Rate Schedules**: The code defines various learning rate schedules, such as `LR_RANGE_TEST`, `ONE_CYCLE`, `WARMUP_LR`, `WARMUP_DECAY_LR`, and `WARMUP_COSINE_LR`. These schedules are used to control the learning rate during training, which is a crucial parameter in deep learning optimization.
 2. **Argument Parser**: The `add_tuning_arguments` function adds command-line arguments for configuring the learning rate schedules, such as `lr_schedule`, `lr_range_test_min_lr`, `cycle_first_step_size`, and more. This allows users to customize the training process.

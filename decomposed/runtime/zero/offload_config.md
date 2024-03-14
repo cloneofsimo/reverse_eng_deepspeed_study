@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `OffloadDeviceEnum`: Enum class for valid offload devices (CPU, NVMe, or none). Importance: **[High]**
 * `DeepSpeedZeroOffloadParamConfig`: A configuration model for DeepSpeed's parameter offloading. It includes options like device, NVMe path, buffer count, buffer size, max_in_cpu, and pin_memory. Importance: **[High]**
@@ -14,7 +14,7 @@ This file is part of the DeepSpeed library and provides configuration models for
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Enums**: The code defines two enums, `OffloadDeviceEnum`, which represents valid offload devices (none, cpu, and nvme). Enums are used to provide a structured and type-safe way to handle options in the code.
 2. **DeepSpeedConfigModel**: The code defines two configuration classes, `DeepSpeedZeroOffloadParamConfig` and `DeepSpeedZeroOffloadOptimizerConfig`, which inherit from `DeepSpeedConfigModel`. These classes represent the configuration options for parameter and optimizer offloading in the DeepSpeed library, a deep learning optimization framework.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `DeepSpeedZeroOptimizer_Stage3`: The main class for DeepSpeed's ZeRO-3 optimizer stage. It manages the memory optimization, gradient partitioning, and communication for distributed training. Importance: **[Very High]**
 * `initialize_ds_offload`: Initializes the offloading configuration for DeepSpeed optimizer and parameters. Importance: **[High]**
@@ -33,7 +33,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Zero-Stage 3 (ZeRO-3) Optimizer**: The code defines a custom optimizer class `DeepSpeedZeroOptimizer_Stage3` that is designed to reduce the memory footprint required for training large deep learning models. It is part of the DeepSpeed library and implements ZeRO-3, which stands for ZeRO Offload Stage 3. ZeRO-3 is an extension of ZeRO (Zero Redundancy Optimizer) that focuses on memory optimization for distributed training.
 2. **Memory Management**: The optimizer manages memory by partitioning model parameters, gradients, and optimizer states across multiple GPUs, and optionally offloading them to CPU or NVMe storage when not in use. It uses techniques like gradient accumulation, all-reduce, and tensor swapping to efficiently handle memory constraints.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `can_send_recv`: Checks if the current PyTorch version supports `torch.send` and `torch.recv`. Importance: **[Medium]**
 * `init_process_groups`: Initializes adjacent process groups for pipeline parallelism. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module and Library Imports**: The code starts by importing necessary modules and libraries, such as `pickle`, `typing`, `torch`, `deepspeed`, and `packaging.version`. These are used for data serialization, type hints, and distributed communication.
 2. **Global Variables**: The script uses several global variables like `_groups`, `_grid`, and `_async` to manage process groups, grid information, and asynchronous operations.

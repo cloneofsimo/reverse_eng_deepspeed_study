@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `Backend`: This is the base class for communication backends. It provides a basic structure for initializing process groups and managing their state. Importance: **[High]**
 * `__init__`: Initializes a `Backend` instance with a name, rank, and size. Importance: **[Medium]**
@@ -14,7 +14,7 @@ This file, `comm/backend.py`, is part of the DeepSpeed library. It defines a com
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Module**: This is a Python file named `backend.py`, which is part of the DeepSpeed library, focusing on communication backends.
 2. **Copyright and License**: The code is copyrighted by Microsoft Corporation and is licensed under the Apache License 2.0.

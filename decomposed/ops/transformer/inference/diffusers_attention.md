@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `DeepSpeedDiffusersAttentionFunction`: A custom autograd Function for forward and backward passes in DeepSpeed's diffusers attention module. Importance: **[High]**
 * `DeepSpeedDiffusersAttention`: A PyTorch module that implements the DeepSpeed Transformer Layer with diffusers attention. It initializes parameters and performs forward computation. Importance: **[High]**
@@ -15,7 +15,7 @@ This file is part of the DeepSpeed library and implements an optimized attention
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Library and Module Import**: The code imports several libraries, including `torch`, `nn`, and `Function` from PyTorch, as well as `version` from `packaging` for version checking, and `log_dist` from `deepspeed.utils.logging`. It also imports `get_accelerator` and `InferenceBuilder` from `deepspeed.accelerator`. Additionally, it dynamically imports `triton` and its `triton_flash_attn` module if needed.
 2. **Custom Attention Function**: The code defines a custom PyTorch `Function` called `DeepSpeedDiffusersAttentionFunction`. This function implements the forward pass for a self-attention mechanism, using functions like `_transpose_for_context`, `_transpose_for_scores`, and `selfAttention_fp`. It also raises a `RuntimeError` in the backward pass, indicating that this is designed for inference mode only.

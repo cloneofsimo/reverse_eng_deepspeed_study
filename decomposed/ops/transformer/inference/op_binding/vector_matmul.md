@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `VectorMatMulOp`: A class that extends `BaseOp` and implements vector matrix multiplication for DeepSpeed inference. Importance: **[High]**
 * `__init__`: Constructor for the `VectorMatMulOp` class, initializes the vector matrix multiplication function based on the specified data type. Importance: **[High]**
@@ -14,7 +14,7 @@ This file, `vector_matmul.py`, is part of the DeepSpeed library and provides an 
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Inheritance and Class Definition**: The code defines a class `VectorMatMulOp` which inherits from `BaseOp`. This class is responsible for performing vector matrix multiplication during deep learning inference.
 2. **Configuration Handling**: The class takes a `DeepSpeedInferenceConfig` object in its constructor, which is used to determine the data type and other configuration settings for the operation.

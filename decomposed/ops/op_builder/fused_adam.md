@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `FusedAdamBuilder`: A class that extends `CUDAOpBuilder` for building the fused Adam optimizer. Importance: **[High]**
 * `CUDAOpBuilder`: A base class for building CUDA operations, providing common functionality. Importance: **[Medium]**
@@ -19,7 +19,7 @@ This file is part of the DeepSpeed library, specifically focusing on the impleme
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Inheritance**: The `FusedAdamBuilder` class is a subclass of `CUDAOpBuilder`, which indicates that it is designed to build a specific CUDA operation related to Adam optimization.
 2. **Constants**: The class defines two class-level constants, `BUILD_VAR` and `NAME`, which are used to identify the build variable and the name of the fused Adam operation, respectively.

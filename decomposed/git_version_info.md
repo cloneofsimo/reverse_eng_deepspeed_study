@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `from .git_version_info_installed import *`: This line is commented out and is meant to be used when the package is installed. It imports version information generated during the package build process. Importance: **[None]** (as it's a comment)
 * `try-except`: The block attempts to import version information from a module that is generated during installation. If not found, it falls back to reading a `version.txt` file or assigns default values. Importance: **[High]** (as it's responsible for determining the package version)
@@ -18,7 +18,7 @@ This Python file, `git_version_info.py`, is part of the DeepSpeed library. It is
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module Import and Version Handling**: The code attempts to import `git_version_info_installed` from a relative module, which is likely populated during the installation process (using `setup.py`). If not available, it falls back to reading a `version.txt` file or sets default values for the version, git hash, and git branch.
 2. **Conditional Logic**: The use of `try-except` block to handle the case where the module is not found, indicating that the code is designed to work both in installed and non-installed (e.g., development) environments.

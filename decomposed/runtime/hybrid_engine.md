@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `DeepSpeedHybridEngine`: The main class that extends `DeepSpeedEngine` for hybrid training and inference. It manages the conversion of model layers to inference containers, handles layer fusion, and manages performance statistics. Importance: **[High]**
 * `convert_to_linear_transposed`: Transforms linear layers in the model to a transposed format for inference. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **DeepSpeed Integration**: The code is part of the DeepSpeed library, which is a high-performance training library for deep learning. It is designed for both training and inference, as indicated by the `DeepSpeedHybridEngine` class.
 2. **Hybrid Engine**: The `DeepSpeedHybridEngine` class extends the base `DeepSpeedEngine` and is specifically designed for hybrid training and inference. It includes methods for converting linear layers, creating inference containers, and managing layer policies.

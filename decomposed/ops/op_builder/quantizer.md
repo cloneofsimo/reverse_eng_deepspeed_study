@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `QuantizerBuilder`: A class that extends `CUDAOpBuilder` for building a quantizer operation. Importance: **[High]**
 * `__init__`: The constructor for `QuantizerBuilder`, initializes the class with a default or custom name. Importance: **[Medium]**
@@ -15,7 +15,7 @@ This file, `quantizer.py`, is part of the DeepSpeed library, which is a high-per
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Inheritance**: The `QuantizerBuilder` class is a subclass of `CUDAOpBuilder`, which suggests that it specializes in building a specific type of CUDA operation related to quantization.
 2. **Constants**: The class defines two class-level constants, `BUILD_VAR` and `NAME`, which are used to identify the build variable and the name of the operation, respectively.

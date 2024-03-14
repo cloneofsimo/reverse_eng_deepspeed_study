@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `timed_op`: A decorator for timing the execution of communication operations. Importance: **[High]**
 * `configure`: Configures the communication logger. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **DeepSpeed Communication Package**: The code is part of the DeepSpeed library, specifically the communication package (`deepspeed.comm`). It provides communication functionalities for distributed deep learning, such as all-reduce, broadcast, and other collective operations.
 2. **Backends and Compatibility**: The package supports multiple backends like NCCL, MPI, and CCL, and aims to maintain compatibility with the torch.distributed API. It also allows using custom collectives and has a mechanism to switch between different backends based on the available accelerators.

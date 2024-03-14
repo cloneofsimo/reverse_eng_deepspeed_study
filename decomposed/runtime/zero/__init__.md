@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `ZeroParamType`: Enum class representing the types of parameters in the Zero optimization scheme. Importance: **[Medium]**
 * `ZeroParamStatus`: Enum class indicating the status of a parameter in the Zero optimization. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Module Structure**: This is an `__init__.py` file, which indicates that it is the entry point for the `zero` module within the `runtime` package. This file imports various classes and functions from sub-modules, making them accessible when the `runtime/zero` module is imported.
 2. **Copyright and License Information**: The code includes a copyright notice and a SPDX-License-Identifier, which specifies that the code is licensed under the Apache License 2.0. This is important for understanding the legal usage and distribution rights of the code.

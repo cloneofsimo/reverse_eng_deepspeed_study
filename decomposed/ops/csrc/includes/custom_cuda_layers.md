@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `CUDA_CHECK`: Macro for checking CUDA errors and asserting if one occurs. Importance: **[High]**
 * `launch_bias_gelu`: A template function for fused bias add and gelu activation on a GPU. Importance: **[High]**
@@ -29,7 +29,7 @@ This codebase contains a set of template functions and utility functions for per
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header Inclusions**: The code includes various header files for CUDA and other libraries, such as `cuda.h`, `cuda_fp16.h`, `curand_kernel.h`, and custom headers like `ds_kernel_utils.h`, `context.h`, and `cublas_wrappers.h`. These headers are essential for CUDA programming and provide necessary functionality for GPU computations.
 2. **Macros**: The code defines several macros, such as `CUDA_CHECK` for error handling, and constants like `MAX_THREADS`, `THREADS`, `TILE_DIM`, and others. These macros are used to set limits, optimize computations, and ensure proper error handling during CUDA function calls.

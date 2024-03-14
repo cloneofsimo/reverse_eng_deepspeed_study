@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `PipelineModule`: Represents a module designed for pipeline parallelism in DeepSpeed. This class is crucial for organizing and executing computations across multiple stages in a pipeline. Importance : **[High]**
 * `LayerSpec`: A class used to define the specifications for a layer in the pipeline, including its size and placement. Importance : **[Medium]**
@@ -14,7 +14,7 @@ This codebase is part of the DeepSpeed library and focuses on providing tools an
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Module Structure**: The code is part of a Python package named `runtime/pipe`, and the specific module is `__init__.py`. This file initializes the `pipe` module, which means it likely serves as the entry point for interacting with the package's functionality.
 2. **Copyright and License Information**: The code includes a copyright notice and a reference to the SPDX-License-Identifier, which is Apache-2.0. This indicates the terms under which the code can be used, distributed, and modified.

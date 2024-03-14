@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `get_sd_loader_json`: Takes a JSON file and returns the appropriate SDLoader instance based on the specified checkpoint type. Importance: **[High]**
 * `get_sd_loader`: Creates an SDLoaderBase instance based on the provided checkpoint list and type. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module and Class Structure**: The code defines a class hierarchy, with `SDLoaderFactory` and `SDLoaderBase` as base classes, and `MegatronSDLoader` as a concrete implementation. The classes are designed for loading and managing state dictionaries in a deep learning context, specifically for the DeepSpeed library.
 2. **Imported Libraries**: The code uses essential libraries for deep learning and file handling, such as `torch`, `os`, `copy`, `collections`, `json`, and `abc` for abstract base classes.

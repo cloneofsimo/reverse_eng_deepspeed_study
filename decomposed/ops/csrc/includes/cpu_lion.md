@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `Lion_Optimizer`: A class for the Lion Optimizer, which is a custom optimization algorithm. It initializes with hyperparameters like alpha, betta1, betta2, and weight decay, and manages memory for host buffers. Importance: **[High]**
 * `STEP`: Macro that defines a function for performing optimization steps with different spans (1, 4, 8). These functions are specialized for different SIMD instruction set widths. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header File**: This is a C++ header file (`cpu_lion.h`) that likely defines a CPU implementation of an optimizer, specifically the Lion_Optimizer class.
 2. **Conditional Compilation**: The code uses preprocessor directives (`#if defined(__ENABLE_CUDA__)`, `#elif defined(__ENABLE_CANN__)`, and `else`) to conditionally include CUDA or CANN (Alibaba Cloud Neural Processing Unit) specific code for GPU support, and a fallback for CPU without these libraries.

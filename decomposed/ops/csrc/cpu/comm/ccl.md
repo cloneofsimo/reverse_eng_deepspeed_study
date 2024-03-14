@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `initialize`: Initializes the communication environment, sets up shared memory for local allreduce, and creates a communicator. Importance: **[High]**
 * `get_kvs_addr`: Retrieves the key-value store (KVS) address for the main KVS or an empty address. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header and Library Inclusions**: The code starts with various `#include` statements to import necessary headers for file operations, math, parallel processing, shared memory, and the DeepSpeed library. This sets the foundation for the functions and utilities used in the code.
 2. **Enums and Structs**: The `coll_state` enum defines states for collective operations, and the `SharedData` struct represents shared memory data with attributes like name, descriptor, bytes, and size. These are used for inter-process communication and shared memory management.

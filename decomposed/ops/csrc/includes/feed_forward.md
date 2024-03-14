@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `FeedForward`: A template class for a feed-forward neural network layer. Importance: **[High]**
 * `FeedForward::Config`: A nested struct to hold configuration parameters for the feed-forward layer. Importance: **[Medium]**
@@ -15,7 +15,7 @@ This file `feed_forward.h` defines a C++ template class `FeedForward` for implem
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header Guard**: The code uses preprocessor directives (`#ifndef`, `#define`, `#endif`) to create a header guard, which prevents multiple inclusion of the header file in a project.
 2. **Template Class**: The `FeedForward` class is a template class, allowing it to work with different data types (`T`), such as `float` or `half` (half-precision floating-point).

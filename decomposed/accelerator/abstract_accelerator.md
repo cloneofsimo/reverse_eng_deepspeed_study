@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `DeepSpeedAccelerator`: Abstract base class for DeepSpeed accelerators. Defines a set of abstract methods that must be implemented by any concrete accelerator. Importance: **[High]**
 * `is_synchronized_device()`: Checks if the device is synchronized. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Abstract Base Class (ABC)**: The code defines an abstract base class `DeepSpeedAccelerator` using the `abc` module. This class is meant to be subclassed and provides a set of abstract methods that must be implemented by any concrete subclass. This is the core interface for a deep learning accelerator in the DeepSpeed library.
 2. **Device Management**: The class includes a series of methods related to device management, such as `device_name`, `device`, `set_device`, `current_device`, and `device_count`, which allow interacting with and managing devices (e.g., GPUs).

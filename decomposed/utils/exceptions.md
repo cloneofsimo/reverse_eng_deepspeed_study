@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `DeprecatedException`: This is a custom exception class that is raised when a deprecated feature or functionality is used. Importance : **[Low]**
 * `cli_main`: Not present in the provided code, but it's a common pattern in Python scripts to have a main function for command-line interface (CLI) entry point. It's usually used to wrap the `main` function and handle command-line arguments. Importance : **[N/A]** (mentioned for context)
@@ -16,7 +16,7 @@ The codebase provided is a small Python file named `utils/exceptions.py`. It con
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Module**: The code is part of a Python module named `utils/exceptions.py`, which suggests it contains exception classes specifically related to utility or error-handling functionality within a larger project.
 2. **License Information**: The code includes a copyright notice and a SPDX-License-Identifier, indicating that the code is licensed under the Apache License 2.0. This is important for understanding the terms under which the code can be used, modified, and distributed.

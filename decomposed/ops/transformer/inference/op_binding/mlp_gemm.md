@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `MLPGemmOp`: This is the main class that extends `BaseOp`. It is responsible for implementing the Multi-Layer Perceptron (MLP) operation with GEMM (General Matrix-Matrix Multiplication) for DeepSpeed inference. Importance: **[High]**
 * `__init__`: The constructor of `MLPGemmOp`, where it initializes the class based on the provided configuration. It sets the appropriate MLP GEMM function based on the normalization type and data type. Importance: **[High]**
@@ -14,7 +14,7 @@ This file is part of the DeepSpeed library and provides an implementation for ML
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Inheritance and Class Definition**: The code defines a class `MLPGemmOp` which inherits from `BaseOp`. This indicates that `MLPGemmOp` is a specialized operation for MLP (Multi-Layer Perceptron) that builds upon a base operation class.
 2. **Configuration Handling**: The class takes a `DeepSpeedInferenceConfig` object in its constructor, which is used to configure the behavior of the MLP Gemm operation. It checks the `norm_type` and `dtype` from the configuration to determine the appropriate function to use for MLP computations.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `bias_add_activation`: Adds bias and applies activation functions to a tensor. Importance: **[Low]**
 * `AutotuneCacheManager`: Manages caching for autotuning results. Importance: **[Medium]**
@@ -17,7 +17,7 @@ This Python file is part of the DeepSpeed library and focuses on matrix multipli
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Library Imports**: The code starts by importing various libraries such as `torch`, `triton`, `os`, `filelock`, `pickle`, `deepseed`, `Path`, and `atexit`. These libraries are used for tensor operations, file handling, caching, and managing execution flow.
 2. **Utility Functions**: The script defines utility functions like `_default_cache_dir()`, `bias_add_activation()`, and `AutotuneCacheManager`. These functions are used for managing cache directories, applying activation functions to tensors, and handling cache storage for autotuning data.

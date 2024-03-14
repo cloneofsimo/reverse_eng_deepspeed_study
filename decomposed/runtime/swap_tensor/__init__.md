@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `swap_tensor`: This function is likely the main entry point for swapping tensors between CPU and GPU memory. It's responsible for managing memory efficiently. Importance : **[High]**
 * `pin_memory`: A utility function to pin a tensor in CPU memory, which is useful for optimizing data transfer between CPU and GPU. Importance : **[Medium]**
@@ -15,7 +15,7 @@ This codebase, `runtime/swap_tensor/__init__.py`, appears to be a module focused
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File Information**: The file is named `__init__.py`, which is a special file in Python that makes the containing directory a package. This allows other modules to import sub-modules or classes from this directory.
 2. **Copyright and License**: The code includes a copyright notice and a reference to the SPDX-License-Identifier, which is `Apache-2.0`. This indicates that the code is licensed under the Apache License Version 2.0, providing terms for using, modifying, and distributing the code.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `DummyOptim`: A dummy optimizer that presents model parameters as a single parameter group, used when ZeRO-3 is enabled without an optimizer. Importance: **[Medium]**
 * `graph_process`: Caches and replays a computation graph for GPU operations, improving performance. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Imports and Licenses**: The code starts with copyright and license information, indicating the source and usage rights of the code.
 2. **Helper Functions**: The file contains a variety of utility functions for tasks such as GPU memory management, gradient handling, tensor manipulation, and parallel processing. These functions are designed to be reusable across different parts of the codebase.

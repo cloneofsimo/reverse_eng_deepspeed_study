@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `SparseAttentionUtils`: A utility class with static methods for integrating sparse self-attention into transformer models. Importance: **[High]**
 * `extend_position_embedding`: Extends the position embedding weights of a model (BERT or RoBERTa) to accommodate a larger sequence length. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Class Definition**: The code defines a class `SparseAttentionUtils` which contains utility functions for integrating sparse self-attention into transformer models, specifically for the `bert` and `roberta` models.
 2. **Static Methods**: All the methods within the `SparseAttentionUtils` class are static methods, meaning they don't require an instance of the class to be called and operate directly on the provided arguments.

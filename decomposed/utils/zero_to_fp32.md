@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `get_model_state_file`: Retrieves the model state file based on the DeepSpeed checkpoint stage. Importance: **[High]**
 * `get_optim_files`: Retrieves optimizer state files from a checkpoint directory. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and script purpose**: The script is designed to convert DeepSpeed's ZeRO (Zero Redundancy Optimizer) checkpoints (stages 1, 2, and 3) into a single FP32 state_dict that can be used without DeepSpeed, making it easier to share or use in other applications.
 2. **Imported libraries**: The script uses `argparse`, `torch`, `glob`, `os`, `re`, `dataclasses`, and `deepseed.utils` for various functionalities like command-line argument parsing, file handling, data manipulation, and logging.

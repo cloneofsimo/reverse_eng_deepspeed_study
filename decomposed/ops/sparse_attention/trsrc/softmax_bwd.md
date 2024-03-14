@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `softmax_bwd`: This is a CUDA kernel function written in CUDA C++ for performing the backward pass of a softmax operation in a block-sparse manner. Importance: **[High]**
 * `get_program_id`: A built-in CUDA function that retrieves the ID of the current thread block in the specified dimension (0 or 1). Importance: **[Low]**
@@ -15,7 +15,7 @@ This codebase contains a CUDA kernel function `softmax_bwd` that is optimized fo
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **CUDA Kernel**: This code defines a CUDA kernel function, `softmax_bwd`, which is designed to run on NVIDIA GPUs. It is indicated by the `__global__` keyword, and it performs computations on multi-dimensional arrays in parallel using thread blocks and grids.
 2. **Data Types and Alignment**: The code uses a custom data type `TYPE` (not defined in the snippet) and specifies memory alignment with `__aligned(16)`. This is important for efficient memory access on the GPU.

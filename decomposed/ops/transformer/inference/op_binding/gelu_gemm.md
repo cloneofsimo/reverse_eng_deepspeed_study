@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `GELUGemmOp`: This is the main class that implements the GELU (Gaussian Error Linear Unit) operation combined with a matrix multiplication (GEMM) for efficient inference. Importance: **[High]**
 * `__init__`: The constructor of the `GELUGemmOp` class, where it initializes the operation based on the provided configuration, using either fused GEMM-GELU implementations or a fallback method. Importance: **[High]**
@@ -15,7 +15,7 @@ This file is part of the DeepSpeed library and provides an optimized operator fo
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File structure and imports**: The code is part of a Python file related to deep learning operations, specifically for a "GELUGemmOp" class. It imports necessary libraries like `torch`, `DeepSpeedInferenceConfig`, and `BaseOp` from the project's modules.
 2. **Inheritance**: The `GELUGemmOp` class inherits from `BaseOp`, indicating that it is a specialized operation that likely builds upon base functionality provided by the parent class.

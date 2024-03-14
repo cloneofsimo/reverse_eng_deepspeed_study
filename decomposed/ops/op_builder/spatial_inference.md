@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `CUDAOpBuilder`: A base class for building CUDA operations. Importance: **[High]**
 * `SpatialInferenceBuilder`: A subclass of `CUDAOpBuilder` specifically for spatial inference operations. Importance: **[High]**
@@ -16,7 +16,7 @@ This file, `spatial_inference.py`, is part of the DeepSpeed library, which is a 
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Inheritance**: The `SpatialInferenceBuilder` class is a subclass of `CUDAOpBuilder`, which indicates that it specializes in building CUDA operations related to spatial inference.
 2. **Constants**: The class defines two class-level constants, `BUILD_VAR` and `NAME`, which are used to identify the build variable and the name of the operation, respectively.

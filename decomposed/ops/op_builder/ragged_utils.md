@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `RaggedUtilsBuilder`: A class that extends `CUDAOpBuilder` for building Ragged Operations. Importance: **[High]**
 * `is_compatible`: Checks if the system is compatible for building Ragged Operations, considering the presence of PyTorch and compatible CUDA versions. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Inheritance and Class Definition**: The code defines a class `RaggedUtilsBuilder` which inherits from `CUDAOpBuilder`. This class is responsible for building operations related to ragged tensors for the DeepSpeed library.
 2. **Module Import**: The code imports necessary modules, including `os` and `torch`, for file operations and checking CUDA compatibility with PyTorch.

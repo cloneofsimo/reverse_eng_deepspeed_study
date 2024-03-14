@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `ds_adam_step`: Implements the CPU-based Adam update step for DeepSpeed. Importance: **[High]**
 * `ds_adam_step_plus_copy`: A variant of the Adam update that also copies the updated parameters. Importance: **[Medium]**
@@ -14,7 +14,7 @@ This file, `cpu_adam.cpp`, is a C++ implementation of the DeepSpeed CPU Adam opt
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Language**: The code is a C++ file, specifically a CUDA implementation for the Adam optimizer, as indicated by the filename `cpu_adam.cpp`. It is part of a Python project, as seen by the use of `PYBIND11_MODULE` for Python binding.
 2. **Header**: The code includes the header file `cpu_adam.h`, which likely contains the declarations for the functions used in the module.

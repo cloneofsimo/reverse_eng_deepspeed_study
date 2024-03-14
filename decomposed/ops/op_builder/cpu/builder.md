@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `CPUOpBuilder`: This is the main class in the file, which extends the `OpBuilder` class. It is designed to build CPU-based C++ extensions for PyTorch. Importance: **[High]**
 * `builder`: A method within `CPUOpBuilder` that constructs a `CppExtension` object using the provided sources, include directories, and compile arguments. Importance: **[High]**
@@ -15,7 +15,7 @@ This file, `cpu/builder.py`, is part of the DeepSpeed library and is responsible
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File structure and imports**: The code is part of a Python module named `cpu/builder.py` within a project related to DeepSpeed. It imports necessary modules, including `os`, and conditionally imports `OpBuilder` from either the local `op_builder` or the `deepspeed.ops.op_builder.builder` package.
 2. **Conditional import**: The code checks if it's using the local version of `op_builder` by attempting to import `__deepspeed__`. This is a way to distinguish between a local installation and a just-in-time (JIT) compile path.

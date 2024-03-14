@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `SparsityConfig`: Base class for sparsity configurations. Importance: **[High]**
 * `DenseSparsityConfig`: Config for dense (fully connected) attention. Importance: **[Medium]**
@@ -19,7 +19,7 @@ This codebase is a Python module for implementing sparse attention mechanisms in
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Module Structure**: The code is part of a Python package named `ops/sparse_attention/`. The `__init__.py` file indicates that this is the main entry point for the `sparse_attention` module, which means it imports and exposes various classes and functions for use in other parts of the project.
 2. **Copyright and License Information**: The code includes a copyright notice for Microsoft Corporation and specifies the SPDX-License-Identifier as Apache-2.0. This indicates the terms under which the code is licensed and can be used by others.

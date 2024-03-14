@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `MpiBackend`: This class implements communication using the Message Passing Interface (MPI) for DeepSpeed. It handles gather and allgather operations for tensors, with support for compression and CUDA-aware communication. Importance: **[High]**
 * `my_igather`: A helper method for `MpiBackend` that performs an in-place gather operation using MPI. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Library Imports**: The code imports essential libraries for its functionality, such as `torch`, `cupy`, `numpy`, and `mpi4py`, which indicates that it is designed for distributed computing using Message Passing Interface (MPI) and may involve GPU computations with PyTorch and CuPy.
 2. **CupyBackend Class**: The `CupyBackend` class is imported, which suggests that the code uses compression operations specifically designed for CuPy, a GPU-accelerated NumPy-like library.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `prep_folder`: Prepares a folder by clearing its contents or creating it if it doesn't exist. Importance: **[Medium]**
 * `validate_environment`: Validates the environment by running a Python script and checks if the necessary dependencies are installed. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Function Definitions**: The script defines two functions, `prep_folder` and `validate_environment`. `prep_folder` clears the contents of a folder or creates it if it doesn't exist, while `validate_environment` checks if the environment is properly set for the script to run by executing a Python script and handling errors if the check fails.
 2. **Argument Handling**: The script checks if the correct number of command-line arguments (3) are provided, and if not, it prints a usage message and exits.

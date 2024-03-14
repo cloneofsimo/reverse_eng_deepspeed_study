@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `softmax_kernel`: A Triton JIT-compiled kernel for performing softmax computation on a tensor. Importance: **[High]**
 * `masked_softmax_kernel`: A Triton JIT-compiled kernel for performing masked softmax computation, where elements can be masked out. Importance: **[High]**
@@ -14,7 +14,7 @@ This file is a Python module that implements a GPU-optimized softmax and masked 
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Library Imports**: The code imports essential libraries for its functionality, such as `torch` for tensor operations, `triton` for GPU-accelerated computing, and `triton.language` for defining custom GPU kernels.
 2. **Custom GPU Kernels**: The code defines two custom GPU kernels using `triton.jit` decorator:

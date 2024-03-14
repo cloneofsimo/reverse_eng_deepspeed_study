@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `validate_environment`: Validates if the environment is properly configured for running the script. Importance: **[High]**
 * `validate_cmd`: A string containing the command to validate the environment. Importance: **[Low]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Command-line argument validation**: The script expects two arguments, an `<input file>` and an `<output log dir>`. It checks if the correct number of arguments are provided and if the input file exists.
 2. **Environment validation**: The script calls a Python script `validate_async_io.py` to ensure the environment is properly configured for running the test. If the validation fails, it suggests a possible fix.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `get_numa_cores`: Retrieves a list of lists representing the mapping of CPU cores to NUMA nodes. Importance: **[High]**
 * `check_for_numactl_pkg`: Checks if the `numactl` package is installed and suggests installation if not found. Importance: **[Medium]**
@@ -14,7 +14,7 @@ This file, `numa.py`, is part of the DeepSpeed library. It provides utilities fo
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Functionality**: The code is designed to manage CPU core allocation and NUMA (Non-Uniform Memory Access) node binding in a Python environment. It provides functions to:
 2. **`get_numa_cores()`**: This function retrieves the mapping of CPU cores to their respective NUMA nodes.

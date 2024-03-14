@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `gpt_sample_tokens`: A function for sampling tokens, likely specific to the GPT model. Importance: **[Medium]**
 * `bert_sample_tokens`: A function for sampling tokens, tailored for the BERT model. Importance: **[Medium]**
@@ -14,7 +14,7 @@ This codebase seems to be focused on providing utilities for token manipulation,
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File structure and location**: The code is part of a Python package named `random_ltd`, specifically in the `__init__.py` file. This indicates that it is the entry point for the `random_ltd` package, making the functions defined or imported here accessible when the package is imported.
 2. **Copyright and license information**: The code includes a copyright notice and a reference to the SPDX-License-Identifier, which is Apache-2.0. This tells us that the code is licensed under the Apache License version 2.0, which governs how the code can be used, modified, and distributed.

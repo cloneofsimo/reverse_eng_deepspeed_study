@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `NotImplementedBuilder`: This is a class that extends the `CPUOpBuilder` class. It is used to represent an operation that is not implemented for the CPU backend in DeepSpeed. Importance: **[High]**
 * `__init__`: The constructor for the `NotImplementedBuilder` class, which initializes the object with a default or user-specified name. Importance: **[Medium]**
@@ -16,7 +16,7 @@ The `cpu/no_impl.py` file in the DeepSpeed codebase contains the `NotImplemented
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Module Structure**: The code is part of a Python file named `cpu/no_impl.py`, which suggests it's related to CPU-specific operations within a larger project (DeepSpeed). It imports `CPUOpBuilder` from a sibling module `ops/op_builder/builder.py`.
 2. **Copyright and License**: The file starts with a copyright notice and a SPDX-License-Identifier, indicating the Apache 2.0 license, which governs the usage and distribution of the code.

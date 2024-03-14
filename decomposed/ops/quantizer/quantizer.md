@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `ds_quantizer`: This is the main function that performs quantization on input tensors. It takes into account the number of groups, bit width, and whether to use symmetric or asymmetric quantization. It also dynamically loads the appropriate CUDA module for quantization. Importance: **[High]**
 * `QuantizerBuilder`: A class that is responsible for building and loading the quantizer CUDA module. It is not directly used in the code snippet provided, but it's crucial for the `ds_quantizer` function. Importance: **[Medium]**
@@ -14,7 +14,7 @@ This file, `quantizer.py`, is part of the DeepSpeed library and provides a quant
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Module Structure**: The code is part of a Python file named `quantizer.py` within the `ops` and `quantizer` directories, indicating it's likely a module for performing quantization operations.
 2. **Copyright and License**: The code has a copyright notice for Microsoft Corporation and mentions the SPDX-License-Identifier as Apache-2.0, which indicates the licensing terms for using the code.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `AsyncTensorSwapper`: The main class that manages the asynchronous swapping of tensors to and from NVMe storage devices. Importance: **[High]**
 * `swap_out_tensors`: A method that swaps out a list of tensors to specified paths. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Class `AsyncTensorSwapper`:** This class is the main focus of the code, providing functionality for swapping tensors to and from storage devices asynchronously. It manages a pool of buffers and handles the swapping process efficiently.
 2. **Buffer Management:** The class maintains several lists to manage the state of buffers, such as `free_buffer_index`, `swapping_buffer_index`, and `ready_buffer_index`. It has methods like `_allocate_buffer`, `_flush_ready_buffers`, and `_flush_buffers_until_complete` to manage these buffers effectively.

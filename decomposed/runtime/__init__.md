@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `DeepSpeedOptimizer`: This is a base class for DeepSpeed's optimizer. It represents an abstract class with no implemented methods. Importance : **[High]**
 * `ZeROOptimizer`: A subclass of `DeepSpeedOptimizer`, this class likely represents an implementation of the ZeRO (Zero Redundancy Optimizer) optimization algorithm, which is designed to scale deep learning models by reducing memory redundancy. Importance : **[High]**
@@ -14,7 +14,7 @@ This codebase is a small part of a larger DeepSpeed library, specifically focusi
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Module Structure**: The code is part of the `__init__.py` file, which indicates that it is the initialization file for the `runtime` package. This is where you typically place imports and class definitions to be exposed when the package is imported.
 2. **Copyright and License Information**: The code includes a copyright notice and a reference to the SPDX-License-Identifier, which is Apache-2.0. This indicates the terms under which the code can be used, modified, and distributed.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `AsyncIOBuilder`: This class is responsible for building the asynchronous I/O operations for swapping optimizer tensors between memory and NVMe storage devices. Importance: **[High]**
 * `is_compatible`: A static method within `AsyncIOBuilder` that checks if the current environment is compatible with the asynchronous I/O operations. Importance: **[Medium]**
@@ -16,7 +16,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Module Structure**: The code is part of a Python file named `validate_async_io.py` within the directory structure `ops/csrc/aio/py_test/`. This suggests it's a test file for asynchronous I/O operations in a library or framework, likely related to DeepSpeed.
 2. **License Information**: The code is copyrighted by Microsoft Corporation and is licensed under the Apache License 2.0. This is important for understanding the terms under which the code can be used, modified, and distributed.

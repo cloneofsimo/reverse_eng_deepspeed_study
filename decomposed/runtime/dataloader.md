@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `RepeatingLoader`: A class that wraps an iterator to allow for infinite iteration. It restarts the data loader when it reaches the end. Importance: **[Medium]**
 * `DeepSpeedDataLoader`: The main class that extends the functionality of PyTorch's `DataLoader`. It handles various data loading scenarios, including distributed data loading, curriculum learning, and data efficiency. It also supports DeepSpeed configurations and performance monitoring. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Infinite Iteration with `RepeatingLoader`:** The `RepeatingLoader` class is defined to wrap a `DataLoader` instance and allows for infinite iteration over the data. This is useful for training loops that require the data to be repeated.
 2. **`DeepSpeedDataLoader`:** This is the main class that extends the functionality of PyTorch's `DataLoader`. It supports various features specific to the DeepSpeed library, such as curriculum learning, distributed data sampling, and integration with accelerators.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `TritonSelfAttention`: The main class that implements self-attention using Triton. It handles the initialization, forward pass, and various operations for attention computation. Importance: **[High]**
 * `softmax`: A helper function to compute softmax. Importance: **[Low]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module and Class Definition**: The code defines a class `TritonSelfAttention` which is a subclass of `nn.Module`. This class implements self-attention for the Triton inference library, specifically designed for deep learning accelerators.
 2. **Data Types and Configuration**: The module uses various data types, such as `torch.half` and `torch.int8`, and relies on a `config` object to configure the attention layer. The configuration includes settings like hidden size, number of heads, and data type.

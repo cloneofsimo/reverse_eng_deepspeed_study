@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `CPUAdamBuilder`: A class that extends `TorchCPUOpBuilder` for building the CPU version of the Adam optimizer. Importance: **[High]**
 * `__init__`: The constructor for `CPUAdamBuilder`, initializes the class with the name 'cpu_adam'. Importance: **[Medium]**
@@ -15,7 +15,7 @@ This file, `cpu_adam.py`, is part of the DeepSpeed library. It defines a class, 
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Namespace and Dependencies**: The code is part of the "DeepSpeed" project, which is a library for efficient deep learning training. It imports `os` and `TorchCPUOpBuilder` from a relative path, indicating it's related to building custom operations for deep learning on the CPU using PyTorch.
 2. **Inheritance**: The `CPUAdamBuilder` class inherits from `TorchCPUOpBuilder`. This suggests that it is a specialized class for building an optimized CPU version of the Adam optimizer, a popular optimization algorithm for training deep learning models.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `FP16_UnfusedOptimizer`: The main class that implements an FP16 optimizer without weight fusion, specifically designed to support the LAMB optimizer. Importance: **[High]**
 * `split_params_grads_into_shared_and_expert_params`: Function to split parameters and gradients into shared and expert parameters. Importance: **[Medium]**
@@ -15,7 +15,7 @@ This file is part of the DeepSpeed library and provides an implementation of an 
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Inheritance and Class Definition**: The code defines a class `FP16_UnfusedOptimizer` which inherits from `DeepSpeedOptimizer`. This class is designed to handle mixed-precision training with fp16 and fp32 tensors, specifically for the LAMB optimizer.
 2. **Data Management**: The class manages two sets of parameter groups - `fp16_groups` and `fp32_groups`. It creates fp32 copies of the original fp16 model parameters and updates these copies during the optimization process.

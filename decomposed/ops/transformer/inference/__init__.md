@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `DeepSpeedInferenceConfig`: This class represents the configuration for DeepSpeed's inference mode specifically for Transformer models. It likely contains attributes and methods to set and handle various parameters for the inference process. Importance: **[High]**
 * `DeepSpeedTransformerInference`: This class implements the inference functionality for Transformer models using DeepSpeed. It is responsible for running the model in inference mode with optimizations provided by DeepSpeed. Importance: **[High]**
@@ -14,7 +14,7 @@ This file, `ops/transformer/inference/__init__.py`, serves as the entry point fo
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File Structure**: The code is part of a Python package, specifically `ops/transformer/inference/__init__.py`. This file is the entry point for the `inference` module within the `transformer` subdirectory, which is likely part of a larger project called `ops`.
 2. **Copyright and License**: The code is copyrighted by Microsoft Corporation and is licensed under the Apache License 2.0. This information is important for understanding the legal usage and distribution rights of the code.

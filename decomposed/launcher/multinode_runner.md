@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `MultiNodeRunner`: Abstract base class for multi-node runners. Defines the interface for launching distributed training across multiple nodes. Importance: **[High]**
 * `PDSHRunner`: Implements the `MultiNodeRunner` for the pdsh backend, which uses pdsh for parallel command execution on multiple nodes. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Inheritance and Abstract Base Class (ABC)**: The code defines a base class `MultiNodeRunner` which is an abstract class (using `ABC` and `abstractmethod`). This class provides a common interface for different distributed computing backends (e.g., `PDSHRunner`, `OpenMPIRunner`, `MPICHRunner`, `IMPIRunner`, `SlurmRunner`, `MVAPICHRunner`). Each subclass implements the `backend_exists` and `get_cmd` methods specific to their respective backend.
 2. **Command Execution**: The `get_cmd` method in each subclass constructs the command to execute the user script on the distributed nodes. It handles environment variables, arguments, and backend-specific flags and configurations.

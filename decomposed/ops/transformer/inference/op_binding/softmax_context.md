@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `SoftmaxContextOp`: This is the main class that extends `BaseOp`. It is responsible for implementing the softmax context operation for DeepSpeed inference. Importance: **[High]**
 * `__init__`: The constructor of `SoftmaxContextOp`, initializes the class with a configuration object and sets the appropriate softmax context function based on the data type. Importance: **[Medium]**
@@ -16,7 +16,7 @@ This file is part of the DeepSpeed library and implements a specific operation c
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module and Class Definition**: This code defines a Python module related to file operations in a DeepSpeed Transformer's inference stage, specifically for a "SoftmaxContextOp" class. The class extends the "BaseOp" class, indicating it's part of an operation hierarchy for handling softmax context computations in a distributed environment.
 2. **Dependency Injection**: The class imports necessary modules, such as `torch`, `dist` from `deepspeed.comm`, and `DeepSpeedInferenceConfig` from a relative path. This shows the dependencies required for the operation to function.

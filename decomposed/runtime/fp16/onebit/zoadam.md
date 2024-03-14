@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `ZeroOneAdam`: Implements the 0/1 Adam optimization algorithm, which is a variant of the Adam optimizer for GPU-based deep learning. Importance: **[High]**
 * `__init__`: Constructor for the `ZeroOneAdam` class, initializes the optimizer with parameters, learning rate, and other settings. Importance: **[High]**
@@ -16,7 +16,7 @@ This file is a Python implementation of the 0/1 Adam optimizer, which is a varia
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Class Definition**: The code defines a custom optimizer class `ZeroOneAdam` which is a subclass of `torch.optim.Optimizer`. This class implements the 0/1 Adam algorithm, a variant of the popular Adam optimization algorithm for deep learning, specifically designed for GPU usage.
 2. **Arguments and Configuration**: The `ZeroOneAdam` class accepts several arguments for customization, such as learning rate, betas, epsilon, weight decay, and various parameters related to the 0/1 Adam algorithm's variance update and local step policies. These parameters allow users to fine-tune the optimization process.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `get_caller_func`: Retrieves the name of the calling function. Importance: **[Low]**
 * `print_rank_0`: Prints a message on rank 0 only. Importance: **[Low]**
@@ -14,7 +14,7 @@ This file, `utils/comms_logging.py`, is part of the DeepSpeed library. It provid
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Import statements**: The code imports necessary modules like `math`, `deepspeed.utils.log_dist`, and `deepspeed.comm` for communication operations.
 2. **Helper functions**: The script defines several utility functions:

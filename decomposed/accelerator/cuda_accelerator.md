@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `CUDA_Accelerator`: This is the main class that provides an interface for interacting with CUDA devices, including device management, random number generation, streams, events, memory management, and data types. Importance: **[High]**
 * `is_synchronized_device`: Returns False, indicating that the CUDA accelerator does not synchronize devices. Importance: **[Low]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Inheritance**: The `CUDA_Accelerator` class is a subclass of `DeepSpeedAccelerator`, which indicates that it extends the base class to provide CUDA-specific functionalities for deep learning acceleration.
 2. **CUDA Dependency**: The code handles the possibility of `torch.cuda` not being available during import by catching `ImportError`. It also delays the import of `pynvml` to avoid issues when CUDA is not present.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `task_log`: A utility function for logging messages from tasks with a specific thread ID. Importance: **[Low]**
 * `task_barrier`: A function to synchronize tasks using a barrier object, ensuring all tasks wait for each other. Importance: **[Low]**
@@ -14,7 +14,7 @@ This file, `test_ds_aio_utils.py`, appears to be a part of a Python library for 
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Module Information**: The code is part of a Python file named `test_ds_aio_utils.py`, which likely contains utility functions for testing data storage operations, specifically related to swapping optimizer tensors.
 2. **Copyright and Licensing**: The code is copyrighted by Microsoft Corporation and is licensed under the Apache License 2.0.

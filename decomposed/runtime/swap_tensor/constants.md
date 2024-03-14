@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `AIO_FORMAT`: A string containing a JSON-like structure representing the AIO (Asynchronous I/O) configuration for DeepSpeed. Importance: **[High]**
 * `AIO`: A constant string representing the AIO module or feature. Importance: **[Medium]**
@@ -21,7 +21,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File Information**: The code is part of a Python file named `constants.py` within the `runtime/swap_tensor` directory, indicating that it likely contains constant variables used in a project related to tensor swapping or deep learning.
 2. **Copyright and License**: The code is copyrighted by Microsoft Corporation and is licensed under the Apache License 2.0, which governs the usage and distribution of the code.

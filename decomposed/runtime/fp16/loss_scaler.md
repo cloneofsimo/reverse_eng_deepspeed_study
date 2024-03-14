@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `to_python_float`: Converts a tensor to a Python float for backward compatibility. Importance: **[Low]**
 * `LossScalerBase`: Base class for loss scalers, providing a common interface for scaling gradients. Importance: **[Medium]**
@@ -14,7 +14,7 @@ This file is part of the DeepSpeed library and provides classes and functions fo
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **License and Attribution**: The code starts with copyright information and a license (Apache 2.0), indicating the terms under which the code can be used and modified.
 2. **Imports**: The code imports necessary modules like `torch`, `dist` from `deepspeed`, and `logger` from `deepspeed.utils`, which are essential for the loss scaler's functionality.

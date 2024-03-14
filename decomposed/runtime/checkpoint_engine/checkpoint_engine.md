@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `CheckpointEngine`: This is the main class that manages checkpoint saving and loading. Importance: **[High]**
 * `__init__`: Initializes the CheckpointEngine object with optional configuration parameters. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Namespace and File Structure**: The code is part of a Python file named `checkpoint_engine.py`, which is likely part of a larger project called "DeepSpeed." The file is structured to define a class for managing checkpointing operations.
 2. **Class Definition**: The `CheckpointEngine` class is defined, which is an object-oriented implementation for saving and loading checkpoints. This class encapsulates the logic for checkpoint management.

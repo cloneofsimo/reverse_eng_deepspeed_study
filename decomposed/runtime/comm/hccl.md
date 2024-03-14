@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `HcclBackend`: This is the primary class that manages communication using the HCCL (Heterogeneous Computing Collective Communication Library) backend. It initializes the communication group and provides methods for data gathering and all-reduce operations. Importance: **[High]**
 * `my_igather`: A custom implementation of an in-place gather operation. It collects data from multiple ranks and stores it in a specified buffer at the root rank. Importance: **[Medium]**
@@ -14,7 +14,7 @@ This file `hccl.py` is part of the DeepSpeed library, and it implements a commun
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Import statements**: The code imports necessary libraries for its functionality, such as `numpy`, `torch`, `torch_npu`, and `deepspeed.comm`.
 2. **HcclBackend class**: This is the main class that encapsulates methods related to collective communication operations using HCCL (Heterogeneous Computing Collective Communications Library). It initializes a communication group and provides methods for custom gather and allreduce operations.

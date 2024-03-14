@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `ZeROOrderedDict`: A custom ordered dictionary class that detects and handles external ZeRO parameters. Importance: **[High]**
 * `DeepSpeedZeRoOffload`: The main class for managing ZeRO offloading in DeepSpeed, responsible for initializing, partitioning, and coordinating parameters. Importance: **[Very High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Import statements**: The code imports various libraries and modules, including `torch`, `deepspeed`, and `collections`, which are essential for the functionality of the code. These imports set the foundation for the operations performed in the script.
 2. **Classes and functions**: The code defines several classes and functions, the most important being `DeepSpeedZeRoOffload`. This class is responsible for managing the offloading of parameters in a deep learning model, which is a key aspect of the ZeRO (Zero Redundancy Optimizer) optimization technique. Other classes and functions, such as `ZeROOrderedDict` and `_apply_forward_and_backward_to_tensors_only`, support the main class in managing the model's parameters and execution.

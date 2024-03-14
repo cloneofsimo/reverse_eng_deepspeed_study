@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `GPUTimer`: A class for measuring GPU time elapsed between events. Importance : **[High]**
 * `GPUTimer::GPUTimer`: Constructor for initializing GPU events. Importance : **[Medium]**
@@ -18,7 +18,7 @@ This codebase contains two header file classes, `GPUTimer` and `CPUTimer`, which
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header Guard**: The code uses a preprocessor directive `#ifndef __TIMER_H__` and `#define __TIMER_H__` to ensure the file is only included once in the compilation process, preventing multiple definition errors.
 2. **Namespace**: Although not explicitly mentioned, the code is part of the `DeepSpeed` team's work, which might imply that it's part of a larger project named "DeepSpeed."

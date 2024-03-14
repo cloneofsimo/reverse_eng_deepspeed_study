@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `detach_variable`: Detaches a tensor from the computation graph and optionally moves it to a specified device. Importance: **[Low]**
 * `set_cuda_rng_state`: Sets the CUDA random number generator state. Importance: **[Low]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Activation Checkpointing**: The code is designed to reduce memory consumption during deep learning training by checkpointing and recomputing intermediate activations. It supports partitioning activations, CPU checkpointing, and contiguous memory checkpointing.
 2. **Random Number Generator (RNG) State Management**: The code includes a `CudaRNGStatesTracker` class to manage and synchronize random number generator states across GPUs, ensuring reproducibility during checkpointing.

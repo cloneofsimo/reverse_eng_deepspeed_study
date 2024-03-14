@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `DeepSpeedMLP`: This is the main class, implementing a multi-layer perceptron (MLP) module optimized for DeepSpeed. It uses specialized operations for efficient computation, such as `MLPGemmOp`, `VectorMatMulOp`, `GELUGemmOp`, and `ResidualAddOp`. Importance : **[High]**
 * `__init__`: The constructor of the `DeepSpeedMLP` class, where it initializes the parameters and buffers based on the configuration. Importance : **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Library Imports**: The code imports several libraries, including `torch`, `nn` from `torch.nn`, and modules from `deepspeed` and `deepspeed.accelerator`, which are essential for deep learning and distributed training.
 2. **DeepSpeedMLP Class**: This is the main class, which extends `nn.Module` and represents a multi-layer perceptron (MLP) layer optimized for DeepSpeed. It contains parameters, initialization, and forward computation methods.

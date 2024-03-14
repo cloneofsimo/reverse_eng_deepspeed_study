@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `NAME`: This is a CUDA kernel function for performing a sparse matrix multiplication (SpMM) operation. It is written in CUDA C++ and is designed to work with specific memory alignment and strides. Importance: **[High]**
 * `__global__`: This is a keyword in CUDA to denote that the following function (`NAME`) is a kernel that can be executed on the GPU. Importance: **[High]**
@@ -14,7 +14,7 @@ The file is a CUDA kernel implementation for a sparse-dense matrix multiplicatio
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **CUDA Kernel Function**: The code defines a CUDA kernel function named `NAME` which is executed on a GPU. It is indicated by the `__global__` keyword and is designed to perform matrix multiplication with specific optimizations for sparse data.
 2. **Memory Alignment and Restrictions**: The function takes pointers to matrices `A`, `B`, and `C` with specific alignment restrictions (`__aligned(16)`) and read-only (`__readonly`) attributes. There are also multiple constraints on the strides and dimensions, such as being a multiple of 8 or 16.

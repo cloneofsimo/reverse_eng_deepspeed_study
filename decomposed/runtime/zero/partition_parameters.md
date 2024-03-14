@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `NoGatherHandle`: A class that handles the synchronization of a single parameter after all-gather operation. Importance: **[High]**
 * `NoGatherCoalescedHandle`: A class that handles the synchronization of multiple parameters after all-gather operation. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Zero-Sharding (Partitioning)**: The code implements a system for partitioning large model parameters across multiple GPUs or devices in a data-parallel setup. This is done through the `zero_init_param` method, which converts a PyTorch parameter into a DeepSpeed Zero parameter, and the `_partition` method, which partitions the parameter into smaller chunks based on the number of data-parallel processes.
 2. **Memory Management**: The code manages memory efficiently by using `all_gather` and `partition` functions to coordinate the distribution and gathering of parameters. It also supports offloading parameters to CPU or NVMe storage when not in use, using the `AsyncPartitionedParameterSwapper` class, to save GPU memory.

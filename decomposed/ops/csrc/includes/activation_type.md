@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `ActivationType`: This is an enumeration (enum) defining different types of activation functions used in deep learning. Importance : **[High]**
 * `GELU`: Represents the Gaussian Error Linear Unit activation function. Importance : **[Medium]**
@@ -18,7 +18,7 @@ This file, `activation_type.h`, is a header file in a C++ codebase, likely part 
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header File**: This is a header file (`activation_type.h`) typically used in a C++ project, which defines a data structure or function prototypes to be shared across multiple source files.
 2. **Copyright and License Information**: The code is copyrighted by Microsoft Corporation and is licensed under the Apache License 2.0. This is important for understanding the legal usage and distribution rights of the code.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `LinearOp`: This is the main class that extends `BaseOp`. It represents a linear operation optimized for DeepSpeed inference. Importance: **[High]**
 * `__init__`: The constructor of `LinearOp`, where the appropriate linear function is assigned based on the data type and configuration. Importance: **[High]**
@@ -14,7 +14,7 @@ This file (`linear.py`) is part of the DeepSpeed library, specifically in the `o
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module and Class Definition**: The code defines a `LinearOp` class, which is a subclass of `BaseOp`. This class is responsible for implementing a linear operation for deep learning inference, specifically tailored for the DeepSpeed library.
 2. **Configuration Handling**: The class takes a `DeepSpeedInferenceConfig` object in its constructor, which is used to determine the data type and other configuration settings for the linear operation. It also checks for the presence of Triton, a high-performance inference server, and adjusts its behavior accordingly.

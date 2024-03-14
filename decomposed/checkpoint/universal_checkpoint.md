@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `load_hp_checkpoint_state`: This function is responsible for loading a checkpoint state from a specific folder, handling parallelism (TP\_rank and TP\_world\_size) and adapting the data as needed. It checks the shapes, deals with padding for vocabulary tensors, and splits or concatenates parameters according to the tensor parallelism degree. Importance: **[High]**
 * `enable_universal_checkpoint`: This function takes a list of parameters and attaches the `load_hp_checkpoint_state` method to each parameter as a method, allowing the parameters to load their checkpoint state. Importance: **[Medium]**
@@ -14,7 +14,7 @@ This file is part of a library, likely DeepSpeed, for managing and loading check
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module and Copyright Information**: The code starts with a copyright notice and a reference to the DeepSpeed Team, indicating that it is part of the DeepSpeed library.
 2. **Function `load_hp_checkpoint_state`**: This function is responsible for loading a checkpoint state from a specific folder. It handles the process of loading and potentially adapting the parameters based on the tensor parallel (TP) rank and world size. It checks for specific keys in the checkpoint, deals with sliced and averaged weights, and handles padding for vocabulary tensors.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `create_logger`: A static method that creates a logger with a specified name and log level. Importance: **[High]**
 * `LoggerFactory`: A class that provides a static method for creating loggers. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Imported Libraries**: The code starts by importing necessary libraries such as `functools`, `logging`, `sys`, `os`, and later `deepspeed.comm` for distributed communication. This sets the foundation for the functionality provided by the module.
 2. **`log_levels` Dictionary**: This defines a dictionary mapping log level names to their respective integer values from the `logging` module. It simplifies the process of setting log levels using string representations.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `DS_HD_INLINE`: Macro for defining a function as `__host__`, `__device__`, and `__forceinline__`. Importance : **[Low]** (It's a utility macro)
 * `DS_D_INLINE`: Macro for defining a function as `__device__` and `__forceinline__`. Importance : **[Low]** (Similar to the above, but for device functions)
@@ -14,7 +14,7 @@ This file, `ds_kernel_utils.h`, is a header file that provides a set of utility 
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header File**: This is a header file (`ds_kernel_utils.h`) that likely serves as an include for other source files in the DeepSpeed project, providing common definitions and utility functions.
 2. **Copyright and License**: The code is copyrighted by Microsoft Corporation and is licensed under the Apache License 2.0.

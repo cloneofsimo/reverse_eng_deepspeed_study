@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `DeepSpeedActivationCheckpointingConfig`: This class is responsible for handling the configuration of DeepSpeed's Activation Checkpointing. It initializes and parses the activation checkpointing parameters from a dictionary. Importance: **[High]**
 * `get_scalar_param`: A utility function that retrieves a scalar parameter from a dictionary, with a default value if not present. Importance: **[Low]**
@@ -19,7 +19,7 @@ This file is part of the DeepSpeed library and provides a configuration class fo
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module and Library Import**: The code starts by importing necessary components from the `deepspeed.runtime.config_utils` module, specifically `get_scalar_param` and `DeepSpeedConfigObject`. This indicates that the code is part of the DeepSpeed library, which is a deep learning optimization library.
 2. **Activation Checkpointing Configuration**: The code defines a multi-line string `ACTIVATION_CHKPT_FORMAT` that explains how to configure activation checkpointing, a technique to save memory during backpropagation. This provides a guide for users on the expected structure of the configuration.

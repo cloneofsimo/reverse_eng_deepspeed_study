@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `param_update_kernel`: A CUDA kernel function that updates parameters by copying float inputs to half-precision outputs. Importance: **[High]**
 * `launch_param_update`: A helper function to launch the `param_update_kernel` on the GPU using CUDA. Importance: **[High]**
@@ -14,7 +14,7 @@ This codebase contains CUDA kernel functions and helper functions for updating p
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Purpose**: The code is part of a CUDA kernel file (`custom_cuda_kernel.cu`) for performing custom operations on a GPU, specifically for updating parameters in a deep learning context. It's likely used in conjunction with a library like DeepSpeed.
 2. **Copyright and License**: The code is copyrighted by Microsoft Corporation and is licensed under the Apache License 2.0.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `launch_opt_bias_add`: A CUDA kernel function that performs an optimized bias addition operation. It takes half-precision (FP16) inputs and combines an activation, a bias, another input tensor, and an optional other bias. Importance : **[High]**
 * `ChannelsLastProblem`: A C++ struct that defines the problem dimensions for a specific operation, specifically containing batch size, sequence length, and channels. Importance : **[Medium]**
@@ -14,7 +14,7 @@ This file, `spatial_cuda_layers.h`, is a header file for CUDA-based C++ code. It
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header File and Namespace**: This code is a header file `spatial_cuda_layers.h` likely used for defining CUDA-specific functions and structures for spatial operations in a deep learning context. The file is part of the "ops/csrc/spatial/includes" directory, suggesting it's part of a larger project, possibly related to DeepSpeed, a deep learning optimization library.
 2. **Conditional Compilation**: The code uses preprocessor directives (`#if`, `#else`, `#endif`) to conditionally include the appropriate header for cooperative groups based on the platform. If it's an AMD HIP platform, it includes `<hip/hip_cooperative_groups.h>`, otherwise, it includes `<cooperative_groups.h>`. This is for platform-agnostic code that works with both NVIDIA CUDA and AMD HIP.

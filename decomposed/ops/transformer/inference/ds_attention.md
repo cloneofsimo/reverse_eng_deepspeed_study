@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `DeepSpeedSelfAttention`: A PyTorch module implementing self-attention for DeepSpeed, a deep learning optimization library. It handles various operations like linear transformations, softmax, and matrix multiplications for attention computation. Importance: **[High]**
 * `BloomSelfAttention`: A subclass of `DeepSpeedSelfAttention` tailored for the Bloom model, which modifies the attention computation to match the model's requirements. Importance: **[Medium]**
@@ -16,7 +16,7 @@ This file is part of the DeepSpeed library and provides implementations of self-
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module and Class Definition**: The code defines a `DeepSpeedSelfAttention` class, which is a module in a larger project related to DeepSpeed, a deep learning acceleration library. The class extends `nn.Module` from PyTorch, indicating it is a neural network layer.
 2. **Configuration and Parameters**: The class takes a `config` object as a parameter, which likely contains various settings and hyperparameters for the attention mechanism. Other parameters like `mp_group`, `q_scales`, `q_groups`, and `merge_count` are also used to configure the layer's behavior, particularly in the context of distributed computing and quantization.

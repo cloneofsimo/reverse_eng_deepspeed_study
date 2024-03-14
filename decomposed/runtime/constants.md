@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `ROUTE_TRAIN`:标识训练路由。重要性: **[Low]**
 * `ROUTE_EVAL`:标识评估路由。重要性: **[Low]**
@@ -42,7 +42,7 @@ This file is a Python module containing constants and configuration parameters f
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Routes**: The code defines constants for different routes like training, evaluation, prediction, and encoding.
 2. **Batch Size**: Constants related to batch sizes, including default values, are defined.

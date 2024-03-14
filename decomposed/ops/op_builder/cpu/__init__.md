@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `CCLCommBuilder`: Constructs a communication builder for Collective Communication Library (CCL) in CPU-based operations. Importance: **[High]**
 * `FusedAdamBuilder`: Implements a fused version of the Adam optimizer for CPU, which can improve performance. Importance: **[High]**
@@ -14,7 +14,7 @@ This codebase is part of the DeepSpeed library, specifically focusing on operato
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File Structure**: The code is part of a Python package, specifically `ops/op_builder/cpu/`, indicating that it's related to CPU-specific operations for a library or framework, possibly DeepSpeed.
 2. **Copyright and Licensing**: The file includes copyright information and a license identifier (`SPDX-License-Identifier: Apache-2.0`), which is the Apache License 2.0, a permissive open-source license.

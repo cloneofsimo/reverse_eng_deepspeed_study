@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `ProgressiveLayerDrop`: A class that implements Progressive Layer Dropping (PLD) for model training. Importance: **[High]**
 * `__init__`: The constructor for the `ProgressiveLayerDrop` class, initializes the object with parameters `theta` and `gamma`. Importance: **[High]**
@@ -15,7 +15,7 @@ This file contains the implementation of Progressive Layer Dropping, a technique
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Class Definition**: The code defines a class `ProgressiveLayerDrop`, which is a Python object for implementing Progressive Layer Dropping (PLD), a technique for model training mentioned in a specific research paper.
 2. **Hyperparameters**: The class has two important hyperparameters, `theta` and `gamma`, which control the training behavior. `theta` balances training time and robustness, and `gamma` determines the rate at which the drop ratio increases.

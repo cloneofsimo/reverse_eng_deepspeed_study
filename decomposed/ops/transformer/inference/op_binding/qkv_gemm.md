@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `QKVGemmOp`: This is the main class that implements the QKV (Query, Key, Value) Gemm (General Matrix Multiplication) operation for Transformer models during inference. It handles different data types and normalization types. Importance: **[High]**
 * `__init__`: The constructor of the `QKVGemmOp` class, where it initializes the function to perform QKV Gemm based on the configuration. Importance: **[High]**
@@ -17,7 +17,7 @@ This file is part of the DeepSpeed library and focuses on implementing an effici
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Inheritance and Class Definition**: The code defines a class `QKVGemmOp` that inherits from `BaseOp`. This class is responsible for performing a specific operation in a transformer model during inference, specifically the QKV (query, key, value) gemm (matrix multiplication) operation.
 2. **Configuration Handling**: The class takes a `DeepSpeedInferenceConfig` object in its constructor, which is used to configure the operation based on various parameters like normalization type, data type, and whether to use a specialized function for specific hardware (like Triton).

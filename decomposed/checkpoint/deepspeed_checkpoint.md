@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `DeepSpeedCheckpoint`: The main class that manages DeepSpeed checkpoint loading and reshaping for distributed training. It handles file validation, parallelism degrees, and layer mapping. Importance: **[High]**
 * `ZeROCheckpoint`: A class for handling ZeRO checkpoint files, providing methods to get state for ranks and files. Importance: **[Medium]**
@@ -15,7 +15,7 @@ This file is part of the DeepSpeed library and is responsible for managing and r
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module and Library Imports**: The code starts by importing necessary modules and libraries, such as `os`, `typing`, `torch`, and several utility functions from other parts of the codebase.
 2. **Class `DeepSpeedCheckpoint`**: This is the main class that encapsulates the functionality of managing and manipulating DeepSpeed checkpoints. It initializes with a directory path and handles various degrees of parallelism (tensor, pipeline, and data parallelism). The class has methods for validating the folder structure, reshaping, and accessing different parts of the checkpoint data.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `deepspeed_pin_tensor_t`: A struct representing a tensor manager for page-locked (pinned) CPU memory. Importance : **[High]**
 * `deepspeed_pin_tensor_t::alloc`: Allocates a torch tensor in page-locked memory with the specified number of elements and scalar type. Importance : **[High]**
@@ -15,7 +15,7 @@ This codebase provides a C++ implementation for managing CPU tensors that reside
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header File**: This is a C++ header file (`py_lib/deepspeed_pin_tensor.h`) that is part of the DeepSpeed library, which is a high-performance training library for deep learning.
 2. **Copyright and License**: The code is copyrighted by Microsoft Corporation and is licensed under the Apache License 2.0, indicating the terms under which the code can be used, modified, and distributed.

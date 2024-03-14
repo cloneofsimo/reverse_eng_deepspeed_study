@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `OpBuilder`: Abstract base class for building DeepSpeed operators. Importance: **[High]**
 * `assert_no_cuda_mismatch`: Checks if the installed CUDA version matches the version PyTorch was compiled with. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Module Structure**: The code is part of a Python project for building and managing custom operations (ops) for DeepSpeed, a deep learning acceleration library. The file is located in `ops/op_builder/builder.py`, indicating it's part of the `op_builder` module.
 2. **Error Handling and Dependencies**: The code checks for the presence of required libraries like `torch` and `cuda`, raising exceptions if they are not found or if there is a version mismatch. It also handles `ImportError` for `torch` and `MissingCUDAException` and `CUDAMismatchException` for CUDA-related issues.

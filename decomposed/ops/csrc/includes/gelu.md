@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `Gelu`: A template class for the GELU (Gaussian Error Linear Unit) activation function. Importance: **[High]**
 * `Gelu::Config`: A nested struct for storing configuration parameters, specifically the intermediate size. Importance: **[Medium]**
@@ -16,7 +16,7 @@ This file `gelu.h` is a header file for a C++ implementation of the GELU activat
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header File**: This is a header file (`gelu.h`) for a C++ implementation, specifically targeting CUDA for GPU computation.
 2. **Copyright and License**: The code is copyrighted by Microsoft Corporation and is licensed under Apache-2.0.

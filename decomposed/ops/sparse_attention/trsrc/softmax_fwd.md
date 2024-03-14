@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `softmax_fwd`: This is a CUDA kernel function for performing the forward pass of softmax operation in a sparse attention mechanism. Importance: **[High]**
 * `get_program_id`: A built-in CUDA function that retrieves the ID of the current thread block within the grid. Importance: **[Low]**
@@ -14,7 +14,7 @@ This file contains a CUDA kernel for the forward pass of a softmax operation in 
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **CUDA Kernel**: This code defines a CUDA kernel function `softmax_fwd` which is designed to run on NVIDIA GPUs. It is indicated by the `__global__` keyword, and it performs computations on multiple threads in parallel.
 2. **Block Sparse Matrix Operation**: The function appears to be part of an optimized softmax operation for block-sparse matrices. It uses a look-up table (LUT) to efficiently access and process data, which suggests it's optimized for sparse data patterns.

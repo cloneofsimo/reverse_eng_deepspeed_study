@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `block`: A template function that performs a reduction operation on a set of variables using a specified reduction operation (Add, Max, or Min). It is designed for independent reductions and supports up to 4 variables. Importance: **[High]**
 * `partitioned_block`: A template function similar to `block`, but for partitioned reductions within a thread block. It is designed for scenarios where multiple reductions are performed within a subset of the block's threads. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header File**: This is a header file for a C++ library, specifically for reduction operations in a GPU context. It includes other utility headers like `conversion_utils.h`, `ds_kernel_utils.h`, and `memory_access_utils.h`.
 2. **Enums and Constants**: The `ROpType` enum defines the reduction operations (Add, Max, Min). There are also two constants: `max_threads` (1024) and `max_warps` (computed as `max_threads / hw_warp_size`).

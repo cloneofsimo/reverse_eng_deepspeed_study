@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `LinearOp`: Represents a linear operation, likely used for linear transformations in a deep learning model. Importance: **[High]**
 * `VectorMatMulOp`: Implements a vector-matrix multiplication operation, which is a fundamental operation in deep learning computations. Importance: **[High]**
@@ -17,7 +17,7 @@ This file is the __init__.py file in the `op_binding` subdirectory of the `infer
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File Structure**: The code is part of a Python package, specifically `ops/transformer/inference/op_binding/__init__.py`. This indicates that it's an initialization file for the `op_binding` module within the `inference` subdirectory of the `transformer` operation package.
 2. **Copyright and License**: The code has a copyright notice and specifies the SPDX-License-Identifier as Apache-2.0, which means the code is licensed under the Apache License Version 2.0. This is important for understanding the usage and distribution rights.

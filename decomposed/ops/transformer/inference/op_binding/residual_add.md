@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `ResidualAddOp`: This is the main class that implements the residual addition operation for DeepSpeed inference. It handles different data types and utilizes specific functions based on the configuration. Importance: **[High]**
 * `__init__`: The constructor of the `ResidualAddOp` class, where it initializes the object based on the provided configuration and sets the appropriate residual addition function. Importance: **[Medium]**
@@ -14,7 +14,7 @@ This file is part of the DeepSpeed library, specifically focusing on the inferen
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Class Definition**: The code defines a class `ResidualAddOp` which inherits from `BaseOp`. This class is responsible for performing residual addition operations in a deep learning model, likely in the context of inference with the DeepSpeed library.
 2. **Initialization**: In the `__init__` method, the class initializes itself based on a `DeepSpeedInferenceConfig` object. It determines which `residual_add_func` to use based on the data type (`dtype`) from the configuration. If the function is not found, it is set to `None`.

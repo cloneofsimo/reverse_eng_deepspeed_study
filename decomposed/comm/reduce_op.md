@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `ReduceOp`: Enum class representing various reduction operations. Importance: **[High]**
 * `SUM`: Enum member for sum reduction operation. Importance: **[Low]**
@@ -19,7 +19,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Module**: The code is part of a Python file named `reduce_op.py`, which suggests it likely contains operations related to reduction or aggregation.
 2. **Copyright and License**: The code has a copyright notice and specifies the SPDX-License-Identifier as Apache-2.0, indicating the terms under which the code can be used, modified, and distributed.

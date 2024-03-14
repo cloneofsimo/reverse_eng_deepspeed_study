@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `multi_tensor_adam_cuda`: This is the main function that performs the Adam optimization algorithm on multiple tensors in a CUDA (GPU) environment. It takes chunk size, a flag, a list of tensor lists, learning rate, beta1, beta2, epsilon, step, mode, bias correction, and weight decay as parameters. It's the core optimization routine. Importance: **[High]**
 * `PYBIND11_MODULE(TORCH_EXTENSION_NAME, m)`: This block defines a Python module using Pybind11, which allows C++ code to be integrated with Python. The module exposes the `multi_tensor_adam_cuda` function to Python. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Context**: The code is a C++ file named `fused_adam_frontend.cpp`, which is part of the `ops/csrc/adam` directory, likely related to a deep learning project (specifically, the DeepSpeed library) given the mention of the DeepSpeed Team and the use of PyTorch extensions.
 2. **Header and Copyright**: The file starts with a copyright notice and a license identifier (Apache-2.0), indicating the terms under which the code can be used.

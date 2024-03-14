@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `swap_in_tensors`: Swaps tensors from storage devices back to memory using asynchronous reads. Importance: **[Medium]**
 * `swap_out_tensors`: Swaps tensors from memory to storage devices using asynchronous writes. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Tensor swapping functionality**: The code provides functions for swapping tensors to and from NVMe storage devices, which is useful for managing memory in deep learning applications. The `swap_in_tensors` and `swap_out_tensors` functions handle the I/O operations using asynchronous reads and writes.
 2. **Classes for managing swap buffers**: The `SwapBuffer` class represents a buffer that can store tensors, managing their allocation, deallocation, and swap operations. The `SwapBufferPool` class extends this functionality by managing a pool of `SwapBuffer` instances, allowing for efficient use of memory and swapping.

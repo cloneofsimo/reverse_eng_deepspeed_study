@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `from pydantic.v1 import *`: This line attempts to import all symbols from the `v1` sub-module of `pydantic`. Importance : **[High]**
 * `from pydantic import *`: If the import from `pydantic.v1` fails, this line imports all symbols directly from the `pydantic` module. Importance : **[High]**
@@ -15,7 +15,7 @@ This codebase is a compatibility module for the DeepSpeed project, which is desi
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Module Declaration**: The code is a Python file named `pydantic_v1.py`, which is a compatibility module for Pydantic version 1 API.
 2. **Copyright and License Information**: The code includes a copyright notice and a SPDX-License-Identifier for the Apache-2.0 license, indicating the terms under which the code can be used.

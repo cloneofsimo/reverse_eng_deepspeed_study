@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `RaggedOpsBuilder`: A class that extends `CUDAOpBuilder` for building CUDA operations related to ragged tensors in DeepSpeed. Importance: **[High]**
 * `is_compatible`: Checks if the system is compatible for building and running the ragged device operations, considering the presence of PyTorch and compatible CUDA versions. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Inheritance and Class Definition**: The code defines a class `RaggedOpsBuilder` which inherits from `CUDAOpBuilder`. This class is responsible for building operations related to ragged tensors for a deep learning library (DeepSpeed).
 2. **Conditional Compilation and Compatibility Check**: The `is_compatible` method checks if the system has the required dependencies, specifically `torch` for PyTorch, and the appropriate CUDA version for NVIDIA GPU support. It also logs warnings if certain conditions aren't met.

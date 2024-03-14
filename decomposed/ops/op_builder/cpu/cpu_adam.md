@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `CPUAdamBuilder`: This is a class that extends the `CPUOpBuilder` class and is specifically designed for building the CPU implementation of the Adam optimizer. Importance: **[High]**
 * `__init__`: The constructor for `CPUAdamBuilder`, initializes the class with the name 'cpu_adam'. Importance: **[Medium]**
@@ -15,7 +15,7 @@ This file, `cpu_adam.py`, is part of the DeepSpeed library, which is a high-perf
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File structure and purpose**: The code is part of a Python file named `cpu_adam.py`, which is located in the `ops/op_builder/cpu/` directory. It seems to be part of a project called DeepSpeed, and it deals with implementing the CPU version of the Adam optimizer.
 2. **Copyright and licensing**: The file starts with a copyright notice and indicates that it is licensed under the Apache License 2.0.

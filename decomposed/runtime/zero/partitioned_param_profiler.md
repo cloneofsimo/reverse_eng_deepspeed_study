@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `PartitionedParameterProfiler`: The main class that manages profiling of partitioned parameters in a DeepSpeed context. Importance: **[High]**
 * `PartitionedParameterProfiler.EventCounter`: A nested dataclass for tracking event counts and element numbers. Importance: **[Medium]**
@@ -17,7 +17,7 @@ This file contains the `PartitionedParameterProfiler` class, which is a tool for
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module and Copyright Information**: The code starts with a shebang line specifying the Python interpreter and includes copyright and license information, indicating the origin and usage rights of the code.
 2. **Imports**: The script imports necessary modules, specifically `dataclasses` from the standard library and `log_dist` from `deepspeed.utils`. This is important for defining data classes and logging distributed information.

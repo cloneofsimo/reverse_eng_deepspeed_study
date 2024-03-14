@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `OPTIMIZER_STATE_DICT`: A constant representing the key for the optimizer state dictionary. Importance: **[High]** (as it's a fundamental key in checkpointing)
 * `FP32_GROUPS`: A constant for the key representing the FP32 groups in the optimizer state. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Constants for Optimizer Checkpointing**: The code defines several constants related to optimizer state, such as `OPTIMIZER_STATE_DICT`, `FP32_GROUPS`, `LOSS_SCALER`, and others. These constants are used for saving and restoring the state of the optimizer during model checkpointing.
 2. **Constants for Module Checkpointing**: Constants like `PARAM`, `PARAM_SHAPES`, `BUFFER_NAMES`, and others are defined for checkpointing model parameters and their metadata. These are essential for saving and loading model state.

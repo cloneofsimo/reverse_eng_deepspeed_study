@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `DeepSpeedZeroOptimizer`: The main class that implements the DeepSpeed ZeRO optimizer. It reduces the memory footprint for training large deep learning models by partitioning optimizer states, gradients, and parameters. Importance: **[Very High]**
 * `input`: A helper function for printing messages. Importance: **[Low]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **DeepSpeed Zero Optimizer**: The `DeepSpeedZeroOptimizer` class is the main component of the code, which extends the `ZeROOptimizer` class from the DeepSpeed library. It is designed to reduce the memory footprint required for training large deep learning models by implementing ZeRO (Zero Redundancy Optimizer) stages 1 and 2. It manages the partitioning, communication, and reduction of gradients across multiple GPUs and data parallel processes.
 2. **Gradient Partitioning and Offloading**: The optimizer supports gradient partitioning, where gradients are split across multiple GPUs, and offloading, where optimizer states and gradients can be stored on the CPU to free up GPU memory. This is controlled by the `cpu_offload` and `partition_gradients` flags.

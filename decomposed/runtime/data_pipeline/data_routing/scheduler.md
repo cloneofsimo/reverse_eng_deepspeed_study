@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `BaseScheduler`: This is a base class for scheduling algorithms. It initializes a state dictionary and provides a `get_value` method that raises an error if an unsupported schedule type is encountered. Importance: **[Medium]**
 * `__fixed_root_get_value`: A helper method for `BaseScheduler` that calculates a value based on the specified schedule. Importance: **[Low]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Inheritance**: The code defines two classes, `BaseScheduler` and `RandomLTDScheduler`, with the latter inheriting from the former. This is a common object-oriented programming pattern where the base class provides a basic structure and functionality, and the derived class extends or customizes it for a specific purpose.
 2. **Configuration-based**: The `RandomLTDScheduler` class is designed to work with a configuration dictionary, `config`, which is used to initialize the scheduler with various parameters like layer numbers, learning rate schedules, and global batch size. This allows for flexibility in setting up the scheduler according to different use cases.

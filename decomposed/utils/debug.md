@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `debug_clear_module_and_param_names`: Resets the global dictionaries for module and parameter names. Importance: **[Low]**
 * `debug_extract_module_and_param_names`: Extracts and stores fully qualified names for model modules and parameters. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module and Parameter Name Management**: The code defines a set of functions to manage and extract the fully qualified names of modules and parameters in a PyTorch model. These functions include `debug_extract_module_and_param_names`, `debug_module2name`, `debug_param2name`, and their variations with additional information like IDs, shapes, and device.
 2. **Synchronized Printing**: The `printflock` function is designed to prevent interleaved text when printing messages from concurrent GPUs. It uses file locking to ensure that messages are printed sequentially, which is useful for debugging multi-GPU synchronization issues.

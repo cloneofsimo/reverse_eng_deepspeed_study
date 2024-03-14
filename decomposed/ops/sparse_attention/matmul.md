@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `triton.jit`: A decorator for defining a function that can be compiled and executed by the Triton compiler. Importance: **[High]**
 * `sparse_matmul`: A custom autograd function for performing block-sparse matrix multiplication. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Library and Function Decorators**: The code uses the `triton` library for GPU-accelerated computing and the `torch.autograd.Function` decorator to define a custom autograd function `_sparse_matmul`. This indicates that the code is designed for efficient matrix multiplication on GPUs, potentially involving sparse tensors.
 2. **Kernel Definition**: The `@triton.jit` decorator is used to define a GPU kernel `_kernel`, which is the core computation function for the matrix multiplication. The kernel is designed to handle different types of sparse-dense and dense-sparse operations, as indicated by the `SDD`, `DSD`, and `DDS` flags.

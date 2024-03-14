@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `__best_fitting_dtype`: Returns the most efficient numpy data type for a given vocabulary size. Importance: **[Medium]**
 * `get_available_dataset_impl`: Lists available dataset implementations. Importance: **[Low]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Module Structure**: The code is part of a Python module named `indexed_dataset.py`, which is likely part of a larger project. It contains functions and classes related to handling indexed datasets for deep learning tasks.
 2. **Dataset Implementations**: The code provides multiple implementations for indexed datasets, including `'lazy'`, `'cached'`, and `'mmap'`. These implementations are used for efficient data loading and handling large datasets.

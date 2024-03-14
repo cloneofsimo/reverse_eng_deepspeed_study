@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `Eigenvalue`: This is the main class that computes eigenvalues for a given module. It handles initialization, normalization, inner product calculation, and the power iteration method for eigenvalue computation. Importance: **[High]**
 * `nan_to_num`: A utility function that replaces NaN, positive infinity, and negative infinity values in a tensor with zeros. Importance: **[Medium]**
@@ -16,7 +16,7 @@ This file, `eigenvalue.py`, is part of the DeepSpeed library. It provides a clas
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Class Definition**: The code defines a class `Eigenvalue` which is responsible for computing eigenvalues of a given module (presumably a neural network layer). It inherits from the base class `object`.
 2. **Initialization**: The `__init__` method initializes the class with several parameters, such as `verbose`, `max_iter`, `tol`, `stability`, `gas_boundary_resolution`, `layer_name`, and `layer_num`. These parameters control the computation process and the output verbosity.

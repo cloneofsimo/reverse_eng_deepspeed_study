@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `SCRIPT_PREFIX`: A constant string used as a prefix for directories related to the performance benchmarking script. Importance: **[Low]**
 * `WRITE_OP_DESC`: A constant string representing the 'write' operation in the benchmark. Importance: **[Low]**
@@ -17,7 +17,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Module**: The code is part of a Python file named `perf_sweep_utils.py` within the `ops/csrc/aio/py_test` directory, which suggests it's a utility script related to performance testing, likely for asynchronous I/O operations.
 2. **Copyright and License**: The code is copyrighted by Microsoft Corporation and is licensed under the Apache License 2.0, as indicated by the `SPDX-License-Identifier` comment.

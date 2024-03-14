@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `Normalize_Layer`: A template class for a normalization layer. It handles forward and backward passes for layer normalization with optional bias and residual connections. Importance: **[High]**
 * `Config`: A nested struct within `Normalize_Layer` that holds configuration parameters for the layer, such as batch size, sequence length, hidden dimension, epsilon, training mode, and whether to use the mean. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header File**: This is a C++ header file (`normalize_layer.h`) that likely defines a class for a normalization layer used in a deep learning context, specifically for CUDA-based computations.
 2. **Namespace**: The code uses the `std` namespace, indicating that it employs standard C++ libraries like `fstream` for file operations.

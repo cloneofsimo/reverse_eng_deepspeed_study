@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `next_power_of_2`: Returns the next power of 2 greater than or equal to the input number. Importance: **[Low]**
 * `num_warps`: Calculates the number of warps based on the input size. Importance: **[Low]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Library and Function Decorators**: The code makes use of the `triton` library for optimized computation. The functions `_forward` and `_backward` are decorated with `@triton.heuristics` to specify how the computation should be parallelized and optimized. These decorators allow the functions to be compiled and executed efficiently on GPU.
 2. **Block-Sparse Matrix Operations**: The code is designed to perform operations on block-sparse matrices, which are matrices where only certain blocks of elements are non-zero. This is evident in the use of a look-up table (LUT) to manage block indices and sizes.

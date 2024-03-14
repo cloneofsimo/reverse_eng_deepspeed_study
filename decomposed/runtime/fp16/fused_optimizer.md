@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `FP16_Optimizer`: The main class that implements the FP16 optimizer for training models with mixed-precision. It handles loss scaling and gradient operations. Importance: **[High]**
 * `initialize_optimizer_states`: Initializes the optimizer states, setting gradients to zero. Importance: **[Medium]**
@@ -23,7 +23,7 @@ This file is a Python implementation of an FP16 optimizer for deep learning mode
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Inheritance and Class Definition**: The code defines a class `FP16_Optimizer` which inherits from `DeepSpeedOptimizer`. This class is designed to handle mixed-precision (FP16) training with loss scaling for PyTorch models.
 2. **Initialization**: The `__init__` method initializes the optimizer with various attributes, including the base optimizer (`init_optimizer`), loss scaling parameters, and group management for parameters. It also sets up the fp16 and fp32 copies of model parameters and initializes the optimizer state.

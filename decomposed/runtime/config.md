@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `get_pld_enabled`: Checks if Progressive Layer Dropout (PLD) is enabled in the configuration. Importance: **[Medium]**
 * `get_pld_params`: Retrieves the parameters for Progressive Layer Dropout if enabled. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Import statements**: The code starts with a series of import statements, bringing in various libraries and modules, such as `os`, `torch`, `json`, `hjson`, and `deepspeed`. These libraries are used throughout the code for data handling, type definitions, and other functionalities.
 2. **Enums and Constants**: The code defines several enums, like `DtypeEnum`, and constants, such as `ADAGRAD_OPTIMIZER`, `FP16_LOSS_SCALE_DEFAULT`, and others. These enums and constants are used to standardize values and provide a clear interface for the configuration.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `DISPATCH_FLOAT_AND_HALF`: Macro for dispatching code based on the given `ScalarType` (Float, Half, or BFloat16). Importance: **[High]**
 * `DISPATCH_DOUBLE_FLOAT_AND_HALF`: Similar to the above, but also includes Double. Importance: **[High]**
@@ -14,7 +14,7 @@ This file, `type_shim.h`, is part of a C++ library for deep learning, likely use
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header File and Copyright Information**: The code starts with a header indicating the file name (`ops/csrc/includes/type_shim.h`) and copyright information, mentioning Microsoft Corporation and the Apache-2.0 license.
 2. **TypeShim (Commented Out)**: A struct `TypeShim` is commented out, which was taken from NVIDIA/apex. It was designed for forward and backward compatibility with PyTorch, allowing conversion between `at::Type` and `at::ScalarType`.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `adam`: Exports the DeepSpeed implementation of the Adam optimizer. Importance: **[High]**
 * `adagrad`: Exports the DeepSpeed implementation of the Adagrad optimizer. Importance: **[High]**
@@ -18,7 +18,7 @@ This `ops/__init__.py` file is the entry point for the DeepSpeed library's opera
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File structure and purpose**: This is an `__init__.py` file, which means it's part of a Python package (in this case, `ops`). The purpose of this file is to organize and expose the contents of the `ops` package to other parts of the codebase.
 2. **Copyright and licensing**: The code includes a copyright notice and a license identifier (SPDX-License-Identifier: Apache-2.0), indicating the terms under which the code can be used, modified, and distributed.

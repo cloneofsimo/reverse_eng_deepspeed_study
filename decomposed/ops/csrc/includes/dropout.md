@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `Dropout`: A template class for implementing dropout, a regularization technique in deep learning. Importance: **[High]**
 * `Dropout::Config`: A nested struct to store configuration parameters for dropout, including the dropout ratio, dimension, and training mode. Importance: **[Medium]**
@@ -25,7 +25,7 @@ This file `dropout.h` defines a CUDA-accelerated dropout class for use in deep l
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Header File**: This is a C++ header file (`dropout.h`) that likely defines a class for implementing dropout, a regularization technique used in deep learning.
 2. **Template Class**: The `Dropout` class is a template class, allowing it to work with different data types (`T`), such as `float` or `half` (using `cuda_fp16.h`).

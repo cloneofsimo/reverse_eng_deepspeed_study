@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `CheckpointEngine`: This is the main class that manages checkpoint serialization and deserialization. It is designed to be modular, allowing for easy replacement or refinement of checkpoint methods. Importance : **[High]**
 * `__init__`: Initializes the CheckpointEngine with optional configuration parameters. Importance : **[Medium]**
@@ -15,7 +15,7 @@ This file, `checkpoint_engine.py`, contains the `CheckpointEngine` class, which 
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module Purpose**: The `CheckpointEngine` class is designed to modularize checkpoint serialization, allowing for easy replacement or refinement of checkpoint saving and loading methods.
 2. **Interface**: The class defines an interface with four main methods:

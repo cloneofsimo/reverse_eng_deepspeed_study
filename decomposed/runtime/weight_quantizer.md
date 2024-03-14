@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `WeightQuantization`: This is the main class that implements weight quantization for deep learning models. It contains methods for quantizing weights, handling different types of layers, and merging scales. Importance: **[High]**
 * `quantize_data`: A utility function that quantizes a given tensor into a specified number of bits, applying scaling and clamping. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Import statements**: The code imports necessary libraries, such as `torch` and `deepspeed.accelerator`, which are crucial for tensor operations and accelerator management, respectively.
 2. **WeightQuantization class**: This is the main class that implements weight quantization for deep learning models. It has several methods for quantizing data, checking if data belongs to specific layer types (MLP or QKV), and merging scales.

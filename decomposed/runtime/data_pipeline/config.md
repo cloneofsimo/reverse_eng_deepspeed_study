@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `get_data_efficiency_config`: Retrieves the data efficiency configuration from a given parameter dictionary. Importance: **[High]**
 * `get_data_efficiency_enabled`: Checks if data efficiency is enabled in the configuration. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module and Dependencies**: This code is part of a Python module named `runtime/data_pipeline/config.py`. It imports from other modules like `.constants` and `..config_utils.get_scalar_param`, indicating that it relies on constants and utility functions for handling configuration parameters.
 2. **Configuration Functions**: The code defines several functions, such as `get_data_efficiency_config`, `get_data_efficiency_enabled`, and so on, which are responsible for extracting and processing configuration parameters related to data efficiency, data sampling, curriculum learning, and data routing. These functions follow a consistent pattern of checking if a specific configuration key exists in a given parameter dictionary and returning the corresponding value or a default.

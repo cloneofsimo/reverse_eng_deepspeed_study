@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `print_rank_0`: Prints a message on rank 0 only if debugging or forced. Importance: **[Low]**
 * `PartitionedParamStatus`: Enum class for the status of partitioned parameters. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Tensor Swapping**: The code is designed to manage the swapping of tensors between memory and NVMe storage devices. It uses the `swap_in_tensors` and `swap_out_tensors` functions for this purpose.
 2. **Async Operations**: The `AsyncPartitionedParameterSwapper` class implements asynchronous I/O operations for swapping tensors, using the `AsyncIOBuilder` and handles for reading and writing.

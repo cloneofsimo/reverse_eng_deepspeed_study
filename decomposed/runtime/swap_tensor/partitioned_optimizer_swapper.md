@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `PartitionedOptimizerSwapper`: A class that manages swapping optimizer tensors to and from NVMe storage devices. It extends the `OptimizerSwapper` class and provides functionality for asynchronous swapping. Importance: **[High]**
 * `initialize_parameters`: Initializes parameters with the given tensors, using the provided aio handle. Importance: **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Library and Module Import**: The code imports several libraries and modules, such as `torch`, `logger`, `AsyncIOBuilder`, `dist`, and others from the `deepspeed` package. These imports are crucial for the functionality of the class, particularly for tensor manipulation, logging, and communication between processes.
 2. **Class Definition**: The main class `PartitionedOptimizerSwapper` is defined, which inherits from `OptimizerSwapper`. This class provides the functionality to swap optimizer tensors between the main memory and NVMe storage devices. It has methods for initializing parameters, swapping tensors in and out, and managing gradients.

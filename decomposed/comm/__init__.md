@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `from .utils import *`: Imports all utility functions from the `comm/utils.py` module. Importance: **[High]** (as it brings in a range of helper functions)
 * `from .comm import *`: Imports all functions and classes from the `comm/comm.py` module. Importance: **[High]** (similarly, this imports core communication-related functionality)
@@ -15,7 +15,7 @@ This `__init__.py` file is part of a Python package called `comm` within the Dee
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **File and Module Structure**: The code is part of a Python package named `comm`, as indicated by the file name `__init__.py`. This file serves as the entry point for the `comm` package, allowing it to be imported in other parts of the project.
 2. **Copyright and License Information**: The code includes a copyright notice and a reference to the SPDX-License-Identifier, which is Apache-2.0. This indicates the terms under which the code is licensed and can be used, modified, and distributed.

@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `layer_norm_kernel`: A Triton JIT-compiled kernel for performing layer normalization on a given input tensor. Importance: **[High]**
 * `layer_norm_residual_kernel`: A Triton JIT-compiled kernel for layer normalization with residual addition and a separate input tensor. Importance: **[High]**
@@ -14,7 +14,7 @@ This file is a Python module that provides layer normalization functionality opt
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Library Import**: The code uses the `torch` and `triton` libraries for tensor operations and custom kernel execution, respectively. The `triton.language` is used for defining GPU kernels.
 2. **Custom GPU Kernels**: The code defines three custom GPU kernels using `triton.jit` decorator:

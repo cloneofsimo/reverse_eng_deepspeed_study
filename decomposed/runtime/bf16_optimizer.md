@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `BF16_Optimizer`: The main class that extends the `ZeROOptimizer` class. It implements a bfloat16 optimizer for DeepSpeed, handling the conversion between bfloat16 and float32 for gradient accumulation and optimization. Importance : **[High]**
 * `get_global_norm_of_tensors`: Calculates the global norm of a list of tensors across all GPUs. Importance : **[Medium]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Inheritance and Class Definition**: The code defines a class `BF16_Optimizer` which inherits from `ZeROOptimizer`. This class is designed to handle mixed-precision training with bfloat16 and float32 data types, providing functions for gradient accumulation, normalization, and optimization.
 2. **Initialization**: The `__init__` method initializes the optimizer with various parameters, such as the initial optimizer, parameter names, gradient clipping value, and communication settings. It also sets up the data structures for managing bfloat16 and float32 tensors, and initializes the optimizer states.

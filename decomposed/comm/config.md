@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `CommsConfig`: A Pydantic-based model class that defines the structure and validation rules for communication configuration settings. Importance: **[High]**
 * `CommsLoggerConfig`: Inheritance from `CommsConfig`, this class adds specific attributes for communication logging, such as enabled, prof_all, prof_ops, verbose, and debug. Importance: **[Medium]**
@@ -14,7 +14,7 @@ This file is part of the DeepSpeed library, specifically focusing on communicati
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module and Library Imports**: The code starts by importing constants from a relative path `from .constants import *` and a class `BaseModel` from another relative path `from ..pydantic_v1 import BaseModel`. This indicates that the code is part of a larger project with a modular structure and uses the `pydantic` library for data modeling.
 2. **Inheritance**: The `CommsConfig` class is defined as a subclass of `BaseModel`, which suggests that it is a data model class used for data validation and parsing, likely related to configuration settings. `CommsLoggerConfig` further extends `CommsConfig`, adding specific attributes related to logging.

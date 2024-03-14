@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `Quantizer`: The main class that handles quantization operations. It initializes with various quantization parameters and provides methods for quantization, updating the quantization ratio, and checking if precision should be switched. Importance: **[High]**
 * `any_precision_switch`: Checks if the precision should be switched based on the current step and the configured parameters. Importance: **[Medium]**
@@ -17,7 +17,7 @@ This file, `runtime/quantize.py`, is part of the DeepSpeed library and contains 
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Imports**: The code imports necessary libraries such as `torch`, `math`, `logger`, and `ds_quantizer` from `deepspeed.ops.quantizer`. These libraries are used for tensor operations, mathematical calculations, logging, and quantization operations.
 2. **Class `Quantizer`**: This is the main class that defines a quantizer object with various attributes and methods related to quantization. It has an `__init__` method to initialize the object with parameters like `q_groups`, `q_mixed_fp16`, `q_change_ratio`, and others. The class also includes methods like `any_precision_switch`, `quantize`, `step`, and `compute_quantization` for managing the quantization process.

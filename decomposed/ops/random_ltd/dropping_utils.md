@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `gpt_sample_tokens`: Samples tokens for GPT-style models, returning sampled indices and a new attention mask. Importance: **[High]**
 * `bert_sample_tokens`: Samples tokens for BERT-style models, returning sampled indices and a new attention mask. Importance: **[High]**
@@ -15,7 +15,7 @@ This file is part of the DeepSpeed library and provides utilities for token samp
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Module and Function Definitions**: The code defines two main functions, `gpt_sample_tokens` and `bert_sample_tokens`, which are used to sample tokens for different models (GPT and BERT). Both functions share a similar structure, involving token sampling, sorting, and creating attention masks.
 2. **RandomLTDBuilder**: The `RandomLTDBuilder` class is used to build and load an operation module for token manipulation. It is used to perform token sorting and gather/scatter operations, which are essential for the token sampling process.

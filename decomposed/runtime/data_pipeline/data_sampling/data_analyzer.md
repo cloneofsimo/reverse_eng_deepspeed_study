@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `DataAnalyzer`: The main class responsible for analyzing data in a distributed setting. It computes and saves metrics for each data sample. Importance: **[High]**
 * `DistributedDataAnalyzer`: A subclass of `DataAnalyzer` that is specifically designed for distributed data analysis. It initializes the distributed environment and runs the map-reduce operation. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **DataAnalyzer Class**: The main class `DataAnalyzer` is defined, which is responsible for analyzing data in a distributed environment. It has methods for initializing, updating, and finalizing metric results, as well as running the analysis in parallel using multiple worker threads.
 2. **DistributedDataAnalyzer Class**: This class extends the functionality of `DataAnalyzer` for distributed environments using deepspeed's communication utilities. It initializes the distributed environment, sets up individual dataloaders, and runs a map-reduce operation for data analysis.

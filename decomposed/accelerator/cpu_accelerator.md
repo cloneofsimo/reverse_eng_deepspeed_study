@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `CPU_Accelerator`: This is the main class that defines an accelerator for Intel CPUs. It inherits from `DeepSpeedAccelerator` and implements various methods for device management, random number generation, streams, memory management, and miscellaneous operations. Importance: **[High]**
 * `is_synchronized_device`: Returns True, indicating that the CPU accelerator is synchronized. Importance: **[Low]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Inheritance**: The code defines a class `CPU_Accelerator` that inherits from `DeepSpeedAccelerator`. This class is designed to work with Intel CPUs and provides a set of methods to interact with the CPU device, such as memory management, synchronization, and random number generation.
 2. **Device Management**: The class has methods to handle device-related operations like `device_name`, `device`, `set_device`, `current_device`, and `device_count`. These methods are used to interact with the CPU device and manage its state.

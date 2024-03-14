@@ -2,7 +2,7 @@
 
 ### Summary
 
-<|im_end|>
+
 
 * `ContiguousMemoryAllocator`: A class for managing contiguous memory allocation in a pre-allocated buffer. Importance: **[High]**
 * `allocate_tensor`: Allocates a tensor of a specified size from the buffer, potentially defragmenting memory if needed. Importance: **[High]**
@@ -12,7 +12,7 @@
 
 ### Highlights
 
-<|im_end|>
+
 
 1. **Memory Allocator Class**: The code defines a `ContiguousMemoryAllocator` class that manages a contiguous block of memory for tensor allocation. It's designed to efficiently allocate, defragment, and release memory for tensors in a DeepSpeed context.
 2. **Data Structures**: The class uses several dictionaries to keep track of memory allocation, including:

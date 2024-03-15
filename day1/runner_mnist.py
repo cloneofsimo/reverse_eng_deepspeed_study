@@ -44,7 +44,7 @@ def main(local_rank):
     epochs = 5
     learning_rate = 0.001
     per_device_train_batch_size = 128
-    train_batch_size = per_device_train_batch_size * 8 * 4
+    train_batch_size = per_device_train_batch_size * 2 * 1
 
     train_loader = DataLoader(
         datasets.MNIST('data', train=True, download=True,

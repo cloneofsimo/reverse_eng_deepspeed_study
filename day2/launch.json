@@ -1,0 +1,12 @@
+{
+    "name": "Python: Debug DeepSpeed",
+    "type": "python",
+    "request": "launch",
+    "program": "/mnt/chatbot30TB/simoryu/myenv_new/bin/deepspeed", // find with `which deepspeed`
+    "justMyCode": true,
+    "console": "integratedTerminal",
+    "args": [
+        "--num_gpus=2",
+        "/mnt/chatbot30TB/simoryu/debugs/deepspeed_study/day2/runner_mnist.py",
+    ]
+}

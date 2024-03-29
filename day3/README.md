@@ -124,7 +124,7 @@ deepspeed run.py \
 raise NotImplementedError
 ```
 
-<details>
+</details>
 
 
 

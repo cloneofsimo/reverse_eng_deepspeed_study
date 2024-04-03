@@ -1,0 +1,19 @@
+accelerate
+clang-format==16.0.2
+deepspeed-kernels ; sys_platform == 'linux'
+docutils<0.18
+future
+importlib-metadata>=4
+mup
+pre-commit>=2.20.0
+pytest<=8.0.0
+pytest-forked
+pytest-randomly
+pytest-xdist
+recommonmark
+sphinx
+sphinx-rtd-theme
+tensorboard
+torchvision
+transformers>=4.32.1
+wandb

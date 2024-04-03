@@ -1,0 +1,15 @@
+hjson
+ninja
+numpy
+packaging>=20.0
+psutil
+py-cpuinfo
+pydantic
+pynvml
+tqdm
+click
+mpi4py
+torch
+transformers==4.38.0
+accelerate==0.26.0
+datasets
